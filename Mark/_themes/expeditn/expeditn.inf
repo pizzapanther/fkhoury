@@ -1,0 +1,34 @@
+[info]
+codepage=65001
+readonly=true
+version=4.00
+format=2.00
+title=Expedition
+refcount=2
+
+[titles]
+1040=Marmorizzato
+1053=Expedition
+1032=Εκστρατεία
+1036=Terres lointaines
+1031=Expedition
+1044=Ekspedisjon
+2052=导航图
+1028=探險
+1042=스크래치
+1038=Navigáció
+1049=Экспедиция
+1046=Expedição
+1041=探検
+2070=Expedição
+1054=การเดินทางสำรวจ
+1025=حملة عسكرية
+3082=Expediciones
+1035=Tutkimusmatka
+1030=Ekspedition
+1043=Onderzoekingsreis
+1029=Expedice
+1045=Ekspedycja
+1037=משלחת
+1055=Keşif
+

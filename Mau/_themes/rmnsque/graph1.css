@@ -1,0 +1,65 @@
+.mstheme{
+nav-banner-image:url(rombanna.gif);
+separator-image:url(romhorsa.gif);
+list-image-1:url(rombul1a.gif);
+list-image-2:url(rombul2a.gif);
+list-image-3:url(rombul3a.gif);
+navbutton-horiz-normal:url(romhbuda.gif);
+navbutton-horiz-hovered:url(romhbuha.gif);
+navbutton-horiz-pushed:url(romhbusa.gif);
+navbutton-vert-normal:url(romvbuda.gif);
+navbutton-vert-pushed:url(romvbusa.gif);
+navbutton-vert-hovered:url(romvbuha.gif);
+navbutton-home-normal:url(romhomda.gif);
+navbutton-home-hovered:url(romhomha.gif);
+navbutton-next-normal:url(romnexda.gif);
+navbutton-next-hovered:url(romnexha.gif);
+navbutton-prev-normal:url(rompreda.gif);
+navbutton-prev-hovered:url(rompreha.gif);
+navbutton-up-normal:url(romupda.gif);
+navbutton-up-hovered:url(romupha.gif);
+}
+UL{
+list-style-image:url(rombul1a.gif);
+}
+UL UL{
+list-style-image:url(rombul2a.gif);
+}
+UL UL UL{
+list-style-image:url(rombul3a.gif);
+}
+.mstheme-bannertxt{
+font-family:"Book Antiqua","Times New Roman",Times;
+font-size:5;
+color:#000000;
+}
+.mstheme-horiz-navtxt{
+font-family:"times new roman",times;
+font-size:2;
+color:#000000;
+}
+.mstheme-vert-navtxt{
+font-family:"times new roman",times;
+font-size:2;
+color:#000000;
+}
+.mstheme-navtxthome{
+font-family:"times new roman",times;
+font-size:1;
+color:#000000;
+}
+.mstheme-navtxtup{
+font-family:"times new roman",times;
+font-size:1;
+color:#000000;
+}
+.mstheme-navtxtprev{
+font-family:"times new roman",times;
+font-size:1;
+color:#000000;
+}
+.mstheme-navtxtnext{
+font-family:"times new roman",times;
+font-size:1;
+color:#000000;
+}

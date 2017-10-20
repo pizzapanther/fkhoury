@@ -1,0 +1,42 @@
+<webalbum version="1.8.2">
+  <title>Nov 2007</title>
+  <settings>
+    <photosize width="800" height="600">large</photosize>
+    <thumbsize width="100" height="75">medium</thumbsize>
+    <outputdirectory>C:\Users\Fredo\Desktop\Nov2007\</outputdirectory>
+    <navigateinloop>False</navigateinloop>
+  </settings>
+  <layout>
+    <colourscheme>Default</colourscheme>
+    <pagecolor>32768</pagecolor>
+    <textcolor>0</textcolor>
+    <linkcolor>16711680</linkcolor>
+    <hotlinkcolor>255</hotlinkcolor>
+    <thumbnailrows>2</thumbnailrows>
+    <thumbnailcols>4</thumbnailcols>
+    <navigationbelowphoto>False</navigationbelowphoto>
+  </layout>
+  <photographs>
+    <photo>
+      <filename>D:\Pictures\Mau\Misc\10-07\DSC02088.JPG</filename>
+    </photo>
+    <photo>
+      <filename>D:\Pictures\Mau\Misc\10-07\DSC02089.JPG</filename>
+    </photo>
+    <photo>
+      <filename>D:\Pictures\Mau\Misc\10-07\DSC02090.JPG</filename>
+    </photo>
+    <photo>
+      <filename>D:\Pictures\Mau\Misc\10-07\DSC02091.JPG</filename>
+    </photo>
+    <photo>
+      <filename>D:\Pictures\Mau\Misc\10-07\DSC02097.JPG</filename>
+    </photo>
+    <photo>
+      <filename>D:\Pictures\Mau\Misc\10-07\DSC02105.JPG</filename>
+    </photo>
+    <photo>
+      <filename>D:\Pictures\Mau\Misc\10-07\DSC02107.JPG</filename>
+    </photo>
+  </photographs>
+</webalbum>

@@ -1,0 +1,57 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Rodeo 2007</title>
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body onload="FP_preloadImgs(/*url*/'images/buttonCC.jpg', /*url*/'images/buttonCD.jpg')">
+
+<p align="center"><b><i><font color="#800000" size="6">Rodeo 200</font></i></b><font size="6" color="#800000"><b><i>7</i></b></font></p>
+<p align="center"><a href="rodeo.htm">
+<img border="0" id="img2" src="images/buttonCB.jpg" height="24" width="119" alt="Rodeo Main Page" fp-style="fp-btn: Border Bottom 3" fp-title="Rodeo Main Page" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'images/buttonCC.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'images/buttonCB.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'images/buttonCD.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'images/buttonCC.jpg')"></a></p>
+<p align="center">&nbsp;</p>
+<p align="center" style="margin-top: 0; margin-bottom: 0">
+<a href="rodeo07a.htm">
+<img border="0" src="images/Rodeo_07/JPEG/IMG_1407.jpg" width="105" height="70" alt="Click on the picture to see more"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="rodeo07b.htm">
+<img border="0" src="images/Rodeo_07/JPEG/IMG_1406.jpg" width="105" height="70" alt="Click on the picture to see more"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="rodeo07c.htm">
+<img border="0" src="images/Rodeo_07/JPEG/IMG_1599.jpg" width="105" height="70" alt="Click on the picture to see more"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="rodeo07d.htm">
+<img border="0" src="images/Rodeo_07/JPEG/IMG_1731.jpg" width="105" height="70" alt="Click on the picture to see more"></a></p>
+<p align="center" style="margin-top: 0; margin-bottom: 0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+<p align="center">&nbsp;</p>
+
+</body>
+
+</html>
