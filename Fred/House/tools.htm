@@ -1,0 +1,54 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Fredo</title>
+<link href="button.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body style="background-color: #E6E5E5">
+<br/>
+<p align="center"><font size="5" color="#0000FF"><b><i>Tools</i></b></font></p>
+<br/>
+<center>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+src = ["tools/1.jpg", "tools/2.jpg","tools/3.jpg", "tools/4.jpg", "tools/5.jpg", "tools/6.jpg",
+	"tools/7.jpg", "tools/8.jpg","tools/9.jpg",
+	"tools/10.jpg", "tools/11.jpg", "tools/12.jpg","tools/13.jpg", "tools/14.jpg", "tools/15.jpg", "tools/16.jpg",
+	"tools/17.jpg", "tools/18.jpg","tools/19.jpg",
+	"tools/20.jpg", "tools/21.jpg", "tools/22.jpg","tools/23.jpg", "tools/24.jpg", "tools/25.jpg", "tools/26.jpg",
+	"tools/27.jpg"
+	]
+
+duration = 3;
+//Please do not edit below
+ads=[]; ct=0;
+function switchAd() {
+var n=(ct+1)%src.length;
+if (ads[n] && (ads[n].complete || ads[n].complete==null)) {
+document["Ad_Image"].src = ads[ct=n].src;
+}
+ads[n=(ct+1)%src.length] = new Image;
+ads[n].src = src[n];
+setTimeout("switchAd()",duration*1000);
+}
+function doLink(){
+location.href = url[ct];
+} onload = function(){
+if (document.images)
+switchAd();
+}
+//-->
+</SCRIPT>
+
+<a href="javascript:doLink();" onMouseOut="status=''">
+	<img name="Ad_Image" src="tools/1.jpg" border=0> </img>
+</a>
+</center>
+
+</body>
+
+</html>

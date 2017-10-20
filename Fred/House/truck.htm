@@ -1,0 +1,55 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Fredo</title>
+<link href="button.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body style="background-color: #E6E5E5">
+<br/>
+<p align="center"><font size="5" color="#0000FF"><b><i>Fredo's&nbsp; Truck</i></b></font></p>
+<br/>
+<center>
+
+<p align="center" style="margin-top: 2px; margin-bottom: 4px"><b>
+<font size="3" color="#0000FF"><a href="Truck/truck.pdf">
+<font color="#FF0000">invoice</font></a></font><font size="3"> </font></b>
+<font size="3">click to see the invoice</font></p>
+<br/>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+src = ["Truck/1.jpg", "Truck/2.jpg","Truck/3.jpg", "Truck/4.jpg", "Truck/5.jpg", "Truck/6.jpg"
+	]
+
+duration = 3;
+//Please do not edit below
+ads=[]; ct=0;
+function switchAd() {
+var n=(ct+1)%src.length;
+if (ads[n] && (ads[n].complete || ads[n].complete==null)) {
+document["Ad_Image"].src = ads[ct=n].src;
+}
+ads[n=(ct+1)%src.length] = new Image;
+ads[n].src = src[n];
+setTimeout("switchAd()",duration*1000);
+}
+function doLink(){
+location.href = url[ct];
+} onload = function(){
+if (document.images)
+switchAd();
+}
+//-->
+</SCRIPT>
+
+<a href="javascript:doLink();" onMouseOut="status=''">
+	<img name="Ad_Image" src="Truck/1.jpg" border=0> </img>
+</a>
+</center>
+
+</body>
+
+</html>

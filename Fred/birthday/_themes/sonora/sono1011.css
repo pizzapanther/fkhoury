@@ -1,0 +1,1772 @@
+.mstheme {
+	list-image-1: url(bull1_sonora.gif);
+	list-image-2: url(bull2_sonora.gif);
+	list-image-3: url(bull3_sonora.gif);
+	nav-banner-image: url(banner_sonora.gif);
+	navbutton-home-hovered: url(nav_home_over_sonora.gif);
+	navbutton-home-normal: url(nav_home_sonora.gif);
+	navbutton-horiz-hovered: url(nav_hor_over_sonora.gif);
+	navbutton-horiz-normal: url(nav_hor_sonora.gif);
+	navbutton-horiz-pushed: url(nav_hor_down_sonora.gif);
+	navbutton-next-hovered: url(nav_next_over_sonora.gif);
+	navbutton-next-normal: url(nav_next_sonora.gif);
+	navbutton-prev-hovered: url(nav_prev_over_sonora.gif);
+	navbutton-prev-normal: url(nav_prev_sonora.gif);
+	navbutton-up-hovered: url(nav_up_over_sonora.gif);
+	navbutton-up-normal: url(nav_up_sonora.gif);
+	navbutton-vert-hovered: url(nav_vert_over_sonora.gif);
+	navbutton-vert-normal: url(nav_vert_sonora.gif);
+	navbutton-vert-pushed: url(nav_vert_down_sonora.gif);
+	separator-image: url(rule_sonora.gif);
+}
+.mstheme-bannertxt {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 5;
+}
+.mstheme-horiz-navtxt {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 2;
+}
+.mstheme-navtxthome {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 1;
+}
+.mstheme-navtxtnext {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 1;
+}
+.mstheme-navtxtprev {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 1;
+}
+.mstheme-navtxtup {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 1;
+}
+.mstheme-vert-navtxt {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 2;
+}
+ul {
+	list-style-image: url(bull1_sonora.gif);
+}
+ul ul {
+	list-style-image: url(bull2_sonora.gif);
+}
+ul ul ul {
+	list-style-image: url(bull3_sonora.gif);
+}
+.mstheme-label {
+	color: #FFFFFF;
+}
+a:active {
+	color: #FFC13C;
+}
+a:link {
+	color: #000000;
+}
+a:visited {
+	color: #C6E33A;
+}
+body {
+	background-color: #D07000;
+	color: #FFFFFF;
+}
+caption {
+	color: #FFFFFF;
+}
+fieldset {
+	border-color: #8A4A00;
+	color: #FFFFFF;
+}
+h1 {
+	color: #FFFFFF;
+}
+h2 {
+	color: #FFFFFF;
+}
+h3 {
+	color: #FFFFFF;
+}
+h4 {
+	color: #FFFFFF;
+}
+h5 {
+	color: #FFFFFF;
+}
+h6 {
+	color: #FFFFFF;
+}
+hr {
+	color: #8A4A00;
+}
+label {
+	color: #FFFFFF;
+}
+legend {
+	color: #FFFFFF;
+}
+marquee {
+	color: #FFFFFF;
+}
+select {
+	border-color: #F6CB99;
+	color: #000000;
+}
+table {
+	border-color: #8A4A00;
+	color: #FFFFFF;
+	table-border-color-dark: #8A4A00;
+	table-border-color-light: #A55900;
+}
+td {
+	border-color: ;
+}
+th {
+	color: #FFFFFF;
+}
+.ms-addnew {
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+}
+.ms-alerttext {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.ms-alternating {
+	background-color: #D3780F;
+}
+.ms-announcementtitle {
+	font-weight: bold;
+}
+.ms-appt {
+	background-color: #DFA460;
+	border: 2px solid #A55900;
+	color: #FFFFFF;
+	height: 18px;
+	overflow: hidden;
+	text-align: center;
+	text-overflow: ellipsis;
+	vertical-align: middle;
+}
+.ms-appt a {
+	color: #000000;
+}
+.ms-appt a:hover {
+	color: #F7FFA2;
+}
+.ms-apptsingle {
+	border-left: 1px solid #A55900;
+	border-right: 1px solid #A55900;
+	color: #FFFFFF;
+	height: 18px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	vertical-align: middle;
+}
+.ms-authoringcontrols {
+	background-color: #D3780F;
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.ms-back {
+	background-color: #D3780F;
+	padding-bottom: 4;
+	padding-left: 4;
+	padding-right: 4;
+	padding-top: 2;
+	vertical-align: top;
+}
+.ms-banner {
+	color: #8D4D03;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.ms-banner a:link {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+.ms-banner a:visited {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+.ms-bannerframe {
+	background-color: #8D4D03;
+	background-image: url('');
+	background-repeat: repeat-x;
+}
+.ms-bodyareaframe {
+	border-color: #8D4D03;
+}
+.ms-cal {
+	border-collapse: collapse;
+	cursor: default;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	table-layout: fixed;
+}
+.ms-CalAllDay {
+	height: 12px;
+	text-align: center;
+	vertical-align: top;
+	width: 10%;
+}
+.ms-calbot {
+	border-bottom: 1px solid #A55900;
+	border-left: 1px solid #A55900;
+	border-right: 1px solid #A55900;
+	border-top: none;
+	height: 2px;
+}
+.ms-calDmidHalfHour {
+	border-color: #A55900;
+	height: 20px;
+}
+.ms-calDmidHour {
+	border-color: #A55900;
+	height: 20px;
+}
+.ms-calDmidQuarterHour {
+	border: 0px none;
+	height: 20px;
+}
+.ms-caldow {
+	border-left: 1px solid #A55900;
+	border-right: 1px solid #A55900;
+	border-top: 1px solid #A55900;
+	color: #FFFFFF;
+	font-weight: bold;
+	height: 20px;
+	text-align: center;
+	vertical-align: top;
+}
+.ms-caldowdown {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+.ms-caldown {
+	color: #FFFFFF;
+	vertical-align: top;
+}
+.ms-CalDSpacer {
+	border-left: 1px solid #A55900;
+	border-right: 1px solid #A55900;
+	height: 4px;
+}
+.ms-calHalfHour {
+	border-top: 1px solid #B6670D;
+	height: 12px;
+	vertical-align: top;
+}
+.ms-calhead {
+	background-color: #FFFFFF;
+	border: none;
+	color: #D07000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	padding: 2px;
+	text-align: center;
+}
+.ms-calHour {
+	border-top: 1px solid #A55900;
+	height: 12px;
+	vertical-align: top;
+	width: 10%;
+}
+.ms-calmid {
+	border-left: 1px solid #A55900;
+	border-right: 1px solid #A55900;
+	height: 20px;
+}
+.ms-calQuarterHour {
+	border-top: 0px none;
+	height: 12px;
+	vertical-align: top;
+}
+.ms-CalSpacer {
+	border-left: 1px solid #A55900;
+	border-right: 1px solid #A55900;
+	height: 4px;
+}
+.ms-caltop {
+	border-left: 1px solid #A55900;
+	border-right: 1px solid #A55900;
+	border-top: 1px solid #A55900;
+	height: 30px;
+	vertical-align: top;
+	width: 14%;
+}
+.ms-CalVSpacer {
+	background-color: #A55900;
+	width: 0px;
+}
+.ms-CategoryTitle {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+.ms-ConnError {
+	color: #db6751;
+}
+.ms-Dappt {
+	background-color: #DFA460;
+	border: 2px solid #A55900;
+	color: #FFFFFF;
+	height: 18px;
+	overflow: hidden;
+	text-align: center;
+	vertical-align: middle;
+}
+.ms-Dapptsingle {
+	border-left: 1px solid #8A4A00;
+	border-right: 1px solid #8A4A00;
+	color: #FFFFFF;
+	height: 18px;
+	overflow: hidden;
+	vertical-align: middle;
+}
+.ms-datepicker {
+	background-color: #D07000;
+	border: 2px outset activeborder;
+	color: #FFFFFF;
+	cursor: default;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.ms-datepickeriframe {
+	background: #FFFFFF;
+	display: none;
+	position: absolute;
+}
+.ms-Dcal {
+	border-collapse: collapse;
+	border-left: 1px solid #A55900;
+	border-right: 1px solid #A55900;
+	cursor: default;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	table-layout: fixed;
+}
+.ms-descriptiontext {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.ms-descriptiontext a {
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.ms-discussionseparator {
+	color: #B6670D;
+	height: 1px;
+}
+.ms-discussiontitle {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+}
+.ms-dpday {
+	border: none;
+	cursor: hand;
+	text-align: center;
+}
+.ms-dpdow {
+	border: none;
+	border-bottom: 1px solid #A55900;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: top;
+}
+.ms-dpfoot {
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	border-top: 1px solid;
+	font-style: italic;
+	height: 24px;
+	text-align: center;
+}
+.ms-dphead {
+	background-color: #8D745E;
+	border: none;
+	color: #FFFF00;
+	font-weight: bold;
+	text-align: center;
+}
+.ms-dpnextprev {
+	background-color: #8D745E;
+	border: none;
+	color: #FFFFFF;
+	cursor: hand;
+	font-weight: bold;
+	text-align: center;
+}
+.ms-dpnonmonth {
+	border: none;
+	color: #626262;
+	cursor: hand;
+	text-align: center;
+}
+.ms-dpselectedday {
+	background-color: #D3780F;
+	border: none;
+	cursor: hand;
+	text-align: center;
+}
+.ms-error {
+	color: #FF0000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: normal;
+}
+.ms-filedialog td {
+	height: 16px;
+}
+.ms-firstCalHour {
+	height: 12px;
+	vertical-align: top;
+	width: 10%;
+}
+.ms-formbody {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	vertical-align: top;
+}
+.ms-formdescription {
+	color: #E8E8E8;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.ms-formdescription A {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-formlabel {
+	color: #E8E8E8;
+	font-family: verdana;
+	font-size: .7em;
+	font-weight: normal;
+}
+.ms-formrecurrence {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: normal;
+	vertical-align: top;
+}
+.ms-formtable .ms-formbody {
+	line-height: 1.3em;
+}
+.ms-gb {
+	background-color: #D3780F;
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	height: 18px;
+}
+.ms-GRFont {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	vertical-align: top;
+}
+.ms-GRHeaderBackground {
+	background-color: #8D4D03;
+	background-image: url('');
+	background-repeat: repeat-x;
+}
+.ms-gridT1 {
+	color: #626262;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	text-align: center;
+}
+.ms-gridtext {
+	cursor: default;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	height: 19px;
+}
+.ms-GRStatusText a {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-GRStatusText a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-highlight {
+	background-color: #8D4D03;
+}
+.ms-homepagetitle {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+.ms-homepagetitle:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+.ms-HoverCellActive {
+	background-color: #FFFF00;
+	border: #000000 1px solid;
+}
+.ms-HoverCellActiveDark {
+	background-color: #997C60;
+	border: solid 1px #B6670D;
+}
+.ms-imglibmenu {
+	background-color: #D3780F;
+	color: #000000;
+	cursor: hand;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.ms-imglibmenuarea {
+	background-color: #D3780F;
+}
+.ms-imglibmenuhead {
+	cursor: move;
+}
+.ms-imglibmenutext {
+	color: #000000;
+	cursor: move;
+	font-weight: bold;
+}
+.ms-imglibthumbnail {
+	background-color: #D3780F;
+	border: solid #FFFF00 0px;
+}
+.ms-input {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.ms-itemheader a {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+.ms-itemheader a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.ms-itemheader a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.ms-itemheader a:visited:hover {
+	text-decoration: underline;
+}
+.ms-long {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	width: 386px;
+}
+.ms-main {
+	border-color: #8D4D03;
+}
+.ms-menuimagecell {
+	background-color: #F6CB99;
+	cursor: hand;
+}
+.ms-MWSInstantiated a:hover {
+	color: #F7FFA2;
+	text-decoration: underline;
+}
+.ms-MWSInstantiated a:link {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-MWSInstantiated a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-MWSSelectedInstance {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.ms-MWSUninstantiated a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+.ms-MWSUninstantiated a:link {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-MWSUninstantiated a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-nav .ms-navwatermark {
+	color: #B9660B;
+}
+.ms-nav .ms-SPZoneLabel {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.ms-nav a {
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+}
+.ms-nav a:hover {
+	color: #F7FFA2;
+	text-decoration: underline;
+}
+.ms-nav a:visited {
+	color: #000000;
+}
+.ms-nav td {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: normal;
+}
+.ms-nav th {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: normal;
+}
+.ms-navframe {
+	background: #B87438;
+	border-color: #D3780F;
+}
+.ms-navheader a {
+	font-weight: bold;
+}
+.ms-navheader a:link {
+	font-weight: bold;
+}
+.ms-navheader a:visited {
+	font-weight: bold;
+}
+.ms-navline {
+	border-bottom: 1px solid #B6670D;
+}
+.ms-pagecaption {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.ms-PageHeaderDate {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.ms-PageHeaderGreeting {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.ms-pagetitle {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+}
+.ms-pagetitle a {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-pagetitle a:hover {
+	color: #F7FFA2;
+	text-decoration: underline;
+}
+.ms-partline {
+	background-color: #A55900;
+}
+.ms-PartSpacingHorizontal {
+	padding-top: 10px;
+}
+.ms-PartSpacingVertical {
+	padding-top: 10px;
+}
+.ms-propertysheet {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.ms-propertysheet a {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-propertysheet a:hover {
+	color: #F7FFA2;
+	text-decoration: underline;
+}
+.ms-propertysheet a:visited {
+	color: #C6E33A;
+	text-decoration: none;
+}
+.ms-propertysheet a:visited:hover {
+	text-decoration: underline;
+}
+.ms-propertysheet th {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+}
+.ms-PropGridBuilderButton {
+	background-color: #74604e;
+	border: solid 1px #F6CB99;
+	display: none;
+	width: 16px;
+}
+.ms-radiotext {
+	cursor: default;
+	font-family: verdana;
+	font-size: 10pt;
+	height: 19px;
+	text-align: left;
+}
+.ms-rtApplyBackground {
+	background-color: #DFA460;
+	border: 0.02cm solid #F6CB99;
+}
+.ms-rtRemoveBackground {
+	background-color: transparent;
+	border: 0.02cm solid #D07000;
+}
+.ms-rtToolbarDefaultStyle {
+	font: normal 8pt Verdana,Arial,Helvetica,sans-serif;
+}
+.ms-searchcorner {
+	background-color: #8D4D03;
+	background-image: none;
+}
+.ms-searchform {
+	background-color: #8D4D03;
+}
+.ms-sectionheader {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+}
+.ms-sectionheader a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.ms-sectionheader a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.ms-sectionheader a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.ms-sectionline {
+	background-color: #A55900;
+}
+.ms-selected {
+	background-color: #DFA460;
+	color: #FFFFFF;
+}
+.ms-selected SPAN {
+	color: #DFA460;
+}
+.ms-selectednav {
+	background: #D07000;
+	border: 1px solid #FFFFFF;
+	padding-bottom: 2px;
+	padding-top: 1px;
+}
+.ms-selectedtitle {
+	background-color: #D3780F;
+	border: 1px solid #F6CB99;
+	padding-bottom: 2px;
+	padding-top: 1px;
+}
+.ms-separator {
+	color: #FFFFFF;
+}
+.ms-smallheader {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+}
+.ms-smallsectionline {
+	border-bottom: 1px solid #8D4D03;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 2;
+}
+.ms-SPButton {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.ms-SPError {
+	border-bottom: #997C60 2px solid;
+	color: #DB6751;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+}
+.ms-SPLink {
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.ms-SPLink a:link {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-SPLink a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-SPZone {
+	border: #626262 1px solid;
+	padding: 5px;
+}
+.ms-SPZoneCaption {
+	color: #626262;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.ms-SPZoneIBar {
+	border: #D9D900 3px solid;
+}
+.ms-SPZoneLabel {
+	color: #626262;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	padding: 0;
+}
+.ms-SPZoneSelected {
+	border: #D9D900 1px solid;
+	padding: 5px;
+}
+.ms-storMeEstimated {
+	background-color: #F7FFA2;
+}
+.ms-storMeFree {
+	background-color: #FFD146;
+	background-image: url('');
+	background-repeat: repeat-x;
+}
+.ms-storMeUsed {
+	background-color: #C2FF40;
+}
+.ms-stylebody {
+	font-family: verdana;
+	font-size: 8pt;
+}
+.ms-stylebody a:hover {
+	color: #ff3300;
+	text-decoration: underline;
+}
+.ms-stylebody a:link {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-stylebody a:visited {
+	text-decoration: none;
+}
+.ms-stylebox {
+	border: 1px solid #B6670D;
+	font-family: verdana;
+	text-align: left;
+}
+.ms-styleheader {
+	background-color: #D3780F;
+	font-family: verdana;
+	font-size: 0.68em;
+}
+.ms-styleheader a:hover {
+	color: #ff3300;
+	text-decoration: underline;
+}
+.ms-styleheader a:link {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-styleheader a:visited {
+	text-decoration: none;
+}
+.ms-stylelabel {
+	color: #000000;
+	font-family: verdana;
+	font-size: 8pt;
+}
+.ms-subsmanagecell {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	height: 18px;
+	vertical-align: top;
+}
+.ms-subsmanageheader {
+	background-color: #D3780F;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: top;
+}
+.ms-surveyGVVBar {
+	background-color: #D07000;
+	border-bottom-color: #F6CB99;
+	border-bottom-style: solid;
+	border-bottom-width: 0px;
+	border-top-color: #D07000;
+	border-top-style: solid;
+	border-top-width: 0px;
+	width: 9px;
+}
+.ms-surveyGVVBarS {
+	width: 20px;
+}
+.ms-surveyVBarT {
+	color: #626262;
+	font-family: verdana;
+	font-size: 7pt;
+	text-align: center;
+}
+.ms-tabinactive {
+	background-color: #B87438;
+	border-bottom: #B87438 2px solid;
+	border-left: #B87438 2px solid;
+	border-right: #B87438 2px solid;
+	border-top: #B87438 2px solid;
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+}
+.ms-tabinactive a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-tabinactive a:link {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-tabinactive a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-tabselected {
+	background-color: #A55900;
+	border-bottom: #A55900 2px solid;
+	border-left: #A55900 2px solid;
+	border-right: #A55900 2px solid;
+	border-top: #A55900 2px solid;
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+}
+.ms-titlearea {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.ms-titlearealine {
+	background-color: #A55900;
+}
+.ms-toolbar {
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	text-decoration: none;
+}
+.ms-toolbar a:visited {
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	text-decoration: none;
+}
+.ms-ToolPaneBody {
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+.ms-ToolPaneBorder {
+	border-bottom: solid none;
+	border-left: #997C60 1px solid;
+	border-right: #997C60 1px solid;
+	border-top: solid none;
+}
+.ms-ToolPaneClose {
+	background-color: #74604e;
+}
+.ms-ToolPaneError {
+	color: #FFFF00;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	padding: 2px;
+}
+.ms-ToolPaneFooter {
+	background-color: #74604e;
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	padding: 5px;
+}
+.ms-ToolPaneFrame {
+	background-color: #D3780F;
+	padding: 0px;
+}
+.ms-ToolPaneHeader {
+	background-color: #74604e;
+	border-style: none;
+}
+.ms-ToolPaneInfo {
+	background-color: #997C60;
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+}
+.ms-ToolPaneTitle {
+	background-color: #74604e;
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+.ms-ToolPartSpacing {
+	padding-top: 8px;
+}
+.ms-ToolStrip {
+	background-color: #B87438;
+	border-bottom: #626262 1px solid;
+	border-left: #626262 1px solid;
+	border-right: #626262 1px solid;
+	border-top: #626262 1px solid;
+	color: #FFFFFF;
+}
+.ms-TPBody {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.ms-TPBody a:hover {
+	color: #000000;
+	cursor: hand;
+	text-decoration: none;
+}
+.ms-TPBody a:link {
+	color: #000000;
+	cursor: hand;
+	text-decoration: none;
+}
+.ms-TPBody a:visited {
+	color: #000000;
+	cursor: hand;
+	text-decoration: none;
+}
+.ms-TPBody h1 {
+	font-weight: bold;
+}
+.ms-TPBody h2 {
+	font-weight: bold;
+}
+.ms-TPBody h3 {
+	font-weight: bold;
+}
+.ms-TPBody h4 {
+	font-weight: bold;
+}
+.ms-TPBody h5 {
+	font-weight: bold;
+}
+.ms-TPBody h6 {
+	font-weight: bold;
+}
+.ms-TPBody th {
+	font-weight: bold;
+}
+.ms-TPBorder {
+	border: none;
+}
+.ms-TPHeader {
+	background-color: #8d4d03;
+}
+.ms-TPInput {
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.ms-TPTitle {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+.ms-underline {
+	border-bottom: 1px solid #8D4D03;
+	padding-bottom: 4;
+	padding-left: 4;
+	padding-right: 4;
+	padding-top: 2;
+	vertical-align: top;
+}
+.ms-underlineback {
+	background-color: #D3780F;
+	border-bottom: 1px solid #8D4D03;
+	padding-bottom: 4;
+	padding-left: 4;
+	padding-right: 4;
+	padding-top: 2;
+	vertical-align: top;
+}
+.ms-unselectednav {
+	border: 1px solid #B87438;
+	padding-bottom: 2px;
+	padding-top: 1px;
+}
+.ms-unselectedtitle {
+	margin: 1px;
+	padding-bottom: 2px;
+	padding-top: 1px;
+}
+.ms-uploadborder {
+	border: 1px solid #8D4D03;
+}
+.ms-uploadcontrol {
+	background-color: #DFA460;
+}
+.ms-Vappt {
+	background-color: #B9660B;
+	border-bottom: 3px solid #D07000;
+	border-left: 2px solid #D07000;
+	border-right: 2px solid #D07000;
+	border-top: 1px solid #D07000;
+	color: #FFFFFF;
+	height: 12px;
+	overflow: hidden;
+	padding-left: 3px;
+	padding-right: 3px;
+	text-align: center;
+	text-overflow: ellipsis;
+	vertical-align: middle;
+}
+.ms-Vappt a {
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: normal;
+	overflow: hidden;
+	text-decoration: none;
+	text-overflow: ellipsis;
+}
+.ms-Vappt a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.ms-Vapptsingle {
+	background-color: #B9660B;
+	border: 1px solid #8A4A00;
+	color: #FFFFFF;
+	overflow: hidden;
+	text-align: center;
+	text-overflow: ellipsis;
+	vertical-align: middle;
+}
+.ms-Vapptsingle a {
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: normal;
+	overflow: hidden;
+	text-decoration: none;
+	text-overflow: ellipsis;
+}
+.ms-Vapptsingle a:hover {
+	text-decoration: underline;
+}
+.ms-vb {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	height: 18px;
+	vertical-align: top;
+}
+.ms-vb a {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-vb a:hover {
+	color: #F7FFA2;
+	text-decoration: underline;
+}
+.ms-vb a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-vb a:visited:hover {
+	color: #F7FFA2;
+	text-decoration: underline;
+}
+.ms-vb-icon {
+	border-top: 1px solid #8D4D03;
+	padding-bottom: 0px;
+	padding-top: 2px;
+	vertical-align: top;
+	width: 16px;
+}
+.ms-vb-title {
+	border-top: 1px solid #8D4D03;
+}
+.ms-vb-user {
+	border-top: 1px solid #8D4D03;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	vertical-align: top;
+}
+.ms-vb-user a {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-vb-user a:hover {
+	color: #F7FFA2;
+	text-decoration: underline;
+}
+.ms-vb-user a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-vb-user a:visited:hover {
+	color: #F7FFA2;
+	text-decoration: underline;
+}
+.ms-vb2 {
+	border-top: 1px solid #8D4D03;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	padding-bottom: 0px;
+	padding-top: 3px;
+	vertical-align: top;
+}
+.ms-vb2 a {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-vb2 a:hover {
+	color: #F7FFA2;
+	text-decoration: underline;
+}
+.ms-vb2 a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-vb2 a:visited:hover {
+	color: #F7FFA2;
+	text-decoration: underline;
+}
+.ms-vcal {
+	border-collapse: separate;
+	cursor: default;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	table-layout: fixed;
+}
+.ms-verticaldots {
+	border-left: none;
+	border-right: 1px solid #A55900;
+}
+.ms-Vevt {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: normal;
+	height: 12px;
+	overflow: hidden;
+	padding: 0px;
+	text-align: center;
+	text-overflow: ellipsis;
+	vertical-align: top;
+}
+.ms-Vevt a {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+}
+.ms-Vevt a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.ms-Vevt a:visited {
+	color: #DFD664;
+}
+.ms-vh {
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+}
+.ms-vh a {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-vh a:hover {
+	text-decoration: underline;
+}
+.ms-vh a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-vh-icon {
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: top;
+	width: 22px;
+}
+.ms-vh-icon-empty {
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: top;
+	width: 0px;
+}
+.ms-vh-left {
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+}
+.ms-vh-left a {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-vh-left-icon {
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	width: 22px;
+}
+.ms-vh-left-icon-empty {
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	width: 0px;
+}
+.ms-vh-right {
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+}
+.ms-vh-right a {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-vh-right-icon {
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	width: 22px;
+}
+.ms-vh-right-icon-empty {
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	width: 0px;
+}
+.ms-vh2 {
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: top;
+}
+.ms-vh2 a {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-vh2 a:hover {
+	text-decoration: underline;
+}
+.ms-vh2 a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-vhImage {
+	color: #545454;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: top;
+	width: 18pt;
+}
+.ms-viewselect a:link {
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.ms-WPBody {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.ms-WPBody A:hover {
+	color: #F7FFA2;
+	text-decoration: underline;
+}
+.ms-WPBody a:link {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-WPBody a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+.ms-WPBody h1 {
+	font-weight: bold;
+}
+.ms-WPBody h2 {
+	font-weight: bold;
+}
+.ms-WPBody h3 {
+	font-weight: bold;
+}
+.ms-WPBody h4 {
+	font-weight: bold;
+}
+.ms-WPBody h5 {
+	font-weight: bold;
+}
+.ms-WPBody h6 {
+	font-weight: bold;
+}
+.ms-WPBody td {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.ms-WPBody th {
+	font-weight: bold;
+}
+.ms-WPBorder {
+	border-bottom: #B6670D 1px solid;
+	border-left: #B6670D 1px solid;
+	border-right: #B6670D 1px solid;
+	border-top-style: none;
+}
+.ms-WPDesign {
+	background-color: #997C60;
+}
+.ms-WPHeader {
+	background-color: #B87438;
+	background-image: url('partgrad.gif');
+	background-repeat: repeat-x;
+}
+.ms-WPMenu {
+	background-color: #997C60;
+}
+.ms-WPSelected {
+	border: #000000 3px dashed;
+}
+.ms-WPTitle {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+.ms-WPTitle A:hover {
+	color: #F7FFA2;
+	cursor: hand;
+	text-decoration: underline;
+}
+.ms-WPTitle a:link {
+	color: #FFFFFF;
+	cursor: hand;
+	text-decoration: none;
+}
+.ms-WPTitle a:visited {
+	color: #FFFFFF;
+	cursor: hand;
+	text-decoration: none;
+}
+.mstheme {
+	navbutton-background-color: #D07000;
+	top-bar-button: url(top_bar_button_sonora.gif);
+}
+.mstheme-label {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-style: normal;
+}
+.mstheme-topbar-font {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.UserBackground {
+	background-color: #D07000;
+}
+.UserButton {
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.UserCaption {
+	background-color: #D3780F;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.UserCell {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	padding: 2px 5px 3px 5px;
+}
+.UserCellSelected {
+	background-color: #D07000;
+	border: solid 1px #C6E33A;
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	padding: 1px 4px 2px 4px;
+}
+.UserCommandArea {
+	padding-top: 7px;
+}
+.UserConfiguration {
+	background-color: #D3780F;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.UserControlGroup {
+	padding-bottom: 10px;
+	padding-top: 2px;
+}
+.UserDottedLine {
+	background-color: transparent;
+	background-image: url('dot_sonora.gif');
+	background-repeat: repeat-x;
+	height: 1px;
+	margin-bottom: 2px;
+	overflow: hidden;
+}
+.UserFooter {
+	padding: 10px 7px 7px 7px;
+	width: 100%;
+}
+.UserGeneric {
+	padding: 8px 5px 7px 5px;
+}
+.UserGenericBody {
+	padding: 5px 0px 0px 17px;
+}
+.UserGenericBulletItem {
+	padding-bottom: 2px;
+}
+.UserGenericHeader {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+}
+.UserInput {
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.UserNotification {
+	color: #626262;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	padding: 4px;
+}
+.UserSectionBody {
+	padding: 0px 0px 0px 7px;
+	width: 100%;
+}
+.UserSectionFooter {
+	border-top: 1px solid #74604e;
+}
+.UserSectionHead {
+	color: #FFFFFF;
+	padding: 0px 0px 3px 0px;
+	width: 100%;
+}
+.UserSectionTitle {
+	border-bottom: solid 1px #74604e;
+	color: #FFFF00;
+	font-weight: bold;
+	margin-bottom: 5px;
+	padding-bottom: 2px;
+	width: 100%;
+}
+.UserSelect {
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.UserShadedRegion {
+	background-color: #D3780F;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.UserToolbar {
+	background-color: transparent;
+	background-image: url('toolgrad_sonora.gif');
+	background-repeat: repeat-x;
+	border: 1px solid #626262;
+}
+.UserToolbarDisabledLink {
+	color: #8D4D03;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	padding: 4px;
+}
+.UserToolbarImage {
+	background-color: #626262;
+	border: medium none;
+	cursor: hand;
+	text-align: center;
+}
+.UserToolBarImageArea {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: normal;
+	padding-bottom: 5px;
+}
+.UserToolbarSelectedImage {
+	border-bottom: #000000 1px solid;
+	border-left: medium none;
+	border-right: medium none;
+	border-top: medium none;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: top;
+}
+.UserToolBarTextArea {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: normal;
+	padding-bottom: 5px;
+}
+.UserToolbarTextArea A:hover {
+	color: #F7FFA2;
+	text-decoration: underline;
+}
+.UserToolbarTextArea A:link {
+	color: #000000;
+	text-decoration: none;
+}
+.UserToolbarTextArea A:visited {
+	color: #000000;
+	text-decoration: none;
+}
+a.ms-imglibPreviewTitle {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 130;
+}
+body {
+	background-image: url('background_sonora.gif');
+	background-repeat: repeat-x;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+button {
+	border-style: solid;
+	border-width: 1pt;
+	font-family: Arial,Helvetica,sans-serif;
+	font-style: normal;
+}
+caption {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-style: normal;
+}
+Div.ms-titleareaframe {
+	border-top: 4px solid #8D4D03;
+}
+fieldset {
+	border-style: solid;
+	border-width: 1pt;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-style: normal;
+}
+h1 {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-style: normal;
+	font-weight: bold;
+}
+h2 {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-style: normal;
+	font-weight: normal;
+}
+h3 {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-style: normal;
+	font-weight: normal;
+}
+h4 {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-style: normal;
+	font-weight: normal;
+}
+h5 {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-style: normal;
+	font-weight: normal;
+}
+h6 {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-style: normal;
+	font-weight: normal;
+}
+hr {
+	color: #8A4A00;
+	height: 2px;
+}
+il {
+	list-style-image: url('bull2_sonora.gif');
+}
+IMG.ms-button {
+	cursor: hand;
+}
+img.ms-imglibpreviewarea {
+	border: solid #D3780F 3px;
+	margin-top: 3px;
+}
+img.thumbnail {
+	border: 3px solid #FFFF00;
+}
+label {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-style: normal;
+}
+legend {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-style: normal;
+}
+marquee {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+select {
+	border-style: solid;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-style: normal;
+}
+span.thumbnail {
+	padding: 16 10;
+	position: relative;
+	width: 5px;
+}
+span.userdata {
+	behavior: url(#default#userData);
+	display: none;
+}
+table {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-style: normal;
+}
+table.ms-form td {
+	vertical-align: top;
+	width: 100%;
+}
+table.ms-form th {
+	color: #FFFFFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: normal;
+	vertical-align: top;
+}
+table.ms-imglibPreviewTable {
+	display: none;
+}
+table.ms-imglibtitletable {
+	border: 0px solid #8D4D03;
+}
+TABLE.ms-titleareaframe {
+	border-left: 0px;
+}
+table.ms-toolbar {
+	background-image: url('toolgrad_sonora.gif');
+	border: 1px solid #626262
+background-color;
+}
+TD.ms-titleareaframe {
+	border-color: #8D4D03;
+	color: #000000;
+}
+textarea {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-style: normal;
+}
+th {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-style: bold;
+}
+tr.ms-imglibselectedrow {
+	background-color: #D3780F;
+}
