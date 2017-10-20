@@ -1,0 +1,59 @@
+.mstheme{
+nav-banner-image:url(casbanr.gif);
+separator-image:url(casrule.gif);
+list-image-1:url(casbul1.gif);
+list-image-2:url(casbul2.gif);
+list-image-3:url(casbul3.gif);
+navbutton-horiz-pushed:url(cashsel.gif);
+navbutton-horiz-normal:url(cashbtn.gif);
+navbutton-vert-pushed:url(casvsel.gif);
+navbutton-vert-normal:url(casvbtn.gif);
+navbutton-home-normal:url(cashom.gif);
+navbutton-up-normal:url(casup.gif);
+navbutton-prev-normal:url(casbck.gif);
+navbutton-next-normal:url(casnxt.gif);
+}
+UL{
+list-style-image:url(casbul1.gif);
+}
+UL UL{
+list-style-image:url(casbul2.gif);
+}
+UL UL UL{
+list-style-image:url(casbul3.gif);
+}
+.mstheme-bannertxt{
+font-family:Georgia,Times New Roman,Times;
+font-size:5;
+color:#FFFFFF;
+}
+.mstheme-horiz-navtxt{
+font-family:century gothic,arial,helvetica;
+font-size:2;
+color:#FFFFFF;
+}
+.mstheme-vert-navtxt{
+font-family:century gothic,arial,helvetica;
+font-size:2;
+color:#FFFFFF;
+}
+.mstheme-navtxthome{
+font-family:century gothic,arial,helvetica;
+font-size:1;
+color:#FFFFFF;
+}
+.mstheme-navtxtup{
+font-family:century gothic,arial,helvetica;
+font-size:1;
+color:#FFFFFF;
+}
+.mstheme-navtxtprev{
+font-family:century gothic,arial,helvetica;
+font-size:1;
+color:#FFFFFF;
+}
+.mstheme-navtxtnext{
+font-family:century gothic,arial,helvetica;
+font-size:1;
+color:#FFFFFF;
+}
