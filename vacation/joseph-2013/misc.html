@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=windows-1252" http-equiv="Content-Type" />
+<title>Misc</title>
+
+<style type="text/css">
+.style1 {
+	font-family: "AR DELANEY";
+	text-align: center;
+	font-size: 24pt;
+	color: blue;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.classname {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}
+.classname:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}
+.classname:active {
+	position:relative;
+	top:1px;
+}
+</style>
+<script type="text/javascript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body style="background-color: #CCCCCC" link="#FF0000" vlink="#FF0000" alink="#FF0000">
+
+<div>
+<p class="style1"> MIsc <p/> 
+
+<table align="center" style="width: 20%" >
+	<tr align="center">
+	<td> <a href="joe-13.html" class="classname" > Back </a> 
+	</td>
+</table>
+<br />
+
+<center>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+//set image paths
+src = ["misc/101_1569.jpg", 
+	"misc/101_1570.jpg", "misc/101_1571.jpg", "misc/101_1572.jpg", "misc/101_1573.jpg",
+	"misc/101_1574.jpg", "misc/101_1575.jpg", "misc/101_1576.jpg", "misc/101_1577.jpg",
+	"misc/101_1578.jpg", "misc/101_1579.jpg",
+	"misc/101_1580.jpg", "misc/101_1581.jpg", "misc/101_1582.jpg", "misc/101_1583.jpg",
+	"misc/101_1584.jpg", "misc/101_1585.jpg", "misc/101_1586.jpg", "misc/101_1587.jpg",
+	"misc/img1.jpg", "misc/img2.jpg", 	"misc/img3.jpg", "misc/img4.jpg", "misc/img5.jpg",
+	"misc/img6.jpg", "misc/img7.jpg", "misc/img9.jpg", "misc/img9.jpg", "misc/img10.jpg",
+	"misc/img11.jpg", "misc/img12.jpg", "misc/img13.jpg", "misc/img14.jpg", "misc/img15.jpg", 
+	"misc/img16.jpg", "misc/img17.jpg", "misc/img18.jpg"
+	]
+
+//set corresponding urls
+// url = ["http://freewarejava.com", "http://javascriptkit.com", "http://dynamicdrive.com", "http://www.geocities.com"]
+//set duration for each image
+duration = 3;
+
+//Please do not edit below
+	ads=[]; ct=0;
+	function switchAd() {
+	var n=(ct+1)%src.length;
+	if (ads[n] && (ads[n].complete || ads[n].complete==null)) {
+	document["ad_image"].src = ads[ct=n].src;
+	}
+	ads[n=(ct+1)%src.length] = new Image;
+	ads[n].src = src[n];
+	setTimeout("switchAd()",duration*1000);
+	}
+	function doLink(){
+	location.href = url[ct];
+	} onload = function(){
+	if (document.images)
+	switchAd();
+	}
+//-->
+</SCRIPT>
+
+<A HREF="javascript:doLink();" onMouseOver="status=url[ct];return true;" onMouseOut="status=''"> 
+	<img name="ad_image" src="misc/101_1569.jpg" border=0> </img>
+</A>
+
+	</p>
+
+</center>
+</div>
+
+</body>
+</html>
