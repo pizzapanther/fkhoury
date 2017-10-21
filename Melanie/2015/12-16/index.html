@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="../../../themes/js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="../../../themes/js-image-slider.js" type="text/javascript"></script>
+    <link href="../../../themes/generic.css" rel="stylesheet" type="text/css" />
+	
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> Melanie </title>
+<link href="button.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.style1 {
+	font-size: 12pt;
+	color: #070EEE;
+	margin-top: 3px;
+	font-family: Arial;
+}
+.classname {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}
+.classname:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}
+.classname:active {
+	position:relative;
+	top:1px;
+}
+</style>
+
+</head>
+
+<body style="background-color: #DFE5EF" >
+<center>
+<table>
+	<tr  align="center">
+		<td> <p> <a class="style13"><strong>&nbsp;Christmas Tree Over Melanie &nbsp; </strong> </a> </p> 
+			<p> <a class="style13"><strong>&nbsp;12/5/2015 &nbsp; </strong> </a> </p> 
+		</td>
+		
+	</tr>
+	
+</table>
+
+<div id="sliderFrame">
+	<div id="slider" align="center">
+		<img src="20151216_202227.jpg"/> <img src="20151216_210727.jpg"/> <img src="20151216_210740.jpg"/>
+		<img src="20151216_210745_001.jpg"/> <img src="20151216_210750.jpg"/> <img src="20151216_210753.jpg"/>
+		<img src="20151216_210804_001.jpg"/> <img src="20151216_210808.jpg"/>
+		<img src="20151216_210839.jpg"/> <img src="20151216_210844.jpg"/> <img src="20151216_210847.jpg"/>
+		<img src="20151216_210916.jpg"/> <img src="20151216_210919.jpg"/> <img src="20151216_210922.jpg"/>
+		<img src="20151216_211002.jpg"/> <img src="20151216_211033.jpg"/>
+		<img src="20151216_211355.jpg"/> <img src="20151216_211427.jpg"/> <img src="20151216_212206.jpg"/>
+		<img src="20151216_212209.jpg"/> <img src="20151216_212213.jpg"/> <img src="20151216_212217.jpg"/>
+		<img src="20151216_212228.jpg"/> <img src="20151216_211033.jpg"/>
+		<img src="20151216_212235.jpg"/> <img src="20151216_212238.jpg"/> <img src="20151216_212244.jpg"/>
+		<img src="20151216_212301.jpg"/> <img src="20151216_212305.jpg"/> <img src="20151216_212317.jpg"/>
+		<img src="20151216_212320.jpg"/> <img src="20151216_212322.jpg"/>
+		<img src="20151216_212356.jpg"/> <img src="20151216_212439.jpg"/> <img src="20151216_212441.jpg"/>
+		<img src="20151216_212448.jpg"/> <img src="20151216_212452.jpg"/> <img src="20151216_212505.jpg"/>
+		<img src="20151216_212518.jpg"/> <img src="20151216_212523.jpg"/>
+		<img src="20151216_212527.jpg"/> <img src="20151216_212529.jpg"/> <img src="20151216_212530.jpg"/>
+		<img src="20151216_212639.jpg"/> <img src="20151216_213307.jpg"/> <img src="20151216_213315.jpg"/>
+		<img src="20151216_213324.jpg"/> <img src="20151216_213346.jpg"/>
+
+		<img src="20151216_213349.jpg"/> <img src="20151216_213350_001.jpg"/> <img src="20151216_213350_002.jpg"/>
+		<img src="20151216_213350_003.jpg"/> <img src="20151216_213350_004.jpg"/> <img src="20151216_213350_006.jpg"/>
+		<img src="20151216_213350_007.jpg"/> <img src="20151216_213350_008.jpg"/>
+		<img src="20151216_213401.jpg"/> <img src="20151216_213403.jpg"/> <img src="20151216_213405.jpg"/>
+		<img src="20151216_213408.jpg"/> <img src="20151216_213414.jpg"/>
+		
+	</div>
+
+    <div style="text-align:center;padding:20px;z-index:20;">
+            <a onclick="imageSlider.insidevious()" class="group2-insidev"></a>
+            <a id='auto' onclick="switchAutoAdvance()"></a>
+            <a onclick="imageSlider.next()" class="group2-Next"></a>
+    </div>
+</div>
+	<script type="text/javascript">
+        //The following script is for the group 2 navigation buttons.
+        function switchAutoAdvance() {
+            imageSlider.switchAuto();
+            switchPlayPauseClass();
+        }
+        function switchPlayPauseClass() {
+            var auto = document.getElementById('auto');
+            var isAutoPlay = imageSlider.getAuto();
+            auto.className = isAutoPlay ? "group2-Pause" : "group2-Play";
+            auto.title = isAutoPlay ? "Pause" : "Play";
+        }
+        switchPlayPauseClass();
+	</script>
+
+</body>
+</html>

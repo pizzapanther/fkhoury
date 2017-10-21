@@ -1,0 +1,65 @@
+.mstheme{
+nav-banner-image:url(alaybanr.gif);
+separator-image:url(alayrule.gif);
+list-image-1:url(alaybul1.gif);
+list-image-2:url(alaybul2.gif);
+list-image-3:url(alaybul3.gif);
+navbutton-horiz-pushed:url(alayhsel.gif);
+navbutton-horiz-normal:url(alayhbtn.gif);
+navbutton-horiz-hovered:url(alayhhov.gif);
+navbutton-vert-pushed:url(alayvsel.gif);
+navbutton-vert-normal:url(alayvbtn.gif);
+navbutton-vert-hovered:url(alayvhov.gif);
+navbutton-home-normal:url(alayhom.gif);
+navbutton-home-hovered:url(alayhomh.gif);
+navbutton-up-normal:url(alayup.gif);
+navbutton-up-hovered:url(alayuph.gif);
+navbutton-prev-normal:url(alaybck.gif);
+navbutton-prev-hovered:url(alaybckh.gif);
+navbutton-next-normal:url(alaynxt.gif);
+navbutton-next-hovered:url(alaynxth.gif);
+}
+UL{
+list-style-image:url(alaybul1.gif);
+}
+UL UL{
+list-style-image:url(alaybul2.gif);
+}
+UL UL UL{
+list-style-image:url(alaybul3.gif);
+}
+.mstheme-bannertxt{
+font-family:georgia,Times New Roman,Times;
+font-size:5;
+color:#000000;
+}
+.mstheme-horiz-navtxt{
+font-family:georgia,times new roman,times;
+font-size:2;
+color:#FFFFFF;
+}
+.mstheme-vert-navtxt{
+font-family:georgia,times new roman,times;
+font-size:2;
+color:#FFFFFF;
+}
+.mstheme-navtxthome{
+font-family:georgia,times new roman,times;
+font-size:1;
+color:#FFFFFF;
+}
+.mstheme-navtxtup{
+font-family:georgia,times new roman,times;
+font-size:1;
+color:#FFFFFF;
+}
+.mstheme-navtxtprev{
+font-family:georgia,times new roman,times;
+font-size:1;
+color:#FFFFFF;
+}
+.mstheme-navtxtnext{
+font-family:georgia,times new roman,times;
+font-size:1;
+color:#FFFFFF;
+}

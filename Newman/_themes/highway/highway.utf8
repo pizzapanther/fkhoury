@@ -1,0 +1,34 @@
+[info]
+codepage=65001
+readonly=true
+version=4.00
+format=2.00
+title=Highway
+refcount=2
+
+[titles]
+1040=Autostrada
+1053=Vägmotiv
+1032=Αυτοκινητόδρομος
+1031=Highway
+1036=Asphalte
+1044=Motorvei
+1042=고속 도로
+1028=公路
+2052=公路
+1038=Aszfalt
+1049=Магистраль
+1046=Rodovia
+1041=ハイウェイ
+2070=Auto-estrada
+1054=ทางด่วน
+1025=طريق عام
+3082=Autopista
+1043=Snelweg
+1030=Motorvej
+1035=Valtatie
+1029=Dálnice
+1045=Autostrada
+1037=כביש ראשי
+1055=Otoyol
+
