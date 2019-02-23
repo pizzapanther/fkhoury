@@ -33,12 +33,10 @@ function FP_swapImg() {//v1.0
  n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
  elm.$src=elm.src; elm.src=args[n+1]; } }
 }
-
 function FP_preloadImgs() {//v1.0
  var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
  for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
 }
-
 function FP_getObjectByID(id,o) {//v1.0
  var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
  else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
@@ -69,6 +67,18 @@ function FP_getObjectByID(id,o) {//v1.0
 	<p align="center"> <img border="0" src="images/buttonB.jpg"> </p>
 </a>
 <hr />
+
+
+<table align="center">
+<CAPTION class="style1"> <font color="green"> <strong> 2019 </strong> </font> </CAPTION>
+<tr align="center">
+	<td> <a href="2019/misc.html"> <img alt="" height="150" src="2019/misc.png" width="220"> </a> </td> <td></td>
+	<td> <a href="2019/truck.html"> <img alt="" height="150" src="2019/truck.png" width="200"> </a> </td> <td></td>
+	<td> <a href="2019/300.html" > <img alt="" height="150" src="2019/300.jpg" width="280"> </a> </td> <td></td>
+	<td> <a href="2019/500.html"> <img alt="" height="250" src="2019/500.jpg" width="200"> </a> </td> <td></td>
+
+</tr>
+</table>
 
 <table align="center">
 <CAPTION class="style1"> <font color="green"> <strong> 2018 </strong> </font> </CAPTION>
