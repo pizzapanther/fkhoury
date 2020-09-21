@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="../../themes/js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="../../themes/js-image-slider.js" type="text/javascript"></script>
+    <link href="../../themes/generic.css" rel="stylesheet" type="text/css" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> Gracie 6/19/2003 </title>
+
+<link href="../images/button.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.style13 {
+	font-size: 30pt;
+	margin-bottom: 10px;
+}
+.style1 {
+	font-size: 12pt;
+	color: #070EEE;
+	margin-top: 3px;
+	font-family: Arial;
+}
+</style>
+
+</head>
+
+<body style="background-color: #A9D0F5" >
+
+<center>
+<br>
+<h1>
+<a class="style13" style="color:red"  >
+	<strong> 6/19/2003 </strong></a>
+</h1>
+<br/>
+
+<div id="menu">
+	<li>
+		<a href="index.html" accesskey="1" >
+		<b> Back </b>
+		</a>
+	</li>
+</div>
+<br/>
+
+<div id="sliderFrame">
+	<div id="slider" align="center">
+	
+		<img src="6-19-03/100_0134.jpg"/> <img src="6-19-03/100_0135.jpg"/> 
+		<img src="6-19-03/100_0136.jpg"/> <img src="6-19-03/100_0137.jpg"/>
+		<img src="6-19-03/100_0138.jpg"/>
+		<img src="6-19-03/100_0140.jpg"/> <img src="6-19-03/100_0141.jpg"/>
+		<img src="6-19-03/100_0142.jpg"/> <img src="6-19-03/100_0143.jpg"/> 
+		<img src="6-19-03/100_0144.jpg"/> <img src="6-19-03/100_0145.jpg"/>
+		<img src="6-19-03/100_0146.jpg"/> <img src="6-19-03/100_0147.jpg"/>
+		<img src="6-19-03/100_0148.jpg"/> <img src="6-19-03/100_0149.jpg"/>
+		
+		<img src="6-19-03/100_0150.jpg"/> <img src="6-19-03/100_0151.jpg"/>
+		<img src="6-19-03/100_0152.jpg"/> <img src="6-19-03/100_0153.jpg"/> 
+										  <img src="6-19-03/100_0155.jpg"/>
+		<img src="6-19-03/100_0156.jpg"/> <img src="6-19-03/100_0157.jpg"/>
+		<img src="6-19-03/100_0158.jpg"/> <img src="6-19-03/100_0159.jpg"/>
+
+		<img src="6-19-03/100_0160.jpg"/> <img src="6-19-03/100_0161.jpg"/>
+		<img src="6-19-03/100_0162.jpg"/> <img src="6-19-03/100_0163.jpg"/> 
+		<img src="6-19-03/100_0164.jpg"/> <img src="6-19-03/100_0165.jpg"/>
+		<img src="6-19-03/100_0166.jpg"/> <img src="6-19-03/100_0167.jpg"/>
+		<img src="6-19-03/100_0168.jpg"/>
+		
+		<img src="6-19-03/a1.jpg"/> <img src="6-19-03/a2.jpg"/>
+		<img src="6-19-03/a3.jpg"/> <img src="6-19-03/a4.jpg"/> 
+		<img src="6-19-03/a5.jpg"/> 
+		<img src="6-19-03/DSC00219.jpg"/>
+		<img src="6-19-03/DSC00220.jpg"/> <img src="6-19-03/DSC00221.jpg"/>
+		<img src="6-19-03/DSC00223.jpg"/> <img src="6-19-03/DSC00227.jpg"/>
+		<img src="6-19-03/DSC00228.jpg"/>
+		
+	</div>
+ 
+ 
+	<div style="text-align:center;padding:20px;z-index:20;">
+		<a onclick="imageSlider.insidevious()" class="group2-insidev"></a>
+		<a id='auto' onclick="switchAutoAdvance()"></a>
+		<a onclick="imageSlider.next()" class="group2-Next"></a>
+	</div>
+</div>
+
+
+
+<script type="text/javascript">
+        //The following script is for the group 2 navigation buttons.
+        function switchAutoAdvance() {
+            imageSlider.switchAuto();
+            switchPlayPauseClass();
+        }
+        function switchPlayPauseClass() {
+            var auto = document.getElementById('auto');
+            var isAutoPlay = imageSlider.getAuto();
+            auto.className = isAutoPlay ? "group2-Pause" : "group2-Play";
+            auto.title = isAutoPlay ? "Pause" : "Play";
+        }
+        switchPlayPauseClass();
+</script>
+</center>
+
+</body>
+</html>
