@@ -23,7 +23,7 @@ a:hover {
 
 /* Menu */
 #menu {
-	width: 160px;
+	width: 120px;
 	height: 25px;
 }
 
@@ -42,13 +42,13 @@ a:hover {
 	font-family: Sans-Serif;
 /*	font-style: oblique; */
 	float: left;
-	width: 100px;
-	height: 25px;
-	padding: 8px 0 0 0px;
+	width: 75px;
+	height: 20px;
+	padding: 6px 0 0 0px;
 	background: #487EFC;
 	text-decoration: none;
 	text-align: center;
-	font-size: 18px;
+	font-size: 16px;
 	color: #FFFFFF;
 	border:1px solid  #070795;
 }
