@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="../../themes/js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="../../themes/js-image-slider.js" type="text/javascript"></script>
+    <link href="../../themes/generic.css" rel="stylesheet" type="text/css" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> Gracie Birthday  2009  </title>
+
+<link href="../images/button.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.style13 {
+	font-size: 30pt;
+	margin-bottom: 10px;
+}
+.style1 {
+	font-size: 12pt;
+	color: #070EEE;
+	margin-top: 3px;
+	font-family: Arial;
+}
+</style>
+
+</head>
+
+<body style="background-color: #A9D0F5" >
+
+<center>
+<br>
+<h1>
+<a class="style13" style="color:red"  >
+	<strong> 2009 Presents </strong></a>
+</h1>
+<br/>
+
+<div id="menu">
+	<li>
+		<a href="Bindex.html" accesskey="1" >
+		<b> Back </b>
+		</a>
+	</li>
+</div>
+<br/>
+
+<div id="sliderFrame">
+	<div id="slider" align="center">
+
+		<img src="P-09/IMG_5799.jpg"/>
+
+		<img src="P-09/IMG_5800.jpg"/> <img src="P-09/IMG_5801.jpg"/>
+		<img src="P-09/IMG_5802.jpg"/> <img src="P-09/IMG_5803.jpg"/>
+		<img src="P-09/IMG_5804.jpg"/> <img src="P-09/IMG_5805.jpg"/>
+		<img src="P-09/IMG_5806.jpg"/> <img src="P-09/IMG_5807.jpg"/>
+		<img src="P-09/IMG_5808.jpg"/> <img src="P-09/IMG_5809.jpg"/>
+
+		<img src="P-09/IMG_5810.jpg"/> <img src="P-09/IMG_5811.jpg"/>
+		<img src="P-09/IMG_5812.jpg"/> <img src="P-09/IMG_5813.jpg"/>
+		<img src="P-09/IMG_5814.jpg"/> <img src="P-09/IMG_5815.jpg"/>
+		<img src="P-09/IMG_5816.jpg"/> <img src="P-09/IMG_5817.jpg"/>
+		<img src="P-09/IMG_5818.jpg"/> <img src="P-09/IMG_5819.jpg"/>
+
+		<img src="P-09/IMG_5820.jpg"/> <img src="P-09/IMG_5821.jpg"/>
+		<img src="P-09/IMG_5822.jpg"/> <img src="P-09/IMG_5823.jpg"/>
+		<img src="P-09/IMG_5824.jpg"/> <img src="P-09/IMG_5825.jpg"/>
+		<img src="P-09/IMG_5826.jpg"/> <img src="P-09/IMG_5827.jpg"/>
+		<img src="P-09/IMG_5828.jpg"/> <img src="P-09/IMG_5829.jpg"/>
+
+		<img src="P-09/IMG_5830.jpg"/>
+		<img src="P-09/IMG_5832.jpg"/>
+		<img src="P-09/IMG_5834.jpg"/> <img src="P-09/IMG_5835.jpg"/>
+		<img src="P-09/IMG_5836.jpg"/> <img src="P-09/IMG_5837.jpg"/>
+		<img src="P-09/IMG_5838.jpg"/> <img src="P-09/IMG_5839.jpg"/>
+
+		<img src="P-09/IMG_5840.jpg"/> <img src="P-09/IMG_5841.jpg"/>
+		<img src="P-09/IMG_5842.jpg"/> <img src="P-09/IMG_5843.jpg"/>
+		<img src="P-09/IMG_5844.jpg"/> <img src="P-09/IMG_5845.jpg"/>
+		<img src="P-09/IMG_5846.jpg"/> <img src="P-09/IMG_5847.jpg"/>
+		<img src="P-09/IMG_5848.jpg"/> <img src="P-09/IMG_5849.jpg"/>
+
+		<img src="P-09/IMG_5850.jpg"/> <img src="P-09/IMG_5851.jpg"/>
+		<img src="P-09/IMG_5852.jpg"/> <img src="P-09/IMG_5853.jpg"/>
+		<img src="P-09/IMG_5854.jpg"/> <img src="P-09/IMG_5855.jpg"/>
+		<img src="P-09/IMG_5856.jpg"/> <img src="P-09/IMG_5857.jpg"/>
+		<img src="P-09/IMG_5858.jpg"/> <img src="P-09/IMG_5859.jpg"/>
+
+		<img src="P-09/IMG_5860.jpg"/> <img src="P-09/IMG_5861.jpg"/>
+		<img src="P-09/IMG_5864.jpg"/> <img src="P-09/IMG_5867.jpg"/>
+		<img src="P-09/IMG_5868.jpg"/> <img src="P-09/IMG_5869.jpg"/>
+
+		<img src="P-09/P1010042.jpg"/> 
+		<img src="P-09/P1010044.jpg"/> <img src="P-09/P1010045.jpg"/>
+		<img src="P-09/P1010046.jpg"/> <img src="P-09/P1010047.jpg"/>
+		<img src="P-09/P1010048.jpg"/> <img src="P-09/P1010049.jpg"/>
+		
+	</div>
+ 
+ 
+	<div style="text-align:center;padding:20px;z-index:20;">
+		<a onclick="imageSlider.insidevious()" class="group2-insidev"></a>
+		<a id='auto' onclick="switchAutoAdvance()"></a>
+		<a onclick="imageSlider.next()" class="group2-Next"></a>
+	</div>
+</div>
+
+
+
+<script type="text/javascript">
+        //The following script is for the group 2 navigation buttons.
+        function switchAutoAdvance() {
+            imageSlider.switchAuto();
+            switchPlayPauseClass();
+        }
+        function switchPlayPauseClass() {
+            var auto = document.getElementById('auto');
+            var isAutoPlay = imageSlider.getAuto();
+            auto.className = isAutoPlay ? "group2-Pause" : "group2-Play";
+            auto.title = isAutoPlay ? "Pause" : "Play";
+        }
+        switchPlayPauseClass();
+</script>
+</center>
+
+</body>
+</html>
