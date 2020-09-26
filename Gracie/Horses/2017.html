@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="../../themes/js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="../../themes/js-image-slider.js" type="text/javascript"></script>
+    <link href="../../themes/generic.css" rel="stylesheet" type="text/css" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> Gracie  Horse  </title>
+
+<link href="../images/button.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.style13 {
+	font-size: 30pt;
+	margin-bottom: 10px;
+}
+.style1 {
+	font-size: 12pt;
+	color: #070EEE;
+	margin-top: 3px;
+	font-family: Arial;
+}
+</style>
+
+</head>
+
+<body style="background-color: #A9D0F5" >
+
+<center>
+<br>
+<h1>
+<a class="style13" style="color:red"  >
+	<strong> Horse 2017 </strong></a>
+</h1>
+<br/>
+
+<div id="menu">
+	<li>
+		<a href="index.html" accesskey="1" >
+		<b> Back </b>
+		</a>
+	</li>
+</div>
+<br/>
+
+<div id="sliderFrame">
+	<div id="slider" align="center">
+
+		<img src="2017/a1.jpg"/>
+		<img src="2017/a2.jpg"/> <img src="2017/a3.jpg"/>
+		<img src="2017/a4.jpg"/> <img src="2017/a5.jpg"/>
+		<img src="2017/a6.jpg"/> <img src="2017/a7.jpg"/>
+		<img src="2017/a8.jpg"/> <img src="2017/a9.jpg"/>	
+
+		<img src="2017/a10.jpg"/> <img src="2017/a11.jpg"/> 
+		<img src="2017/a12.jpg"/> <img src="2017/a13.jpg"/> 
+		<img src="2017/a14.jpg"/> <img src="2017/a15.jpg"/>
+		<img src="2017/a16.jpg"/> <img src="2017/a17.jpg"/>
+		<img src="2017/a18.jpg"/> <img src="2017/a19.jpg"/>
+
+		<img src="2017/a20.jpg"/> <img src="2017/a21.jpg"/> 
+		<img src="2017/a22.jpg"/> <img src="2017/a23.jpg"/> 
+		<img src="2017/a24.jpg"/> <img src="2017/a25.jpg"/>
+		<img src="2017/a26.jpg"/> <img src="2017/a27.jpg"/>
+		<img src="2017/a28.jpg"/> <img src="2017/a29.jpg"/>
+
+		<img src="2017/a30.jpg"/> <img src="2017/a31.jpg"/> 
+		<img src="2017/a32.jpg"/> <img src="2017/a33.jpg"/> 
+		<img src="2017/a34.jpg"/> <img src="2017/a35.jpg"/>
+		<img src="2017/a36.jpg"/> <img src="2017/a37.jpg"/>
+		<img src="2017/a38.jpg"/> <img src="2017/a39.jpg"/>
+
+		<img src="2017/a40.jpg"/> <img src="2017/a41.jpg"/> 
+		<img src="2017/a42.jpg"/> <img src="2017/a43.jpg"/> 
+		<img src="2017/a44.jpg"/> <img src="2017/a45.jpg"/>
+		<img src="2017/a46.jpg"/> <img src="2017/a47.jpg"/>
+		<img src="2017/a48.jpg"/> <img src="2017/a49.jpg"/>
+
+		<img src="2017/a50.jpg"/> <img src="2017/a51.jpg"/> 
+		<img src="2017/a52.jpg"/> <img src="2017/a53.jpg"/> 
+		<img src="2017/a54.jpg"/> <img src="2017/a55.jpg"/>
+		<img src="2017/a56.jpg"/> <img src="2017/a57.jpg"/>
+		<img src="2017/a58.jpg"/> <img src="2017/a59.jpg"/>
+
+		<img src="2017/a60.jpg"/> <img src="2017/a61.jpg"/> 
+		<img src="2017/a62.jpg"/> <img src="2017/a63.jpg"/> 
+		<img src="2017/a64.jpg"/> <img src="2017/a65.jpg"/>
+		<img src="2017/a66.jpg"/> <img src="2017/a67.jpg"/>
+		<img src="2017/a68.jpg"/>
+
+	</div>
+ 
+ 
+	<div style="text-align:center;padding:20px;z-index:20;">
+		<a onclick="imageSlider.insidevious()" class="group2-insidev"></a>
+		<a id='auto' onclick="switchAutoAdvance()"></a>
+		<a onclick="imageSlider.next()" class="group2-Next"></a>
+	</div>
+</div>
+
+
+
+<script type="text/javascript">
+        //The following script is for the group 2 navigation buttons.
+        function switchAutoAdvance() {
+            imageSlider.switchAuto();
+            switchPlayPauseClass();
+        }
+        function switchPlayPauseClass() {
+            var auto = document.getElementById('auto');
+            var isAutoPlay = imageSlider.getAuto();
+            auto.className = isAutoPlay ? "group2-Pause" : "group2-Play";
+            auto.title = isAutoPlay ? "Pause" : "Play";
+        }
+        switchPlayPauseClass();
+</script>
+</center>
+
+</body>
+</html>
