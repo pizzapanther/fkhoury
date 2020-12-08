@@ -7,14 +7,11 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Christmas 2020</title>
-
-<link href="../button.css" rel="stylesheet" type="text/css" />
-
 <style type="text/css">
 .style1 {
 	font-size: 16pt;
-	color: #298A08;
 	margin-top: 3px;
+	color: #0000FF;
 	font-family: "Arial Black";
 }
 </style>
@@ -27,51 +24,32 @@
 
 <body style="background-color: #D1D2FC" onload="FP_preloadImgs(/*url*/'../img/buttonC.jpg',/*url*/'../img/buttonD.jpg')">
 <center>
-<p>	<span class="style1">Christmas 2020 </span> </p>
-<br>
-
-<p>	<a href="../Christmas.html">
-		<img id="img1" alt="Christmas Page" height="30" 
-			onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'../img/buttonD.jpg')" 
-			onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'../img/buttonB.jpg')" 
-			onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'../img/buttonC.jpg')" 
-			onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'../img/buttonC.jpg')" 
-			src="../img/buttonB.jpg" style="border: 0" width="150" />
-	</a>
+<p>	<span class="style1">Christmas 2020  (Outside) </span>
 </p>
+
 <br>
+<div id="sliderFrame">
+	<div id="slider" align="center">
+		<img src="outside/a1.jpg"/> <img src="outside/a2.jpg"/> <img src="outside/a3.jpg"/>
+		<img src="outside/a4.jpg"/> <img src="outside/a5.jpg"/> <img src="outside/a6.jpg"/>
+		<img src="outside/a7.jpg"/>  <img src="outside/a8.jpg"/> <img src="outside/a9.jpg"/>
+		<img src="outside/a10.jpg"/> <img src="outside/a11.jpg"/> <img src="outside/a12.jpg"/>
+		<img src="outside/a13.jpg"/> <img src="outside/a14.jpg"/> <img src="outside/a15.jpg"/>
+		<img src="outside/a16.jpg"/> <img src="outside/a17.jpg"/> <img src="outside/a18.jpg"/>
+		<img src="outside/a19.jpg"/> <img src="outside/a20.jpg"/> <img src="outside/a21.jpg"/>
+		<img src="outside/a22.jpg"/> <img src="outside/a23.jpg"/> 
+		
+		</div>
+ 
+ 
+    <div style="text-align:center;padding:20px;z-index:20;">
+            <a onclick="imageSlider.previous()" class="group2-Prev"></a>
+            <a id='auto' onclick="switchAutoAdvance()"></a>
+            <a onclick="imageSlider.next()" class="group2-Next"></a>
+    </div>
 
-<table align="center" >
+</div>
 
-	<tr>
-		<td> 
-			<div id="menu" style="height: 50px" >
-			<li><a href="inside.html" target="_blank" accesskey="1">&nbsp; Inside </a></li>
-			</div>
-		</td>	
-			<td> <a> &nbsp;&nbsp;&nbsp;&nbsp; </a>	
-			</td>
-		<td>
-			<div id="menu" style="height: 50px">
-			<li>
-			<a href="outside.html" target="_blank"  accesskey="1">&nbsp; Outside </a>
-			</li>
-		</div>	
-		</td>
-
-		<td>
-			<a> &nbsp;&nbsp;&nbsp;&nbsp; </a>
-		</td>
-
-		<td>
-			<div id="menu" style="height: 50px">
-			<li><a href="" target="_blank"  accesskey="1">&nbsp;  Misc </a></li>
-			</div>
-		</td>
-
-	</tr>
-
-</table>
 
 <script type="text/javascript">
         //The following script is for the group 2 navigation buttons.
@@ -87,6 +65,12 @@
         }
         switchPlayPauseClass();
 </script>
+
+
+<video width="320" controls>
+  <source src="clip1.mp4" type="video/mp4">
+  <source src="clip1.ogg" type="video/ogg">
+</video>
 
 
 </center>
