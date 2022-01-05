@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="../../../themes/js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="../../../themes/js-image-slider.js" type="text/javascript"></script>
+    <link href="../../../themes/generic.css" rel="stylesheet" type="text/css" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Christmas 2020</title>
+<style type="text/css">
+.style1 {
+	font-size: 16pt;
+	margin-top: 3px;
+	color: #0000FF;
+	font-family: "Arial Black";
+}
+.style2 {
+	color: #0000FF;
+	font-size: 18pt;
+	font-family: "Arial Black";
+	margin-bottom: 15px;
+	margin-top: 6px;
+}
+</style>
+
+	<audio controls autoplay>
+	  <source src="../silent-night.mp3" type="audio/mpeg">
+	</audio> 
+
+</head>
+
+<body style="background-color: #D1D2FC" onload="FP_preloadImgs(/*url*/'../img/buttonC.jpg',/*url*/'../img/buttonD.jpg')">
+<center>
+<p>	<span class="style1">Christmas 2020  (Inside) </span>
+</p>
+
+<br>
+<div id="sliderFrame">
+	<div id="slider" align="center">
+		<img src="inside/a1.jpg"/> <img src="inside/a2.jpg"/> <img src="inside/a3.jpg"/>
+		<img src="inside/a4.jpg"/> <img src="inside/a5.jpg"/> <img src="inside/a6.jpg"/>
+		<img src="inside/a7.jpg"/>  <img src="inside/a8.jpg"/> <img src="inside/a9.jpg"/>
+		<img src="inside/a10.jpg"/> <img src="inside/a11.jpg"/> <img src="inside/a12.jpg"/>
+		<img src="inside/a13.jpg"/> <img src="inside/a14.jpg"/> <img src="inside/a15.jpg"/>
+		<img src="inside/a16.jpg"/> <img src="inside/a17.jpg"/> <img src="inside/a18.jpg"/>
+		<img src="inside/a19.jpg"/> <img src="inside/a20.jpg"/> <img src="inside/a21.jpg"/>
+		<img src="inside/a22.jpg"/> <img src="inside/a23.jpg"/> <img src="inside/a24.jpg"/>
+		<img src="inside/a25.jpg"/> <img src="inside/a26.jpg"/> <img src="inside/a27.jpg"/>
+		<img src="inside/a28.jpg"/> 
+
+		</div>
+ 
+ 
+    <div style="text-align:center;padding:20px;z-index:20;">
+            <a onclick="imageSlider.previous()" class="group2-Prev"></a>
+            <a id='auto' onclick="switchAutoAdvance()"></a>
+            <a onclick="imageSlider.next()" class="group2-Next"></a>
+    </div>
+
+</div>
+
+
+<script type="text/javascript">
+        //The following script is for the group 2 navigation buttons.
+        function switchAutoAdvance() {
+            imageSlider.switchAuto();
+            switchPlayPauseClass();
+        }
+        function switchPlayPauseClass() {
+            var auto = document.getElementById('auto');
+            var isAutoPlay = imageSlider.getAuto();
+            auto.className = isAutoPlay ? "group2-Pause" : "group2-Play";
+            auto.title = isAutoPlay ? "Pause" : "Play";
+        }
+        switchPlayPauseClass();
+</script>
+
+<br>
+<br>
+	
+ <a href="https://drive.google.com/file/d/1icR3rtfDhgu8FogUhU74-Z_Rep6dmYed/view?usp=sharing" target="_blank" class="style2" >   clip 1 </a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	
+ <a href="https://drive.google.com/file/d/1DFk1YGpn7NFURjuyK-Y4b-bTVsXDUMZM/view?usp=sharing" target="_blank" class="style2" >   clip 2 </a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+ <a href="https://drive.google.com/file/d/1RzQ8SX8bIl6XawHmfp7O-GhoXqEPeyNM/view?usp=sharing" target="_blank" class="style2" >   clip 3 </a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+</center>
+
+</body>
+</html>
