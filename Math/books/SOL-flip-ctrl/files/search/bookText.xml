@@ -1,0 +1,2859 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="33"><page Index="1"><![CDATA[1    Solution.
+
+
+                       Chapter 2.
+
+
+
+                                                                       2
+                       2.1-  a) x"(t)+6x'(t)+9x(t) = δ(t) → sX (s)+6sX(s)+9X(s) = 1
+                                             2
+                                →   X(s)[s +6s+9] = 1
+
+                           Xs() =      1       =     1     ;
+                                  s 2  + 6 s + 9  (s+ 3 ) 2
+
+                       Using Laplace transform x(t) =  e      -3t u(t)
+
+                                                                   2
+                          b) x"(t)+3x'(t)+2x(t) = u(t) →  s X(s)+3sX(s)+2X(s) = 1/s
+
+                                        1         1      -  1    1     1
+                          X(s) =     2         =     +         +
+                                   ss +  3s+  2)  2s   s +  1    2  s (  + 2 )
+                                   (
+
+                               →  £ [X(s)] = x(t) = (1/2 - e       -t  + 1/2 e -2t  )u(t)
+
+                                                                   2
+                          c) x"(t)+3x'(t)+2x(t) = cos4t → s X(s)+3sX(s)+2X(s) =               s
+                                                                                             2
+                                                                                            s + 16
+                                           2
+                              →  X(s) (s +3s+2) =        s
+                                                        2
+                                                       s + 16
+                          Xs() =          s         =             s
+                                  s (  2 +  )( s +16  2  3 s+  ) 2  ( sj )(+  s j )(− 4  s )(+ 4  s+ 1  ) 2
+                                                                                 (
+                                                                                       )
+                             →    φ (ju) =         s                 =   .141 - j.167
+                                           (s + 1)(s +   2) s =  j4
+                                                                                   −1      1
+                              k 1  =  1 10  ,k 2  =  -1 17  ⇒ Xs()  =  −  −. 141  j.165  +  +  17  +  10
+                                                                                            +1
+                                                                       s 2  +16    s      s 2
+
+                          £[X(s)] = x(t) =      1 -at (-.165cos4t + .141sin4t)+       1   e -2t  -   1  e -t
+                                                  e
+                                                4                                     10          17
+
+                                                                            1               -2t
+                                     = [-.04125cos4t + .03525sin4t -           e -2t  + .1 e    ]u(t)
+                                                                            17
+
+                                                                                          8
+                                                                2
+                               2
+                          d) D x(t)+5Dx(t)+4x(t) = 8  → s X(s)+5sX(s)+4X(s) =
+                                                                                          s
+                                                 8
+                                     2
+                          → X(s)[s +5s+4] =       →  X(s) =              8          =  2  −  8 /  3  +  2 /  3
+                                                 s               s(s+ 1)(s+4)          s    s  + 1   s  + 4
+
+                         £ [X(s)] = x(t) = ( 2 - (8/3)e        -t  + (2/3)e -4t  ) u(t)
+
+
+                                       2
+                       2.2 -   a)  (s +2s+5) X(s) -2s - 4 =         10
+                                                                     s
+
+                                       2
+                                                               2
+                                3
+                          b) (s  + 4s  + 8s + 4)X(s) + 4s  + 15s + 28 =              5
+                                                                                   2
+                                                                                  s+ 25]]></page><page Index="2"><![CDATA[2    Solution.
+
+
+               2.3 -   Xs() =                         10
+                                       ⎡
+                                ( s +  )( s + 2  . 2035 ) . +  2  ⎤⎡ ( s − 886  . 1035 ) +  2  . 188 ⎤
+                                       ⎣ ⎢               ⎦ ⎥ ⎣ ⎢              ⎦ ⎥
+
+                                    .
+                               =   77    +   . 742(s  + 199. )  +  . 0267(s + 953.  )
+                                  s  + 2   (s  +  .   2 + 2035 ) .  (s  − 886  .  2  + 1035 )  188
+                                                                                .
+
+                 £ [X(s)] = x(t) =  7.7e       -2t  + 0.742e  -2.035t  sin(.785t-87.2°)
+
+                                          + .267e  1.035t  sin(3.54t-136.6°)
+
+
+                                     t
+                            s
+               2.4 -      F()  =  ∫  f ( )e −  st dt  =  ∫  1 3 ( +  t  1 )e −  st dt +  ∫  3 4  4 e −  st dt
+
+                                =    ∫  1 3  te −  st dt +  ∫  1 3  e −  st dt +  4 ∫  3 4 e −  st dt
+
+
+                                         ⎛
+                                                 ⎟
+                                 =− e − st t  +  1  ⎞ 3  −  e −  st  3  −  4  e −  st  4
+                                         ⎜
+                                         ⎝  s  s 2 ⎠  1  s    1       s   3
+
+                                                  3
+                                        -4s      − s       −s      −s
+                                 =-4  e      +  e     + 2  e   +  e
+                                        s         2        s       2
+                                                 s                s
+
+
+               2.5 -   a)  Gs() =            1        =    A    +   B
+                                      ( s +  )( s + 2  3 )  s+ 2  s + 3
+
+                   ⎧  A  + B  = 0 →      B = -A = -1  ⎫
+                   ⎨                                      ⎬   ⇒       = Gs ()  1  −  1
+                   ⎩  3A + 2B = 1  →      A = 1           ⎭              s  + 2   s  + 3
+
+                 £   -1  [G(s)] = g(t) = e   -2t  - e -3t
+
+
+               b)  Gs() =          1        =    A    +  Cs +  d
+
+                                   2
+                            ( s +  )( s + 1  ) 4  s + 4  ( s + 1 ) 2
+
+                           A  + ⎧      =  C     0  ⎫ A  = 1 /  9
+                       ⎪                       ⎪
+                   → ⎨    2   + A  4  + C  = D  0  ⎬ C  =−1 /  9
+                       ⎪                       ⎪
+                       ⎩    A  +      D   =    4   1 ⎭  D  = 2 /  9
+
+                     Gs =   1  / 9  +  1 2  −  s  =  1  1    +  2    1     −  1    s
+                     ()
+                            s + 4    9  ( s + 1 ) 2  9  s + 4  9  ( s + 1 ) 2  9  ( s + 1 ) 2
+
+                    →   £   -1                      1 -4t     2   -t    1
+                               [G(s)]  = g(t) =  e         +  te      -
+                                                                        9
+                                                    9
+                                                              9]]></page><page Index="3"><![CDATA[3    Solution.
+
+                                                                                     ⎧ A =−   5
+                                                                                     ⎪ B =  5  4
+                                                                                     ⎪
+                       c)  Gs() =    A    +   B    +  Cs +  D  +  Es +  2  Fs +  G    ⇒  ⎨  4
+                                   s+4      s + 2    ( s + 2 ) 2   ( s + 2 ) 3       ⎪ D =−   5
+                                                                                              2
+                                                                                     ⎪ G =  5
+                                                                                     ⎩      2
+                                   5   2   -2t    5      -2t     5   -2t     5 -4t
+                          g(t) =      t  e     -     t e      +     e     -   e
+                                   2              2              4           4
+
+
+                       d)   Gs() =     2 s ( + 1 )  =  A  +   Bs +  C
+                                     (
+                                    ss 2  +  s +  ) 2  s    s 2  +  s +  2
+                                                                              2
+                                                                            ω 1 +   as)
+                                                                               (
+                          or this function will be in form of:                n
+                                                                                          2
+                                                                        ss 2  +  2 ξω n  +  ω )
+                                                                         (
+                                                                                          n
+
+                                                    2
+                                                                                .
+                              where:  a = 1  , ω = 2    , and   ξ=          1  = 353
+                                                    n                      22
+
+                         £ -1  [G(s)] = g(t) = 1 +         1    12 ξωa  n  +  a 22  - ξω t   n  1− ω   sin(  ξ  2  φ  t  +   )
+                                                                                     n
+                                                                 −
+                                                                             ω   e
+                                                                              n
+                                                         1−ξ 2
+
+                                              −
+                                                                                 .
+                                           n
+                                                                                               .
+                                                                                                 353
+                            φ =tan   -1  a ω  1− a 1 ξω ξ  n 2    - tan -1  1 −    ξ 2  =tan -1 1322  − tan − 1 9354
+                                                                  ξ
+                                                                −
+                                                                                               −.
+                                                                                  5 .
+
+                                                     .
+                              =      D  + 693 .  D  ≅ 693 .  1386 D
+
+                           g(t)  =  1 + 1.51 e    -.5t  sin(1.323t + 138.6°)
+
+                                        A        B        C
+                         e) G(s) =          +         +          →  A = 1.5 ; B = -3.  ; C = 2.5
+                                     s + 1     s + 2    s + 3
+
+
+                          g(t) = 1.5e  -t  - 3e -2t  + 2.5e -3t
+
+
+                       2.6 -   Time delay:
+
+                                    ⎡      2                2       ⎤
+                                 -1
+                             £      ⎢              =                ⎥   = e 3t  sin2t
+                                                                  2
+                                     s 2  − ⎣  6s +  3  s − (  3 ) 2  +  2 ⎦
+
+                                    ⎡   s − 1     ⎤
+                                                          t
+                                 -1
+                              £     ⎢             ⎥    =  e  cost
+                                     s − ⎣ (  2  + 1 )  1 ⎦
+
+                                  ⎧  - e t   cos t                   0 < t .5
+                                  ⎪
+                                                                               ≤
+                          f(t)= ⎨
+                                                   −
+                                  ⎪ e 3(t-.5)  sin ( . )  - e t   cos t      t  >.5
+                                                 2
+                                                  t
+                                                     5
+                                  ⎩]]></page><page Index="4"><![CDATA[4    Solution.
+
+               2.7 -    £ {    yt) + 2y   ′′(t) + 11y ′(t) + 4y(t) } ′′′   = 0
+                                  (
+
+                     3
+                              2
+                                                      2
+                   s Y(s)-s y(0)-sy(0)-y’(0)+2s Y(s)-2sy(0)-2y’(0)+11sY(s)
+
+                       11y(0)+4Y(s) = 0
+
+                                  3
+                                       2
+                      → Y(s) (s +2s +11s+4)  =  α s       2  + (α  +2α )s + α  + 2α  +11α      1
+                                                                                       2
+                                                                 2
+                                                                                3
+                                                                        1
+                                                        1
+
+                           α  1 s 2   +  ( α  2    + 2 )s + α α  1  3  + 2α  2  + 11α  1
+                   Y(s) =              3      2
+                                      s + 2s +11s +4
+                               5s 2  +  6s +  2
+                       =     3      2
+                            s  +  2s  +  11s +  4
+
+                             ⎧   α 1  =
+                                         5
+                             ⎪
+                                                                   4
+                               α ⎨  2  1  +  α  2  =  6        →  α  2  =
+                             ⎪         +      +     =       →       =  −
+                             ⎩  11 α  1   α  2  α 2  3  2       α  3    45
+
+
+                                                              1
+                                [
+               2.8 -       £ -1  1  ]  = u(t)  ;   £   -1  [ s +  2  ]
+                                 s
+
+                   the convolution integral:
+
+                         {
+                 £   -1  1    1  2 }  =  ∫ t  u(t - )e -2 τ  dτ  = -  1  e −  2τ  t  =  1  ( 1 −  e )
+                                                                                    2t
+                                                 τ
+                          ss +
+                                                                            2
+                                                                2
+                                        0                              0
+
+               2.9-
+                   f()∞                       0     ⇒ = lim  s F(s) =   f ( ) = lim   ⎡ ⎢  2  ⎤ ⎥  =  2
+                                                         ∞
+                            s →               0                s →0  0  ⎣4s 3  +  s +39  2  s+115  75 ⎦  75
+
+
+               2.10 -   f( )0 = lim  s F(s) =          1  = 0
+                                    s→∞                ∞
+
+
+               2.11 - For the response to initial conditions, the input r can be taken
+                         to be zero, and the transform is :
+
+                     2
+                   [s Y - sy(0) - y’(0)] + 7 [sY - y(0)] + 6Y = 0
+
+                    2
+                   s Y - s - 2 +7sY - 7 + 6Y = 0
+                               s + 9             s + 9           A         B           ⎧ A = 16 .
+                   Y(s) =                 =                 =         +           ⇒    ⎨
+                            s +  2  s + 7  6  ( s +  s + 1 )(  s + 6 )  s + 1  6       ⎩ B =− 6 .
+
+                             16        6 .                       -t           -6t
+                              .
+                   Y(s) =          -          ⇔  y(t) = 1.6 e         - 0.6 e
+                            s +  1   s +  6]]></page><page Index="5"><![CDATA[5    Solution.
+
+                       2.12 -   The forced response is given by :
+
+                                     t            dx      ]         t          dx          t
+                                               [ ∫
+                                                                                                  τ
+                                                                                                       τ
+                                                                            τ
+                                             τ
+                          yt() =      ω  (t - )3         x d τ +  =3 ∫  ω  (t - )  d τ  2 ∫  ω+ 2  (t - )xd
+                            b
+                                    0             dt               0           dt         0
+
+                           ∫  0 t  ω  τ( t −  ) dx  d τ  ω =  (0)x(t)  ω - (t)x(0) -  ∫  0 t  ∂ω(t -  τ)  xd τ  ; ω(0) = 0.
+                                                                                  ∂τ
+                                        τ
+                                       d
+
+                                               (t - ) τ
+                                                                               ω
+                          yt() =   ∫ 0 t  ⎡ ⎢ ⎣ - 3  ∂ω ∂τ  ω +  ( t − 2  ) τ  ⎤ ⎥ ⎦ x dτ  ( τ  )  - 3 (t) x(0)
+                            b
+
+                         and the forced response is:
+
+                                                                         τ
+                                                                        2
+                                                      τ
+                        yt() =  3e   -2t   ∫  0 t  e 2 τ  e  τ −  d   -  4te -2t ∫  0 t  e e  3 τ −3  d τ
+                         b
+
+                                                 τ
+                                                2
+                                + 4e   -2t ∫ 0 t  τ  ee  τ −  d τ  − 3 te −3  2 t
+
+                              =   7 [ e  -2t  −  −  3  − e  te − t  2 t ]
+
+
+                                                2      1        1           1
+                       2.13 -    F(s) =  -         +       +          +
+                                                9s    3s 2   5s +  (  1 )  45s +  (  6 )
+
+
+                                               ⎡  1       e − Ts   ⎤
+                       2.14 -   F(s)  = E      ⎢     -        −    ⎥
+                                               ⎣ Ts 2  s ( 1 −  e  Ts  ⎦ )
+
+
+                                                  zz −  cosh 2 T)
+                                                  (
+                       2.15 - a)  F(z) =
+                                             z 2  −  z cosh 2  T + 2  1
+
+                                         Tz       1      z sin 2  T
+                          b) F(z) =             −
+                                       z ( − 1 ) 2  3  z 2  −  z cos 2  T + 2  1
+
+                                       A      Bs
+                          c) F(s) =       +         ⇒   A= 1;B = -1
+                                       s    s 2  + 2
+
+                              ⇒ F(z) =      z    -     z(z - cos 2T)
+                                          z- 1     z 2  −  2        T  + z cos 2  1
+
+                                          ez + −1   − 1  2 e −1
+                          d) F(z) =                −       −    ; for T = 1.
+                                                    1
+                                       z −  2  + 1 (  e ) z +  e  1
+
+                                            1                         -1
+                          e) z[ak] =           −   and z[x(k-1)]=z  X(z)
+                                        1 − az  1]]></page><page Index="6"><![CDATA[6    Solution.
+
+                                -1
+                       F(z) = z         1  −   =      k  −     ; k = 1,2,3...
+                                    1 − az  1     1 −  az  1
+
+                                                                   (
+                                                                  xk)
+                   f) By using complex integration g(k) =          k   = k
+                                            ∞               ∞
+                         ⎡ xk()⎤                xk() −1           − k
+                       z  ⎢  k ⎦ ⎥   = G(z) =  ∑  k  z   =  ∑  kz
+                         ⎣
+                                            k =0           k =0
+                                    ∞                    ∞
+                        d  Gz () =− ∑  k z −−1  =−  z −  ∑  k z −1  k  =−  Xz ()
+                                        2
+                                           k
+                                                             2
+                       dz                                                z
+                                   k =0                 k =0
+                              ⎡ xk() ⎤   ∞  Xz ()                 ∞  ∞   2  −−1
+                                                                            k
+                                               1
+                                                                                         ∞
+                   G(z) = z          =  ∫        dz   +  G ()∞  =  ∫  ∑  k z    dz   +  G ( )
+                              ⎢ ⎣  k ⎦ ⎥  z  z 1    1            z  k =0   1       1
+                             ∞    z − k  ∞          ∞                            − 1
+                                                                     ()
+                         =  ∑  k 2 1 k   +  G ∞ ()  =  ∑  kz − k  +  xk   = lim  z    2  + lim  k
+                                  −
+                                                                      k
+                                                     =
+                             =
+                            k 0       z            k 0         k→  0        ( 1 −  z − 1 )  k→ 0
+
+                               z −1
+                         =
+                            ( 1  −  z −1 ) 2
+
+
+               2.16-  a)
+                         Ez()          1                 − 1       1
+                              =                  =            +
+                          z      z ( −  )( z − 1  ) 2  z − 1     z − 2
+
+                       ⇒  E(z) =      − z  +    z
+                                    z  − 1   z  − 2
+
+                                                t
+                       Then:  e(t) = (-1 + 2  ) u(t)
+
+                   Ez()      1           1                       z           z
+               b)       =         +               ⇒   E(z) =          +
+                    z      z − 1    z −  e −  aT               z − 1     z −  e −  aT
+
+                       Then: e(kT) = 1-e   -akT]]></page><page Index="7"><![CDATA[7    Solution.
+
+
+
+                       Chapter  3.
+
+
+
+                       3.1 -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       3.2 -          C(s) = x  + x               (1)
+                                                1
+                                                      2
+
+                                 x  = (R-C+x )(s+10)    (2)
+                                                2
+                                    1
+
+                                 x  = (R-C-x )(s+5)       (3)
+                                                1
+                                    2
+
+                                                                                                    s+10
+                            (2) →  x  1  = (R-x -x +x )(s+10) = (R-x )(s+10) →  x  = R(s)           s+11
+                                                                         1
+                                                1
+                                                   2
+                                                                                         1
+                                                       2
+
+                           (3) →  x  = (R-2x -x )(s+5)     →   x  = -           (s+  (s+9 )(s+5 ) )  Rs
+                                                                                             ( )
+                                                    2
+                                      2
+                                                                         2
+                                                 1
+                                                                                      )(s 6
+                                                                                         +11
+
+                                                                )(
+                            Cs() =  x 1  +  x 2  =  s+10  Rs() −  ( ( s+  s+9 )( s+6  s+5 ) )  Rs)
+                                                                        (
+                                                                    11
+                                                s+11
+
+                                      =  1  [  +  10  − s  ( s +  )(  +9 s  5 ) ]  R( )
+                                                               s
+                                   s  +11             s +6
+
+                             ()
+                            Cs   =     1    ( 2 s + 15 )  =  2 s + 15
+                             ()
+                            Rs      s + 11    s + 6       s 2  + 17 s + 66
+
+
+                       3.3 -
+
+
+                                             2 s+1                 2 s+1
+                             Ys()
+                                  =            s            =        s        = 1
+                             Rs()      + 1  ( − 1  s  )( 2 s+1 )  1  +  2 s+1  −  1
+                                               2 s+1   s             s]]></page><page Index="8"><![CDATA[8    Solution.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                              Ys                      GG GG
+                               ()
+                                                       12 3 4
+                       ⇒           =
+                               ()
+                              Rs                          ⎛        1       H 2  ⎞
+                                        + 1  + 1  ( GGG G ) ⎜ ⎝ H 1  +  GG  +  GG ⎠ ⎟
+                                                12 3 4
+                                                                           14
+                                                                  12
+
+
+
+
+
+
+
+
+
+                      Y s()         5       s − 1
+                           =   − 1       =         =  T
+                      e s()       s + 4     s + 4
+
+                                            s−1                    s − 1
+                   ⇒     Y s()  =  T    =      s+4    =   s−1   =
+                         R s()   1 +  T    1 +  s−1 1   s++41      s + 5
+                                   s−1        s+  s−4  1]]></page><page Index="9"><![CDATA[9    Solution.
+
+                                                                                1
+                       3.4- a)Loop 1: E    in (s) = R (I (s)-I (s)) + (R +     sC  )(I (s)-I (s))  [1]
+                                                                            2
+                                                      1
+                                                                                              2
+                                                                                      1
+                                                         1
+                                                                2
+                                                                                 1
+                                                                 1
+                          Loop 2:  R (I (s)-I (s)) + (R +       sC  ).I (s) = 0           [2]
+                                                                       2
+                                                 1
+                                                             3
+                                      1
+                                          2
+                                                                  2
+                                          1
+                          Loop 3: (R +   sC  )(I (s)-I (s)) + (R +sL )I (s) = 0       [3]
+                                                                            3
+                                      2
+                                                       1
+                                                                   4
+                                                                        1
+                                                3
+                                           1
+                                                 I (s)                                [4]
+                          Loop4:  E (s) = R    3  2
+                                     0
+
+                                                s
+                          From []   →  4      E o ()  =  R  =  G
+                                             Is()     3      3
+                                              2
+
+                                                         R 2  +  1
+                                             I ()s
+                            From [3]  →       3   =          sC 1     =  G
+                                               ()
+                                                              1
+                                             Is       2  +R  4  +R  sC  +  sL 1  6
+                                              1
+                                                               1
+                                               s
+                         From [2]  →        I ()  =      R 1     =  G
+                                             2
+                                            Is()     R +  1  R +  3  sC  2
+                                                             1
+                                             1
+                                                              2
+                                                                                                  1
+                                                                         1
+                         From [1]  →         in  s −  E ()  −  R I s + (  12  ( R 2  + ( )  sC 1 ) I s =  3  R 1  + ()  R 2  + (  sC 1 ) I s)
+                                                                                                       (
+                                                         )
+                                                                                                      1
+
+                                                              1
+                            ⇒     G 4  =  R 1  , G 5  =  R 2  +  sC 1  , G 1  =  +R  1 +R  1
+                                                                           1   2  s C 1
+                                                       E ()             GG G
+                                                          s
+                        b   Transfer function:          o    =           12 3
+                         )
+                                                         ()
+                                                       Es       1  −  GGG    −  G G G
+                                                                      56 1
+                                                        i
+                                                                                 1 2 4
+
+
+                                                         1              1
+                       3.5-  a) [1] - V (s) + (R +      sC  )I (s) -   sC  I (s)  =  0
+                                                              1
+                                                      1
+                                           1
+                                                                            2
+                                                           1
+                                                                         1
+                                                                              1                   1
+                            [2]  V (s) = I (s)R  + V (s) = I (s)R +(         sC  )I (s) = (R +   sC  )I (s)
+                                                                                              2
+                                                                                   2
+                                                         3
+                                    2
+                                                                         2
+                                             2
+                                                                   2
+                                                                                                       2
+                                                   2
+                                              1    1                 1         2                   2
+                            [3]    I (R +    sC  +  sC  ) + I (s)(-   sC  ) = 0
+                                                            1
+                                          2
+                                      2
+                                               1
+                                                 1  2                  1
+                            [4]   V (s)  =      sC 2  I (s)
+                                     3
+                                                     2
+                                                 1
+                            [5]   V (s)  =      sC  (I (s) - I (s))
+                                     2
+                                                      1
+                                                                2
+                                                  1
+                         From block diagram:
+
+                          I (s)= G (V (s)-G I (s)) →  [1] →  Is() =    1          1   ( V s) +  1 (  1  I s))
+                                                                                                     (
+                                       1
+                                               5 2
+                           1
+                                    1
+                                                                                                    2
+                                                                                   1
+                                                                               R +  Cs         Cs
+                                                                                                1
+                                                                                1
+                                                                                    1
+                          V (s) = G (I (s)-I (s))   →   [5]
+                                         1
+                           2
+                                                2
+                                     2
+
+                          I (s) = G V (s)  →  [2]  →   Is() =             1    V s)
+                                                                                 (
+                           2
+                                     3 2
+                                                                2
+                                                                            1
+                                                                       R +  Cs  2
+                                                                        2
+                                                                            2
+                                                                           1
+                          V (s) = G I (s)  →  [4]  →  V (s)  =            sC  I  = G I (s)
+                                                               3
+                           3
+                                     4 2
+                                                                               2
+                                                                                     4 2
+                                                                            2]]></page><page Index="10"><![CDATA[10    Solution.
+
+                                                                     1
+                                                                                  1
+                               1
+                   ⇒  G  4  =   sC 2   ;   G 1  =  R + 1 Cs   ;  G  = -   sC 1   ; G  =   sC 1   ;
+                                                                            2
+                                                            5
+                                                   1
+                                                1
+                      G 3  =  R + 1  1             1
+                               2
+                                   2
+                                  Cs
+
+
+
+
+
+
+
+                                         GGG
+                                          12 3
+                       Vs()  =  G        1+  GG    =      GG GG
+                        3
+                                                           12 3 4
+                                            23
+                       Vs()      4  x   1+  GG GG 5   1 +  G G +  23  GG GG
+                                          12 3
+                                                                1 2 3 5
+                        4
+                                          1+  GG
+                                             23
+
+
+               3.6-
+
+
+
+
+
+
+
+
+                    Ys()    k 1        k 2         k 1 s +  2  ( k P +  12  k ) +  2  s k P +  1 3  k P  s +  2  s+3  5
+                                                                          2 1
+                         =       +             =                               =
+                             +
+                   Rs()    s P 1    ss P )+  (  2  +  P 3  s +  3  ( P +  1  P ) s +  2  ( P P + 12  P ) + 3  s P P  ( s+  )( s +2  2  s+  5 )
+                                                          2
+                                                                           1 3
+
+                   ⇒  P  = 2 ,   P  = 1 ,   P  = 5 ,  k  = 1
+                                                   3
+                         1
+                                                               1
+                                      2
+
+                     k P  + k  = 3      →   k  =                                    3-1 = 2
+                                2
+                                                     2
+                        1 3
+                     k P  + k P  = 5   →   k   =                                    (5-5)/2 = 0
+                                 2 1
+                                                     2
+                        1 3
+
+
+               3.7-]]></page><page Index="11"><![CDATA[11    Solution.
+
+                           Ys()          k      k       k
+                                =  k o  +  1  +   2  +   3
+                           Rs()         s+      s+3  1  s+  2
+
+                                3  + k s  6 (  +k  +k  +k  k )  2  +s  ( 11  +k  3  +k  5  +k  4  )  + k s 6  +k  2  +k  6  +k  3 k
+                         =    o      o   1   2   3        o    1    2   3      o   1    2    3
+                                                                  +2 )(
+                                                      ( s +  s +1 )(  s 3)
+
+                       k  = 2
+                        0
+
+                       6k +k +k +k  = 1      →    k +k +k     = -11
+                                                         1
+                                2
+                             1
+                                    3
+                         0
+                                                                3
+                                                             2
+
+                       11k +3k +5k +4k  = 2  →   3k +5k +4k  = -20
+                          0
+                               1
+                                                                   3
+                                                              2
+                                         3
+                                    2
+                                                         1
+
+                       6k +2k +6k +3k  = 1   →   2k +6k +3k  = -2
+                                                         1
+                                                              2
+                                                                   3
+                              1
+                                   2
+                                       3
+                         0
+
+                       → k  = - (41/2) ,   k  = 7/2 ,  k  = 6
+                           1
+                                                               3
+                                                 2
+
+
+                       3.8-
+
+                          a) i- Direct block diagram simplification:
+
+
+
+
+                                            ( +
+                                                       (
+                               ()
+                              Ys      b +  b s a )+  b s a )(+  s a )+
+                       Then:       =   3    2    1    1    1      2
+                               ()
+                              Rs           ( +  s a )( +  1  sa )( +  2  sa )
+                                                             3
+
+
+                       ii- Mason Rule:
+
+
+
+
+
+
+
+
+
+
+                       l  = T T  = - a /s      P  = T T T T T T  =  b / s                       3
+                                            1
+                        1
+                                                               12 23 34 45 56 67
+                              23 32
+                                                         1
+                                                                                          3
+
+                       l  = T T  = - a /s      P  = T T T T  =  b / s                   2
+                                            2
+                        2
+                                                                                  2
+                              45 54
+                                                         2
+                                                               14 45 56 67
+
+                       l  = T T  = - a /s      P  = T T  =  b / s
+                                            3
+                                                               16 67
+                        3
+                              67 76
+                                                                            1
+                                                         3]]></page><page Index="12"><![CDATA[12    Solution.
+
+               ∆  = 1-(l +l +l )+(l l +l l +l l ) - l l l
+                                               1 3
+                                                               1 2 3
+                                                     2 3
+                                         1 2
+                                   3
+                           1
+                               2
+
+               ∆  = 1 ;   ∆  = 1 - l  ;  ∆  = 1 - (l +l ) + l l
+                                                  3
+                 1
+                                                               1
+                                                                   2
+                                           1
+                                                                           1 2
+                               2
+
+                                            ( +
+                Ys()  =  P ∆  1 1  +  P ∆  22 +  P ∆  33  =  bs a )( s a )+  2  +  b s a )+  1  +  b 3
+                                                             (
+                                           1
+                                                 1
+                                                            2
+                Rs()          ∆                ( +  s a )( +  1  sa )( +  2  sa )
+                                                                 3
+
+
+
+                                  10 (2 s +  2  s+6  5 )
+                    ()
+                    Ys            s+                           s 2  + 20  s + 60  50
+                           =      (   )( s+2  21 )  =
+                    ()
+                   Rs           1 +  s + 20  2  s+60  50  −  ( s +  220 s 2  +  s + 61  71 )
+                                                               )(
+                                      s+21
+
+                 ii- Mason rule:
+
+
+
+
+
+
+
+
+
+
+                                10
+                                              1
+                                                                                    +
+                T 12  +  1  ;   T 23  =  s 1     ;   T 34  =  s 2      ;   T 24  =  20   ;   T 32  =  −     ;   T 41  = 2  s 2
+                                              +
+                                +
+                                       10
+                P 1  =  T T T   =  ( s 1 )( s 2 )   ; l 1  = TT T  = 20( s  + 2)
+                                                       12 24 41
+                       122334
+                                     +
+                                          +
+                P 2  =  T T  =  20              ;   l 2  =  12 23 34 41  = TT TT  s 10
+                       12 24
+                                                                         +1
+                                                                 −20
+                                                ;  l 3  =  23 32  = TT  s +1
+
+               ∆  = 1-(l +l +l )+(l l +l l +l l )-(l l l ) = 1 - (l +l +l )
+                                                                                     2
+                                   3
+                                         1 2
+                                                              1 2 3
+                                                                                 1
+                           1
+                                               1 3
+                               2
+                                                     2 3
+                                                                                         3
+
+               ∆  = 1- l +l +l )     **  = 1
+                               2
+                           1
+                 1
+                                   3
+
+               ∆ = 1
+                 2
+                                                     10    +20
+                Ys()  P ∆  11 +  P ∆  2 2  P +  1  P 2  s ( +  )( s 2 )   s + 20  2  s+60  50
+                                                        +1
+                Rs()  =    ∆      =  1 −  ll −  12  l  =  120 s−  − 40  10  +  20  =  ( −  s + 20  3  s + 99  2  s+ 147  58 )
+                                                − 3
+                                                          s+1  s+1]]></page><page Index="13"><![CDATA[13    Solution.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                               Ys()      bs +  2  b s+  b
+                          ⇒         =     3     2    1
+                               Rs      s +  3  a s +  1  2  a s a 3
+                                                    +
+                                ()
+                                                  2
+
+                         ii- Mason rule:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                          T  = T  = T  = 1/s , T  = -a  , T  = -a  , T  = -a ,
+                            12     23     34              21       1     31       2     41       3
+                          T  = b
+                            25     3
+                          T  = b  ,  T  = b  .
+                            35     2       45     1
+                                                          3
+                          P  = T T T T  = b  / s  ;  l  = T T  = -a / s
+                            1     12 23 34 45       1             1     12 21       1
+                                                        2
+                          P  = T T T  =  b / s    ;  l  = T T T  = - a / s                      2
+                            2     12 23 35        2               2     12 23 31         2
+                          P  = T T  =  b / s       ; l  = T T T T  = - a / s                      3
+                                                                        12 23 34 41
+                                              3
+                                                                 3
+                                  12 25
+                            3
+                                                                                            3
+
+                          ∆ = 1-(l +l +l )+(l l +l l +l l )-(l l l ) = 1 - (l +l +l )
+                                                                                                  3
+                                                                                              2
+                                                                                           1
+                                                                        1 2 3
+                                                               2 3
+                                         2
+                                     1
+                                            3
+                                                         1 3
+                                                   1 2
+
+                          ∆  = 1 - (l +l +l )     **   = 1 ;  ∆  = 1  ;  ∆   = 1
+                            1
+                                                                  2
+                                                3
+                                            2
+                                         1
+                                                                                 3]]></page><page Index="14"><![CDATA[14    Solution.
+
+                                                             b 1  +  b 2  +  b 3
+                                                                                        +
+                Ys()  =  P ∆  11  +  P ∆  2 2  +  P ∆  33  =  P +  1  P +  2  P 3  =  s 3  s 2  s  =  bs +  3  2  b s b 1
+                                                                                      2
+                Rs             ∆            − 1  l −  1  l −  2  l 3  a 1  +  a 2  +  a 3  s +  3  a s +  2  a s a
+                                                                                          +
+                 ()
+                                                             + 1
+                                                               s  s 2  s 3        1     2    3
+
+
+                                                                x  = R(s)-x ; x  = 3x +2x
+                                                                 1
+                                                                              3
+                                                                                                 2
+                                                                                    3
+                                                                                            1
+                                                                x  = R(s)-x ; x  = 2x  + 4x
+                                                                                                   1
+                                                                                            2
+                                                                                    4
+                                                                 2
+                                                                              4
+                                                                Y = x  + x
+                                                                      3
+                                                                             4
+
+                                                                x  = 3R-3x +2R-2x
+                                                                 3
+                                                                                      4
+                                                                             3
+                                                                 →  x  = (5/4)R - (1/2)x        4
+                                                                       3
+
+                                                                x  = 2R -2x  + 4R - 4x
+                                                                 4
+                                                                              4
+                                                                                            3
+                                                                 →  x  = 2R - (4/3)x
+                                                                       4
+                                                                                           3
+
+
+                   ⇒ x  = 5/4 R - R + (2/3)x   →  x  = 3/4 R  →  x  = R
+                                                              3
+                                                     3
+                        3
+                                                                                   4
+
+                                                             Ys()    7
+                   Y(s) = 3/4 R + R  =  7/4 R  ⇒                  =
+                                                             Rs()    4
+
+               ii- Mason's rule:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   P  = T T      = 3  ;  l = T T        1  = -3
+                           1
+                                                   1
+                                                    3 3
+                    1
+                            3 35
+                                             1
+                  P  = T T  = 4  ;  l  = T T  = -2
+                                                    24 42
+                     2
+                                              2
+                           14 45
+                  P  = T T  = 2  ;  l  = T T T T  = 8
+                                              3
+                     3
+                           24 45
+                                                    14 42 23 31
+                  P  = T T  = 2
+                           23 35
+                     4
+
+                  T  = 3 ,  T  = 4 ,  T  = T  = 2 ,  T  = - 1 = T                     42
+                                   14
+                     13
+                                                        24
+                                                                      31
+                                                 23
+
+                   ∆  = 1 - (l +l +l ) + (l l +l l +l l ) - (l l l )
+                                                                          1 2 3
+                                     2
+                                                  1 2
+                                  1
+                                         3
+                                                              2 3
+                                                        1 3
+
+                     = 1-(-3-2+8) + 6 =  4
+                  ∆   = 1 - (l +l +l )*
+                      1
+                                   1
+                                       2
+                                          3
+
+                       Ys()    P ∆  11  +  P ∆  2 2  +  P ∆  33  +  P ∆  P +  P +  P +  P 4  7
+                                                                           3
+                                                                      2
+                                                                1
+                                                       4 4
+                            =                                =                     =
+                       Rs()                 ∆                           ∆             4]]></page><page Index="15"><![CDATA[15    Solution.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                             6          6
+                                                     T 1  =   s   =
+                                                            1 +  30  s +  30
+                                                               s
+
+
+
+
+                                                   T 2  =  T 1  +  4  =  10 s +  120
+                                                                            30 )
+                                                                      ss +(
+                                                               s
+
+
+
+                                                           T 2       10 +
+                                                                       s 120
+                                                    T 3  =  13 T 2  =  s +  2  60 +
+                                                           +
+                                                                        s 360
+
+
+
+                                                                              s 720
+                                                                2
+                                                    T 4  =  T +  3  s  =  12 3 s +  2  240 +  s +  s
+                                                                             2
+                                                                      s +
+                                                                          60    360
+                                                           ()
+                                                          Ys       T 4          s 2  + 12  s + 240  720
+                                                    ⇒         =         =
+                                                           ()
+                                                          Rs     1  +  T 4  s 3  +  s 2  + 72  s + 600  720
+
+
+                       b) signal flow graph:
+
+                          T  = 1 , T  = 1 , T  = 6/s , T  = 1 , T  = 1 , T  = -5
+                                                                                              43
+                                                                    45
+                                                                                 56
+                                                     34
+                                        23
+                            12
+
+                          T  = 4/s , T  = 2/s , T  = -3 , T  = -1
+                            25
+                                                          52
+                                           16
+                                                                        61
+
+                          P  = T T T T T  = 6 / s  ;
+                            1     12 23 34 45 56
+                          P  = T T T  = 4 /s
+                            2
+
+                                  12 23 56
+
+                          P  = T  =  2 / s
+                            3     16]]></page><page Index="16"><![CDATA[16    Solution.
+
+                                                                 l  = T T  = -30/s
+                                                                         34 43
+                                                                  1
+
+                                                                 l  = T T T T  = -18/s
+                                                                  2
+                                                                         23 34 45 52
+
+                                                                 l  =T T T T T T  = -6/s
+                                                                  3
+                                                                        12 23 34 45 56 61
+
+                                                                 l  = T T  = -12/s
+                                                                  4
+                                                                         25 52
+
+                                                                 l  = T T  = -2/s
+                                                                         16 61
+                                                                  5
+
+                                                                 l  = T T T T  = - 4/s
+                                                                         12 25 56 61
+                                                                  6
+
+
+
+                   ∆ = 1-(l +l +l +l +l +l )+(l l +l l +l l +l l +l l )-(l l l )
+                                                                                        1 4 5
+                                                                         2 5
+                                                                   1 6
+                                 2
+                                         4
+                                            5
+                                     3
+                                                                               4 5
+                                                       1 4
+                                                             1 5
+                                                6
+                              1
+
+                            − 72   360     60    120    36    24    − 720
+                   = 1 −         +      +     +      +     +     −
+                             s      s 2    s 2   s 2    s 2   s 2    s 3
+
+                             72    600    720
+                   = 1 +         +      +
+                              s    s 2     s 3
+
+                    ∆  = 1 , ∆  = 1 - l  = 1  ,
+                      1          2           1
+                    ∆  = 1-(l +l +l )+ l l  = 1+60/s + 360/s            2
+                                    2
+                                       4
+                                1
+                      3
+                                              1 4
+
+                                                                                         2
+                      Ys   =  P ∆  1 1  +  P ∆  22  +  P ∆  33  =  / 1  + 6  s 1 30 / +  s )( / )( + 2  s 1  / s+60  360 / s )
+                       ()
+                                                    s ( )( / )( + 4
+                      Rs             ∆                     1 +  / s+72  600 / s +  2  720 / s 3
+                       ()
+
+                                   2  + 12s  +240s  720
+                                 =
+                             s 3 +   2  +72s  +600s  720
+
+
+               f)      a) Block diagram:
+
+
+
+
+
+
+
+                Ys()  =  T +  T T  =  1   +   1   ( +    3  )  =    1    +  4s +  11  =  5s +  2  19s+  15
+                                                   4
+                Rs()    1    2 3    s + 1   s + 2      s + 2      s +  1   ( s+ 2 ) 2  s +  3  5s +  2  8s+  4
+               b)   Signal flow graph:]]></page><page Index="17"><![CDATA[17    Solution.
+
+
+
+                                                           T  = 1, T  = 1/s, T  = 1,
+                                                                                      34
+                                                             12
+                                                                        23
+
+                                                           T  = 1 , T  = 1/s , T  = 1,
+                                                             15
+                                                                                         67
+                                                                         56
+
+                                                           T  = 1/s, T  = 3, T  = -1,
+                                                                           89
+                                                             78
+                                                                                      32
+
+                                                           T  = 4, T  = -2, T  = 1
+                                                                        87
+                                                                                     94
+                                                             69
+
+                          P  = T T T  = 1/s
+                                  12 23 34
+                            1
+
+                                                             2
+                          P  = T T  T T  T  = 3/s
+                                          67 78
+                                  15 56
+                            2
+                                                  89
+
+                          P  = T T  T T  =  4/s
+                            3
+                                          69 94
+                                  15 56
+
+                          l  = T T  = -1/s , l  = T T  = -2/s , l  = T T  = -2/s
+                                                      2
+                                  23 32
+                                                            56 65
+                            1
+                                                                                 3
+                                                                                       78 87
+
+                          ∆  = 1 - (l +l +l ) + (l l +l l +l l ) - (l l l )
+                                                         1 2
+                                            2
+                                                               1 3
+                                                                     2 3
+                                                                                 1 2 3
+                                                3
+                                         1
+
+                                                       2
+                                                              2
+                                                                                  3
+                                                                    2
+                             = 1 - (-5/s) + (2/s +2/s +4/s  ) - (-4/s )
+
+                                                    2
+                             =  1 + 5/s + 8/s  + 4/s         3
+
+                                                                             2
+                          ∆  = 1 - (l +l ) + l l  = 1 + 4/s + 4/s
+                                                    2 3
+                                            3
+                            1
+                                         2
+
+                          ∆  = 1 - l  = 1 + 1/s
+                            2
+                                       1
+
+                          ∆   = 1 - (l +l ) + l l  =  1 + 3/s + 2/s            2
+                             3
+                                              3
+                                          1
+                                                     1 3
+
+                                                                  2
+                                                                                                 2
+                                                                    + 4
+                       Ys()  =  P ∆  11  +  P ∆  22  +  P ∆  33  =  (/ s)( +  1  / s+4  / s ) ( / s )( + 2  11 / s)+  / 1  / s+ 3  2 / s )
+                                                                     3
+                                                                                     s( + 4
+                                                  1
+                       Rs()           ∆                          15  / s+  / s + 8  2  4 / s 3
+                                                                   +
+                                   2  +5s  +19s  15
+                            =
+                                 3  + s  2  +5s  + 8s  4
+
+
+                                                                               1
+                       3.9- Open Loop:  C(s) = G(s)R(s) ; where R(s)=
+                                                                               s
+                           Cs() =   s+2     1  =     s+2     =   A  +  B  +  C  +  D
+                                 ss + (  2  s+4  3 )  s  ss+  2 (  )( s+3  1 )  s 2  s  s+  s+3  1
+
+                              ⇒ A=2/3;  B=-5/9;  C=1/18; D=1/2
+
+                                                              −t
+                          c(t) = ( −   5  +  2  + t  1  e −3t  +  1  e )u(t)
+                                       9   3      8        2
+
+                                                                      +
+                                                                     s 2
+                                                                                            +
+                                                   Gs             s +  3  4 s +  2  3 s    s 2
+                                                    ()
+                          Closed Loop: G CL(s)=          =                          =
+                                                  1+  Gs   s +  3  4 s +  2  3 s  +  s 2  s +  3  4 s +  2  4 +  s 2
+                                                     ()
+                                                                             +
+                                                           s +  3  4 s +  2  3 s  s +  3  4 s +  2  3 s
+
+                                                             1
+                          C(s)= G CL(s)R(s); where R(s)=
+                                                             s
+                                                                    .
+                                                                         .
+                          C(s)=          s+2        =  1  +  . 05  −  105 s+107
+                                  ss+  (  s +28 . )(  2  1 2 .  s+  7 . )  s  s+28 .  s +  2  s+12 .  7 .
+                                                 ⎛                             ⎞
+                                              .
+                               =  1  +  . 05  −  105⎜  s+. 6   +  . 72  . 58   ⎟
+                                        .
+                                 s   s+ 28       ⎝(. 6 + ) 2  (. 58) 2  s + (. 6 + ) 2  (. ) 2
+                                                                           58 ⎠
+                                                   +
+                                                  s
+                                              −
+                                                .
+                                         +
+                                          .
+                                                      .
+                                                                                 t
+                              c(t) =  (1 05e   28t  −  105e −. 6t  58 + (cos. t  . 72 sin. 58 ))u(t)
+                                            ()
+                       3.10- G CL(s) =     Gs   =     20
+                                          1+  Gs   s +  2  8 +  s 40
+                                             ()]]></page><page Index="18"><![CDATA[18    Solution.
+
+                   C(s) = G(s)R(s) ; where R(s)=1/s
+                                                            D               D
+                                            /
+                                                                         .
+                                                         .
+                   C(s) =       20      =  12  +  . 32 ∠+ 39 23  +  . 32 ∠− 39 23
+                                                      449j
+                                                                     449j
+                            s +  3  8s +  2  40s  s  s+− .         s+− .
+
+                   c(t) = (1/2-.64e   -4t cos(4.9t-39.23°))u(t)
+
+
+                                         ⎡ 1 +  1     2   ⎤   ⎡ +s  2  2  ⎤
+                                                     (
+                                                                     (
+                                                        )
+               3.11 -  1+G(s)H(s)=       ⎢    s +  1  ss +  2 ⎥  =  ⎢ +  s  1  ss +  2 ⎥ )
+                                         ⎢   5     1 +  10 ⎥  ⎢  5    11  ⎥
+                                         ⎣   s            ⎦   ⎣ s         ⎦
+
+                   The closed-loop transfer matrix:
+
+                                                    ⎡  11   − 2 ⎤⎡  1    2  ⎤
+                                                           (
+                                                                        (
+                                          -1
+                   M(s) = [1+G(s)H(s)] G(s)=      1 ⎢     ss + 2 ⎥⎢ s)  +  1  ss +  2 ⎥ )
+                                                  ∆ ⎢ −  5  s + 2  ⎥⎢  5  10  ⎥
+                                                    ⎣  s   s + 1 ⎦⎣ s       ⎦
+
+                                                        4    3     2
+                   where:   ∆= 11   s +2  −  5  2  =     +11s  +44s  −44s  − 10s  10
+                                             (
+                                    s +   s ss +1  2)       2 (  + ss  )(  +1 s  2)
+
+                   Thus
+                                                                      −
+                                                        11 s + ⎡  3  22 s −  2  10 s 10  2    ⎤
+                                                                                     +
+                                      2
+                                                            2
+                                                                                   (
+                                         +
+                                                                    +
+                                                               +
+                                              +
+                                                             (
+                                     ss 1)(  s 2)      ⎢   ss 1)(  s 2)           ss 2 )      ⎥
+                                       (
+                       M(s) =                          ⎢                          2    2      ⎥
+                                                                                    +
+                                                                                           +
+                                                                                  (
+                                                   −
+                               11 s +  4  44 s +  3  44 s −  2  10 s 10 ⎢  5  −  10  ss 2 ) −  ( s 1 ) ⎥
+                                                       ⎢ ⎣      s                 ss 1 )( s 2 ) ⎦ ⎥
+                                                                                   2
+                                                                                          +
+                                                                                     +
+                                                                                   (
+
+                                                             − 2T
+               3.11 -  G(s)=       1     ⇒  G(z)=    1   ( 1−e  )z   =  1    . 865z   (T=1)
+                                 ss+ 2)              2  ( −  z  1 )( −  z e − 2T )  2 ( −  z  1 )( .−  z  135 )
+                                 (
+                       Cz()  =    .83 z
+                       Rz()   (z-1)(z-.135)
+
+
+                                                                                    -1
+               3.12 - z.o.h =      1−e −Ts   ;  G(s) =   1−e −Ts  5   =  5  1−e −Ts  ; e =0.3679 (T=1)
+                                                                           2
+                                      s                   s    ss + 1 )   ss  + 1 )
+                                                                (
+                                                                            (
+                            .3679z+  . 0 2642  Cz()
+                   G(z) =                 =
+                            (z−  . 03679 )(z−  1 )  Rz()]]></page><page Index="19"><![CDATA[19    Solution.
+
+                       Chapter  4.
+
+
+
+
+                                                                + cx + kx = f(t)
+                       4.1-  mx    = -kx - cx + f(t)    ⇒   mx
+
+                          For a transfer function model:
+
+                              2
+                          (ms  + cs + k) X(s)  =  F(s)
+
+                              Xs()  =      1
+                              Fs()   ms 2  +  cs +  k
+
+
+                       4.2 -
+                                                           x −
+                              ⎧ mx    = -kx - k 1 ( x −  x ) - c 1 (   x ) + f
+                                                    1
+                                                                 1
+                              ⎨
+                                  x
+                              ⎩ m 1 1  = k 1 ( x −  x ) + c 1 (   x −  x    1 )
+                                                1
+
+                              ⎧  mx    + c 1 x   + (k + k 1  x ) = c 1 1  + k x  + f
+                                                          x
+                                                                 1 1
+                              ⎨
+                                         x
+                                  x
+                                                 x
+                              ⎩ m 1 1  + c 1 1  + k 1 1  = c 1 x   +  k 1 x
+
+                              ⎧    2  + ⎪(ms  + cs  k  +  k X s)  =  +(c s  k X s)  + F(s)
+                                                                    )
+                                                    )(
+                                                                       (
+                          ⇒   ⎨         1          1         1     1 1
+                              ⎪  1  2  + (m s  1  + c s  k X s)  =  1  +(c s  k Xs)
+                                                                 )
+                                                                   (
+                                                )(
+                              ⎩
+                                                                 1
+                                               1 1
+
+                                        c s  + k
+                         ⇒    X 1  =    2  1   1     X
+                                      1   + ms  1  + c s  k 1
+                       then :
+                                                                 +
+                              Xs()                     m 1 s +  2  c s k 1
+                                                               1
+                              Fs()  =  mm s +  1  4  ( mc +  1  c s ) +  1  3  ( mk +  1  m k m k s ) +  2  c ks kk 1
+                                                                                  +
+                                                                   +
+                                                                1
+                                                                     1 1
+                                                                              1
+
+
+                                 ⎧ F  + k  X   =  (M   s 2  +  f s +  k X
+                                 ⎪
+                                                                     )
+                       4.3 -   ⎨          1 2         1       1     1  2
+                                 ⎪  kX  = (M    2 s 2  +  f s +  2  k 1  +  k X 2
+                                                                    )
+                                 ⎩
+                                    11
+                                                                   2
+
+                                                               2
+                                2
+                       A = M s  + f 1s + k    &  B = M s  + f s  + k  + k            2
+                             1
+                                             1
+                                                                               1
+                                                             2
+                                                                      2
+
+                       1  F +  k 1  X  = X  ⎫
+                       A      A   2       1 ⎪
+                                            ⎬ ⇒ Signal flow graph is
+                               k 1
+                                  X   =  X  ⎪
+                                B  1      2 ⎭
+
+                                                              k
+                                                               1
+                       The forward path gain is P  =          AB
+                                                      1
+
+
+                                                       k 2
+                                                         1
+                        feedback loop gain  P    11  =  AB
+
+                                                           1
+                        then:   ∆            11       AB -k 2  +  ∆ =  1 - P  =   1   = 1
+                                                        AB]]></page><page Index="20"><![CDATA[20    Solution.
+
+                X 2       P ∆ 1         k 1                           k 1
+                           1
+                F   =       ∆    =     AB k 2   =   ( M s +  1  2  f s k )( M s +  2  2  f s k +  2  +  1  k −  2 )  k 2
+                                         −
+                                                               +
+                                            1
+                                                                 1
+                                                                                         1
+                                                            1
+
+
+               4.5 -
+                       ⎧    y 1  +B 1   y 1  + ky 1  2 (  + B  1  −  y 2 ) = 0
+                                                      y
+                       ⎨
+                       ⎩  y        2 (  +  B  2  −  y   y  1 )   =  u(t)
+                           2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      ⎡  0       1      0    0 ⎤       0 ⎡ ⎤
+                      ⎢ -k - (B   +  B  ) 0  2  ⎥     ⎢ ⎥               ⎡ 10 00⎤
+                                                       0
+
+                V =   ⎢         1    2          ⎥  V+  ⎢ ⎥  u ;   y  =   ⎢        ⎥  V
+                      ⎢ 0        0      0    1  ⎥      0 ⎢ ⎥            ⎣ 00 10   ⎦
+                      ⎢                         ⎥     ⎢ ⎥
+                                                       1
+                      ⎣  0      B 2     0  −  B 2 ⎦   ⎣ ⎦
+
+                             () +
+                                                                   () +
+                                               ⎧
+                                      t
+                vt         c vt   b u () ⎫     ⎨ sV(s) - V(0) = A c Vs   b U ( )
+                                                                             s
+                 () = A
+                                   c
+                                                                          c
+                                                                    ( ) +
+                             t
+                                                                                         s
+                                                 () =(I
+                                      t
+                 () = C
+                yt        c v () +  d u () ⎬ →  ⎩  Vs    s  −  A c ) −  V 0  [I s  −  A c ] −1  1 b U ( )
+                                        ⎭
+                                   c
+                                                                                      c
+
+                                                                            2
+               φ (t) =  £  -1   [I  - A ]  -1  →  φ (t) =  A  +A t +A t  + ...
+                                                               o
+                                                                         2
+                                                    c
+                                                                   1
+                                        c
+                c
+                                  s
+                                                                                      3
+                                                  φ t() =  I + A   c t + A 2  t 2 !  + A 3  t !  +...
+                                                                         c
+                                                    c
+                                                                                   c
+                                                                                     3
+                                                                            2
+
+
+               4.6 -  k(θ   1  −  θ  2 ) = J 1    2  θ+ C(   2  −  θ    3 )
+                                           θ
+
+                   It's the damping torque which in turn accelerates inertia T 2
+
+
+                        C(    θ  2  −  θ     3 )   = J θ  2 3
+
+                J θ  12  +  Cθ    2  +  kθ  2  θ =C   3  +  kθ  1 ⎫  →  (J 1 s 2  Cs +  k) θ +  2  θ  =  Cs  3  + kθ  1
+                                               ⎪
+                          θ
+                       J 2    3  +  Cθ    3  = C θ    2  ⎬    ( Js 2  +  Cs ) θ  3  θ   =  Cs  2
+                                               ⎭
+                                                       2
+
+                θ  2  = ⎜ ⎛ ⎝ J C 2  s +  1⎟ ⎞ ⎠ θ  3  →  θ 3  =  (J J /)  3  J +(  k J s +)  2  ( J k Cs k
+                                           θ
+                                                                                 +
+                                                        Cs +
+                                                                               )
+                                            1
+                                                                             /
+                                                   1  2        1   2      2
+
+               4.7 - a) The mechanical network:]]></page><page Index="21"><![CDATA[21    Solution.
+
+
+
+
+
+
+
+
+
+
+
+
+                                            2
+                          b) (1) T = (J 1D +B 1D+K 1)θ 1 - K 1θ 2
+                                                   2
+                              (2) 0 = -K 1θ 1 +[J 2D +B 2D+(K 1+K 2)]θ 2 - K 2θ 2
+                                                   2
+                              (3) 0 = -K 2θ 2 +[J 2D +B 3D+(K 2+K 3)]θ 3
+                          c)
+
+
+
+
+
+
+
+
+
+
+                          d) T =
+                              θ 3(t)=-16.4 + 2t + 21.7e     -0.22t   - 4.81e -0.48t   + 0.852e -0.389t sin(.744t-
+                       .03)
+                                     + 0.113e  -0.411t  sin(1.19t-4.83)
+
+
+                                            l
+                                                   2
+                       4.8 -  a) f(t) =      2  (MD +BD+K)y
+                                            l 1]]></page><page Index="22"><![CDATA[22    Solution.
+
+
+
+
+
+               Chapter  5.
+
+
+
+               5.1 -
+
+                              2
+               a) D(s) = (s +1)(s+2)(s+3) = (s-j)(s+j)(s+2)(s+3) = 0
+                       → Conditionally stable,  2 roots on the jw axis.
+
+                                  2
+                           2
+               b) D(s)= s (s+1) (s+2)(s+3) = 0  → Unstable, repeated roots at origin.
+
+               c) D(s)= s(s+1)(s+2)(s+3) = 0 → Conditionally stable, simple roots at
+                              origin.
+
+                               2
+               d) D(S)=(s+1) (s+2)(s+3)=0 → Asymptotically stable, all roots in L.H.P.
+
+                             2
+               e) D(s) = s (s+1)(s+2) = 0 → Unstable repeated poles at origin.
+
+               f) D(s) = s(s+1)(s+2) = 0 → Conditionally stable, pole at origin.
+
+               g) D(s) = (s+1)(s+2) = 0 → Asymptotically stable, poles in the L.H.P.
+
+                                 2
+               h) D(s) = (s+1) (s+2) = 0 → Asymptotically stable, poles in the L.H.P.
+
+                                 2
+               i) D(s) = (s+1) (s-2) = 0  → Unstable, pole in the R.H.P.
+
+                                    2
+               j) D(s) = (s+1)(s +s+1) = 0 → Roots are: -1, -0.5 ± 0.866j.
+                       All roots in L.H.P. Asymptotically stable.
+
+                                     2
+                           2
+               k) D(s)= s (s+1)(s +s+1) = 0 → Unstable, repeated pair of roots at s=0.
+
+                                   2
+               l) D(s)=s(s+1)(s +s+1)=0 → Conditionally stable, simple root at s=0.
+
+                                  2
+                           2
+               m) D(s)=(s +1)(s +s+1)=0 → Conditionally stable, simple roots at s = ±j
+
+                                  2
+                               2
+               n) D(s)=(s+1) (s +s+1)=0 → Roots are: -1, -1, -0.5 ± 0.566j .
+
+                   All roots  in L.H.P.  Asymptotically stable.
+
+                                         2
+               o) D(s)=s(s+1)(s-2)(s +s+1)=0  → s=2 ; root in R.H.P. Unstable.
+
+                                        4
+                                    5
+                             7
+                                6
+                                             3
+               p) D(s) = s +s -s +2s +3s +4s+4 = 0
+
+                   Routh array:
+
+
+
+
+                                                   The negative sign ( -3)  shows  that  the
+                                                  system is
+                                                       unstable.
+
+
+
+
+
+
+
+
+                                6
+                             7
+                                           2
+                                       3
+                                    5
+               q) D(s) = s +s +s +s +s +1 = 0
+                    → Unstable, missing coefficient, it is neither odd or even]]></page><page Index="23"><![CDATA[23    Solution.
+
+                              polynomial ; a  = 0
+                                                n
+
+                                    6
+                                                                           3
+                                            2
+                                                                      5
+                                        4
+                       r) D(s) = s +2s +s +1 = 0 →  D'(s) = 6s +8s +2s
+
+
+
+
+
+                                                   One sign change  in the first column
+                                                         →  the system is unstable.
+
+
+
+
+
+                                    5
+                                        4
+                                                          2
+                                                   2
+                                                                  2
+                                                              3
+                                              3
+                       s) D(s) = s +6s +11s +6s  =  s (s +6s +11s+6) = 0
+                              → Unstable, repeated roots at origin.
+
+                                    5
+                                                                      2
+                                                                 2
+                                                        2
+                                                   4
+                                        3
+                       t) D(s) = s +2s +s = s(s +2s +1)=s(s +1) =s(s+j)(s-j)(s+j)(s-j) = 0
+
+                              →  Unstable, repeated roots on the jw axis.
+
+                                          3
+                                                2
+                                    4
+                       u) D(s) = s +10s +35s +50s+24
+
+
+
+                                                        No sign changes in the first column
+                                                         Asymptotically stable.
+
+
+
+
+
+                                                                                                   2
+                                      3
+                                 4
+                                           2
+                       v) D(s)=s +2s -5s +4s+2=0 → Unstable, negative coefficient on s  term.
+
+                                           2
+                                      3
+                                 4
+                       w) D(s)=s +2s +5s +4s+2 = 0
+
+
+
+                                                    This system is asymptotically stable.
+
+
+
+
+
+
+
+                                                  2
+                                        2
+                                                         2
+                                    4
+                       x) D(s) = s +5s +4 = (s +1)(s +4) = 0
+
+                              → Conditionally stable, roots on  the jw-axis.
+
+                                        3
+                                             2
+                                    4
+                       y) D(s) = s -3s -5s +4s+3 = 0 → Unstable, sign change.
+
+                                    3
+                                        2
+                       z) D(s) = s +6s +11s+6 = 0  →  Roots are: s = -1, -2, -3.
+
+                              All roots in L.H.P Asymptotically stable.
+
+
+                                                           2
+                                                 4
+                                                     3
+                       5.2-  1) (a) d(s) = s +8s +36s +80s+k = 0
+
+                          i. The system is asymptotically stable when : k > 0
+
+                               80 - (4/13)k > 0 → k < [(80)(13)/4] = 260 → 0<k<260
+
+                          ii. The system is conditionally stable:  k = 0  or  k = 260
+
+                          iii. The system is unstable: k > 260, k < 0.]]></page><page Index="24"><![CDATA[24    Solution.
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                          2
+                   (b) i. When k = 260 → auxiliary equation: 26s +260 = 0
+                                                                             2
+                                                                                      2
+                            2
+                        → s +10 = 0; then by long division:  d(s)=(s +10)(s +8s+26)=0
+                           ⇒  Roots: s     1,2  = ± j 10  ,  s 3,4  = -4 ± j 10  .
+
+                                                          2
+                                                     3
+                                                                                2
+                     ii. When k = 0 → d(s)=s(s +8s +36s+80)=s(s+4)(s +4s+20)=0
+                               ⇒  Roots: s = 0 ,-4 , -2 ± j4.
+
+                                  2
+                             3
+               2) d(s) = s +16s +650s+800k = 0
+
+                                                     i. The  system is asymptotically stable
+                                                         if  0 < k < 13
+
+                                                     ii. The  system  is  conditionally  stable
+                                                         if  k = 13 or k = 0.
+
+                                                     iii. The system is unstable
+                                                           if  k > 13, k < 0
+
+                                                                        2
+                                                   2
+                   (b) i.  when k = 13  → 16s  + 800k = 0 →  s  + 650 = 0
+                           ⇒  Roots:  s    1,2  = ± j 25.5  , s  =  -16.
+                                                                 3
+
+
+                                3
+                                      2
+                                                                2
+                         Or   s +16s +650s+1040 = (s+16)(s +650) = 0
+
+                   ii. When  k = 0  → (650 - 50k)s = 0  ⇒  Roots:  s  = 0
+                                                                               1
+                               2
+                                                                            2
+                                                   2
+                         3
+                        s +16s +650s+800k = s(s  +16s+650) = 0 →  s +16s+650 = 0
+                              ⇒  Roots: s   2,3  = -8 ± j 24.207.
+
+
+               5.3 -  a) 20 = 17-(1/7)Q  →  Q = -21
+                          P = Q - (7/20)6   →  P = - 23.1
+
+                   b) The system is unstable because  P < 0.
+
+                   c) 2 Asymptotically stable roots, and 2 Unstable roots because there
+                       exist 2 sign changes.
+
+
+                                        k
+                           Cs()    ss+  (  )( s+5  10 )  k
+               5.4 -           =                =
+                           Rs()   1 +    k        s +  3  s +15  2  s+ 50  k
+                                    ss+  (  )( s+5  10 )
+
+                   1) Characteristic equation is obtained as:
+
+                                     3
+                                             2
+                          D(s) =  s  + 15s  + 50s + k
+
+                     The Routh table is shown below:
+
+                       i- For Asymptotic stability : k > 0 and 50-k/15 > 0.
+                          Or  k > 0 and 750 > k. or  0<k<750 (Asymptotically stable).]]></page><page Index="25"><![CDATA[25    Solution.
+
+
+
+                                                   ii- Unstable:  k<0  or  k>750.
+
+                                                  iii- Conditionally stable: k=0  or  k=750.
+
+
+
+
+                       2)  Auxiliary equation: when k = 0. ( 50- 0/15)s = 0  →  s = 0.
+                                                                   2
+                                                 2
+                          when  k=750 ⇒  15s +750 = 0  →  s +50 = 0
+
+                                                                  2
+                                                             3
+                       3) Poles: when k = 0 ⇒ D(s) = s +15s +50s = s(s+5)(s+10) = 0
+                           ⇒ s  = 0 ; s  = -5 ; s  = -10
+                                                      3
+                                          2
+                                1
+
+                                                                                2
+                                                       3
+                                                            2
+                          when k = 750 ⇒ D(s) = s +15s +50s = (s+15)(s +50) = 0
+                           ⇒ s  = -15 ; s  = j 50  ; s  = -j 50
+                                             2
+                                1
+                                                            3
+
+
+                                                                                       2
+                                                       2
+                                                                            4
+                                                                                 3
+                                                                       5
+                       5.5 - a) d(s) = s[s(s+2)(s +s+10)+k] = s +3s +12s +20s +ks
+
+                              s 5    1      12     k
+                                  1/3
+                              s 4    3      20
+                                 9/16
+                               3
+                              s     16/3   k
+
+                               2
+                              s     20-  9k       The system is stable for 20-     9k  >0 ; k>0
+                                         16                                        16
+
+                              s       k             Then:  0 < k > 35.5
+
+                                           -4 4
+                                                       3
+                                                             2
+                          b) d(s) = 2x10 s + 0.03s + s + ks
+
+                              s 4     .0002        1
+                                 .02/3
+                               3
+                              s        0.03        k
+                                   9
+                                    −
+                                300 2k
+                              s 2     1- .02k   > 0  ⇒ k < 150
+                                          3
+                              s         k > 0                     Then: 0 < k > 150
+
+                                                                     2
+                                                       3
+                                               4
+                                       5
+                          c) d(s) = s  + 13s  + 60s  + (100+k)s + 5ks
+
+                               5
+                              s          1         60        5k
+                                  1/13
+                               4
+                              s          13        100+k
+                                  169
+                                 680−k
+                               3
+                              s          680−k     5k         ⇒    680−k  >0 → k < 680
+                                          13                         13
+                                         2
+                               2
+                              s         −  −k  265  + k 68000  >0    -425<k<160
+                                            680 −k
+
+                              s          5k > 0                   Then: 0 < k < 160
+
+                                              4
+                                                             2
+                                       5
+                                                     3
+                          d) d(s) = s + 8s + 17s + 10s + ks
+
+                               5
+                              s        1      17    k
+                                  1/8
+                               4
+                              s        8      10
+                                  .5
+                               3
+                              s     15.75     k]]></page><page Index="26"><![CDATA[26    Solution.
+
+                        2
+                       s     10-.5k      ⇒ k < 20
+
+                       s       k            k>0    then:  0 < k < 20]]></page><page Index="27"><![CDATA[27    Solution.
+
+
+
+
+
+                       Chapter  6.
+
+
+
+                       6.1- a)   GH s() =         k
+                                                        0
+                                            ( s −  )( s + 1  1 )
+
+                          i) starting points: (k = 0) 1, -10
+                             ending points:  (k = ∞) ∞, ∞
+                          ii) real roots branches: [-10,1]
+                                                                        .
+                          iii) center of gravity: cg =       −   +10 1  =  −  45
+                                                                −
+                                                              20
+                          iv) The asymptotic: θ  = 90°  ,  θ  = 270°
+                                                   o              1
+                                                         dGH s)]     − ks+9 )
+                                                                       ( 2
+                                                         [(
+                          v) The breakaway points:               =              =  0 ⇒ 2s+9=0 ⇒ s=-4.5
+                                                           ds      ( s +  2  s−2  10 ) 2
+                                          2
+
+                          vi) d (s) = s  + 9s +(k - 10)
+                                c
+
+                                      2
+                                     s  1       k-10
+                                      1
+                                     s   9              ⇒ k = 10 ; s = 0
+                                      0
+                                     s  k-10
+
+                       b)  GH s() =       k
+                                    ss +  (  )( s + 1  ) 2
+
+                          i) starting points:  0, -1, -2
+                             ending points: ∞, ∞, ∞
+                          ii) Branches: [0,-1], [-2,-∞]
+                                        −−
+                          iii) cg =    01 2   =− 1
+                                         −
+                                        30
+                          iv) Asymptotic lines: θ     o  = 60°, θ = 180°,θ = 300°
+                                                                 1
+                                                                           2
+
+                                                                        +
+                                                    dGH s)]    −  ks +  [3  2  6 s 2 ]
+                                                     [(
+                          v) Breakaway points:              =               =  0
+                                                      ds      [ s +  3  s +3  2  2 s] 2
+                                                       .
+                                                                   .
+                             ⇒   3s 2  +   + 6s  = 2  + s (  04226)(  + s  15773) =  0 ;
+
+                                     breakaway point is - 0.4226
+                                         k
+                           GH(s)=              = -1 ; k = 0.3849
+                                    ss +  )( s 2)
+                                     (
+                                            +1
+                                           3    2
+                          vi)  d (s) = s +3s +2s+k
+                                 c
+
+                                    3
+                                   s  1         2
+                                    2
+                                   s  3         k
+                                                         1
+                                           1
+                                    1
+                                   s  2- k         ⇒ 2- k = 0 →  k = 6
+                                           3             3
+                                    0
+                                                                              2
+                                   s   k           auxiliary equation: 3s +6 = 0; s = ± j 2
+
+                                             (
+                       c)   GH s() =        ks + 6 )
+                                     ss +  (  )( s + 2  )( s + 4  1 )
+                                                         0
+
+                          i) starting points:  0, -2, -4, -10
+                             ending points:  -6, ∞, ∞, ∞
+                          ii) Branches: ]-∞,-10], [-6,-4], [-2,0]]]></page><page Index="28"><![CDATA[28    Solution.
+
+                                     −
+                                −  −16 ()
+                                      6
+                   iii) cg =             =−  10
+                                   −
+                                  41         3
+                   iv) Asymptotic lines: θ  = 60°, θ  = 180°, θ  = 300°
+                                                          1
+                                                                      2
+                                              o
+                   v) Breakaway points:
+                    dGH s )]  −  s −3  4  s − 56  3  35  s −6  2  s− 816  480
+                    [(
+                           =                              =  0
+                      ds         ( s +  4  s +16  3  s +68  2  80 s) 2
+                   s 1,2  = -7.269±j1.70038, s  = -3.2475
+                                                 3
+                   s  = -0.884006  ⇒  s  = -0.884
+                    4
+                                            b
+
+                                              2
+                                        3
+                                  4
+                   vi) d (s) = s +16s +68s +(80+k)s+6k
+                         c
+
+                        4
+                       s       1          68       6k
+                        3
+                       s      16         80+k
+                        2
+                       s    63-k/16      6k
+                        1 80640 608−
+                                      −
+                                                     2
+                       s            kk  2    0   ⇒ k +608k-80640 = 0; k = 112.
+                              1008−k
+                                                                       2
+                       s 0    6k            auxiliary eq.(63-    112  )s  +6(112)=0 ⇒ s = ± j 12
+                                                                 16
+
+                                                               (
+                                                                   . )
+                                    +
+                               +
+                                      . )
+                    Cs()     ( sk s 027                       ks+02
+                                  (
+                                 )
+               d)       =                      ;  GH(s) =
+                                    +
+                                         +
+                                                                    3
+                                       (
+                           (
+                                 +01
+                    Rs()  ss +  . ) ( s k s 0 .2)            s(2 s+0 . )
+                                      )
+
+                   i) Starting points: 0, -0.15
+                      ending points: -0.2, ∞
+                   ii) Branches: ]-∞,-0.2], [-0.15,0]
+                                −   −015 ( − .  0 2)
+                                        .
+                                              .
+                   iii) cg =               = 005
+                                    −
+                                   21
+                   iv) Asymptotic lines: θ  = π.
+                                              o
+                   v) Breakaway points:
+
+                                                   +
+                       dGH s)]   (2 s +  2  .3 s) 4 s +  2  . 11 s 006
+                        [(
+                                          −0
+                                                     .
+                               =                         =  0  ⇒  s   =  −  0 .,  - 0.1
+                                                                           3
+                         ds            [(2   . )] 2                b
+                                        ss+0
+                                              3
+
+                                              2
+                                        3
+                                  4
+                   vi) d (s) = s +16s +68s +(80+k)s+6k
+                         c
+
+                        2
+                       s    2     0.2k
+                        1
+                       s   k+0.3     ⇒ k+0.3=0, k=-0.3 but 0≤ k≤ ∞ ⇒ no roots on jw axis.
+                        0
+                       s   0.2k
+
+                                  (
+               e)  GHs() =        ks+6 )
+                             2
+                                +
+                            ss 2  )( s +  )( s 8 )
+                                          +4
+                              (
+
+                   i) Starting points: 0, 0, -2, -4, -8
+                      ending points: -6, ∞, ∞, ∞, ∞
+
+                   ii) Branches: [-2,-4] , [-6,-8]
+                                         −
+                                       −
+                                          6
+                                 84
+                               (−− −2 ) ( )
+                   iii) cg =                 =−2
+                                     −
+                                    51
+                   iv) Asymptotic lines: θ  = 45°, θ  = 135°, θ  = 225°, θ  = 315°
+                                                                                   3
+                                              o
+                                                          1
+                                                                      2
+                                                        + 268
+                   v) GH s'( ) =  −  kss +4  (  4  s + 18  3  s + 112  2  s 182 )  = 0 ;
+                                     [ ss+  2 (  )( s+2  )( s+4  8 )] 2
+
+                        s = -1.1, -3.727, -6.58±j.95699 ⇒  s  = - 3.727
+                                                                    b]]></page><page Index="29"><![CDATA[29    Solution.
+
+
+                       6.2- a) -2,-2,-2  & -∞,∞,∞
+                                60° , 180° , 300°
+                                cg = -2
+                                                2
+                                G' = 0 = -3s -12s-10
+                                s = -1.184, -2.816
+                       b) 0, -3±j1
+                          cg = -2
+                          60° , 180° , 300°
+                          s = ± j 10   for k = 60
+
+
+                       c)  0, -3±j 3
+                          cg = -2
+                          180°, 360°
+
+                              2
+                          -3s -12s-12 = 0; s = -2
+                          s = ±j2 3    for k = 72
+
+
+                       d) 0, -2, -3±j4
+                          cg = -2
+                          45°, 135°, 225°, 315°
+
+                              3
+                                    2
+                          -4s -24s -74s-50 = 0;  s = -.8981
+                           s = ±j25  for k = 192.1875
+
+
+
+                       e)  s = 0, -2, -4 ±j2
+                           cg = - 2.5
+                          45°, 135°, 225°, 315°
+                           3
+                                  2
+                          s +7.5s +18s+10 = 0; s = -.786
+
+
+
+
+                       f) s = 0, -1, -2
+                          cg = 3
+                          180°
+
+                                 2
+                           3
+                          s +36s +182s+150 = 0; s = -.45
+
+
+                       g) s = -1.5 ± j
+                          cg = -2
+                          1
+                           80°
+                          2
+                        s +2s-.25 = 0; s = -2.12
+
+                       h)  s = 0, -25, -50±j10
+                         cg = 125/4
+                        45°, 135°, 225°, 315°
+
+                                  2
+                           3
+                        4s +405s +10200s+65000 = 0 → s = -25, -66.]]></page><page Index="30"><![CDATA[30    Solution.
+
+
+               i)  s = -1, -2±j
+                  cg = -5/3
+                  60°  180°, 300°
+                      ,
+                     2
+                  3s +10s+11 = 0
+                   s = -1.67±j.94
+
+                   j) s = -1, -3±j
+                     cg = -2.5
+                     90°
+                        2
+                     3s +14s+16 = 0 ⇒ s = -2., -2.7
+
+
+
+
+                                                                                        2
+                                3
+                                                                           2
+                                     2
+               6.3- D(s) = s +6s +6s+5 = 0; first divisor is: 6s +6s+5 or s +s+0.83
+
+                               s  +  5                         s  +  4.966
+                2          3    2               2           3    2
+                s ++ .    s +  s 6  +  s 6 +  5  +       s  1 034 + .  s 1  s +  s 6  +  s 6 +  5
+                   s 083
+                          s +  3  s +  2  083 s            s +  3  1 043 s + .  2  s
+                                   .
+                              2                                   2
+                                +     5s  517 + .  s 5 →       4.966  +s  s 5 +  5 →
+                              5  2  +s  s 5 +  4 15              2  +4.966s  5 1348 + .  s 4 966
+                                      .
+                                                                             .
+                                    0.17s  +  0.85                    - 0.1348s + 0.034
+                                   s  +  4.9932                             s  +  5
+                                                                             2
+                                                                 1 0014 s +
+                s +  2  1 0068 + .  s 1 006  s +.  3  s 6  2  +  s 6 +  5          s 2  ++ .  3  6s +  6s +  5
+                                                               s
+                                 3
+                                          2
+                                 s +  1.0068s + .                       s +  3  s +  2  1 0014s
+                                             1 0068s
+                                                                                .
+                                        2                                  2
+                                         +  4.9932s  4 9932s + .  5 →       5s  +  4 9986s + .  5 →
+                                  4.9932s 2  +  5 027s + .  5 027         5s 2  +  5s +  5 007
+                                                   .
+                                                                                  .
+                                            - 0.034s  -  0.027              - 0.0014s - 0.007
+                                                                                                                       α  =  0 0014 < .     <    0 01    β  = .  0 007  <<  0.001
+                                                                                         .
+
+
+               6.4 - Starting points: 0, -10, -20
+                        Ending points:  ∝, ∝, -5
+                        [-5,0] ; [-20,-10]
+                                 −
+                            −  −30 ()
+                                  5
+                                          .
+                       cg=           =−125
+                               −
+                              31
+                       angles: 90°, 270°
+                        3
+                             2
+                       s +30s +(200+k)s+5k=0 → k=24
+                                                                                        2
+                                                                                 3
+                                                                          4
+               6.5 - a) D(s)= s(s+0.5)(s+0.8)(s+3)+0.2(s+2) = s +4.3s +4.3s +1.4s+.4
+
+                        4
+                       s      1      4.3    .4
+                        3    4.3       1.4
+                       s
+
+                       s 2    3.97    .4           This system is stable.
+
+                       s 1    .97      0
+
+                        0
+                       s    .4]]></page><page Index="31"><![CDATA[31    Solution.
+
+                          b) s = 0, -0.5, -0.8, -3 & zeros -2, ∞, ∞, ∞.
+                                         (
+                                           2
+                                 −− − −− )
+                                  58
+                                 ..
+                                       3
+                          cg =                =−.766
+                                      −
+                                     41
+                          θ = 60° , 180°, 300°
+
+                                            2
+                                    3
+                          GH' = 4s +12.9s +8.6s+1.2 = 0
+                              s = -.191, -.66, -2.37
+
+                                                  2
+                                    4
+                                           3
+                          d(s) = s +4.3s +4.3s +(1.2+k)s+2k
+                               4
+                              s        1         4.3       2k
+                               3
+                                                  4.3     k+1.2
+                              s
+                              s 2    4.02-k/4.3     2k
+                                        209
+                                          .
+                                            + k 2076
+                                                          2
+                              s 1  −     2  −k  173 −k  .    , -k -20.9k+20.76 = 0; k = -19.84, -1.04
+                                         .
+                               0
+                              s        2k
+
+
+                       6.6-  Ts () =          ks ( + 1 )
+                                     s 3  +  (  k + 2  s ) 1  2  +  ks +  k
+
+                                              2
+                                         3
+                          a) d(s) =  s +21s +10s+10
+
+                               3
+                              s     1     10
+                              s 2   21   10      this system is stable.
+                              s 1   9.52
+                               0
+                              s    10
+                                2
+                               2
+                                     1
+                                   s
+                              (
+                       b) 1+  ks ++ )    →  GH =    (2s 2  +  s +  1 )
+                                2
+                                                        2
+                                ( +
+                                                        ( +
+                               ss 1 )                 ss     1 )
+                                                         1
+                                                           1
+                          poles 0, 0, -1 ; zeros:   ( ± j        7)
+                                                         4
+                          cg = - 1/2
+                          Angles = 60° , 180°, 300°
+                               2
+                                  +
+                              ss 1)       d
+                                (
+                                               2
+                          k=           ;    (2s +s+1)=4s+1 = 0; s = -1/4
+                               2
+                             2 s ++       ds
+                                  s 1
+
+                                            2
+                                 3
+                         d(s)= s +(2k+1)s +ks+k
+
+                           3     1     k
+                          s
+                          s 2   2k+1     k
+                          s 1     2k        k = 0 → s = 0, -1
+                           0
+                          s     k
+
+
+                                        3
+                                              2
+                       6.7 - d(s) = s + as + (k+2)s + k+1 = 0
+
+                               3
+                              s        1       k+2
+                                 1/a
+                               2
+                              s        a       k+1
+
+                               1
+                              s      k+2-  k +1
+                                           a
+                              s 0     k+1
+
+                          Conditionally stable: k+1 =0 → k=-1 (imp)
+
+                                  ak + (  ) ( k +  1 )     k +1
+                                       −2
+                             or                =   ⇒ 0  a =
+                                       a                   k +2
+                          Given oscillates frequency:  ω n=2 rd/sec  and ζ = 0.
+                                                        2
+                                          2
+                          S 1,2= ±j2  ⇒ s  = -4 ⇒  s +4 = 0]]></page><page Index="32"><![CDATA[32    Solution.
+
+                                  s  +  a
+                   s 2  +  4  s 3  +  as 2  +  ( k +  2) s +  k +  1
+                             3
+                        -s      -4s
+                                 2
+                              as +(k-2)s + k+1
+                                 2
+                              -as         - 4a
+                                   (k-2)s + k+1-4a                ⇒ k-2=0  ⇔ k = 2
+                                      0        0                  ⇒ k+1-4a =0 ⇔ a = ¾
+                                 3
+                             3
+                                    2
+                   d(s) = s  +  s  + 4s + 3
+                                 4
+                   Prove for:  s = j2  ⇒  d (j2) = -8j-3+8j+3 = 0
+                                                 c
+                                                d c(-j2) = 8j-3-8j+3 = 0
+                                                     3
+                                                d c(- ) =  −  27  +  27  −  3  +  3 = 0
+                                                     4        64   64
+
+
+               6.8 -
+
+
+
+
+
+                        Cs()           1
+                   1)        =
+                        Rs()   s 2  +  ( k +  s ) +1  1
+
+                                                            s
+                             2
+                   d c(s) = s  + s + 1 + ks = 1 + k                 = 1 + GH(s)
+                                                        s 2  +  s +  1
+                   i) Starting pts: (k=0)  s 1,2 = -    1  ± j  3
+                                                        2      2
+                       Ending pts: (k=∝) s= 0, ∝
+                   ii) Real root branches: [-∝,0]
+                   iii) center of gravity:  cg =        −1  =-1
+                                                        1
+                   iv) Asymptotic: θ 0 = π
+                                                          2
+                                                                  (
+                                                             s
+                                           GH s)] =
+                   v) breaking pts:     d  [(          = 0  s ++ −1  s s+2  1 )
+                                        ds                  ( s ++1 ) 2
+                                                             2
+                                                                s
+                                 2
+                        2
+                                          2
+                       s +s+1-2s -s = -s +1=0  ⇒ s 1,2= ±1 → s b1= -1
+
+                       d (s)     = 1+k b1(-1/1) = 0  → k b1 = 1
+                        c
+                            s=s b1
+
+                   vi) The imaginary gain k m:
+                                 2
+                      d c(s) = s  + (k+1)s +1
+
+                              s 2    1      1
+                              s    k+1      0              k+1 = 0 → k = -1 (but: 0≤k≤∝)
+                              s 0    1]]></page><page Index="33"><![CDATA[33    Solution.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                          2) The poles of the closed-loop system is:            G
+                                                                              1+  GH
+                              Cs()  =        1            when k = ∝ ; s 1 = 0 and s 2 = ∝
+                              Rs()   s 2  +  ( k +  s ) +1  1
+
+
+                       6.9 - G(s) =            k        =      5000 k
+                                                             +
+                                                 +
+                                                                   +
+                                          +
+                                                           (
+                                        s(.101 s)(1 0 .02 s)  ss 50 )( s 100 )
+
+                          1) starting points: 0, -50, -100
+                              Ending points: ∝, ∝, ∝
+                              Branches:  [0,-50] , [-100,- ∝[
+                                                         −
+                                                            −
+                              center gravity: cg =     0 50 100   = -50
+                                                            −
+                                                          30
+                              Asymptotic: θ = ±60°, 180°
+                              Breakaway point:     dG  = 5000 K   s + 3  2  s+300  5000
+                                                   ds          ( s +  3  s +150  2  5000 s) 2
+                                2
+                              3s +300s+5000=0  →  s = -21.2  (k 1=9.5)
+                                                      s = ±j70.7   (k 1=150)
+
+                                         3
+                          2)  d c(s) = s  + 150s + 5000s + 500k
+
+                                      3
+                                     s         1     5000
+                                        1/150
+                                      2
+                                     s        150    5000k
+                                     s      5000-  5000k     ⇒ k = 150
+                                                   150
+
+                          3)]]></page></pages></Search>
