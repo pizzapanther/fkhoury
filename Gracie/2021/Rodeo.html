@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="../../themes/js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="../../themes/js-image-slider.js" type="text/javascript"></script>
+    <link href="../../themes/generic.css" rel="stylesheet" type="text/css" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> Misc 2021 </title>
+<style type="text/css">
+.style13 {
+	font-size: 36pt;
+	font-family: Algerian;
+	margin-bottom: 10px;
+}
+.style1 {
+	font-size: 12pt;
+	color: #070EEE;
+	margin-top: 3px;
+	font-family: Arial;
+}
+</style>
+
+</head>
+
+<body style="background-color: #F1F1F7" onload="FP_preloadImgs(/*url*/'../images/button8.jpg',/*url*/'../images/button11.jpg')">
+<center>
+<a class="style13" style="color:red"  >
+	<strong> Rodeo 2021 </strong></a>
+
+
+<p align="center" style="margin-bottom: 2px"><a href="index.html">
+
+<div id="sliderFrame">
+	<div id="slider" align="center">
+
+		<img src="Rodeo/a1.jpg"/> <img src="Rodeo/a2.jpg"/> <img src="Rodeo/a3.jpg"/>
+		<img src="Rodeo/a4.jpg"/> <img src="Rodeo/a5.jpg"/>	<img src="Rodeo/a6.jpg"/> 
+		<img src="Rodeo/a7.jpg"/> <img src="Rodeo/a8.jpg"/>	<img src="Rodeo/a9.jpg"/>
+		<img src="Rodeo/a10.jpg"/> 
+		<img src="Rodeo/a11.jpg"/> <img src="Rodeo/a12.jpg"/> <img src="Rodeo/a13.jpg"/>
+		<img src="Rodeo/a14.jpg"/> <img src="Rodeo/a15.jpg"/>	<img src="Rodeo/a16.jpg"/> 
+		<img src="Rodeo/a17.jpg"/> <img src="Rodeo/a18.jpg"/>	<img src="Rodeo/a19.jpg"/>
+		<img src="Rodeo/a20.jpg"/> 		
+		
+		<img src="Rodeo/IMG_4679.jpg"/> 
+		
+		<img src="Rodeo/IMG_4680.jpg"/> <img src="Rodeo/IMG_4681.jpg"/> 
+		<img src="Rodeo/IMG_4682.jpg"/> <img src="Rodeo/IMG_4683.jpg"/>
+		<img src="Rodeo/IMG_4684.jpg"/> <img src="Rodeo/IMG_4685.jpg"/>
+		<img src="Rodeo/IMG_4686.jpg"/> <img src="Rodeo/IMG_4687.jpg"/>
+		<img src="Rodeo/IMG_4688.jpg"/> <img src="Rodeo/IMG_4689.jpg"/> 
+
+		<img src="Rodeo/IMG_4690.jpg"/> <img src="Rodeo/IMG_4691.jpg"/> 
+		<img src="Rodeo/IMG_4692.jpg"/> <img src="Rodeo/IMG_4693.jpg"/>
+		<img src="Rodeo/IMG_4694.jpg"/> <img src="Rodeo/IMG_4695.jpg"/>
+		<img src="Rodeo/IMG_4696.jpg"/> <img src="Rodeo/IMG_4697.jpg"/>
+		<img src="Rodeo/IMG_4698.jpg"/> <img src="Rodeo/IMG_4699.jpg"/> 
+
+
+		<img src="Rodeo/IMG_4700.jpg"/> <img src="Rodeo/IMG_4701.jpg"/> 
+		<img src="Rodeo/IMG_4702.jpg"/> <img src="Rodeo/IMG_4703.jpg"/>
+		<img src="Rodeo/IMG_4704.jpg"/> <img src="Rodeo/IMG_4705.jpg"/>
+		<img src="Rodeo/IMG_4706.jpg"/> <img src="Rodeo/IMG_4707.jpg"/>
+		<img src="Rodeo/IMG_4708.jpg"/> <img src="Rodeo/IMG_4709.jpg"/> 
+
+		<img src="Rodeo/IMG_4710.jpg"/> <img src="Rodeo/IMG_4711.jpg"/> 
+		<img src="Rodeo/IMG_4712.jpg"/> <img src="Rodeo/IMG_4713.jpg"/>
+		<img src="Rodeo/IMG_4714.jpg"/> <img src="Rodeo/IMG_4715.jpg"/>
+		<img src="Rodeo/IMG_4716.jpg"/> <img src="Rodeo/IMG_4717.jpg"/>
+		<img src="Rodeo/IMG_4718.jpg"/> <img src="Rodeo/IMG_4719.jpg"/>
+
+		<img src="Rodeo/IMG_4720.jpg"/> <img src="Rodeo/IMG_4721.jpg"/> 
+		<img src="Rodeo/IMG_4722.jpg"/> <img src="Rodeo/IMG_4723.jpg"/>
+		<img src="Rodeo/IMG_4724.jpg"/> <img src="Rodeo/IMG_4725.jpg"/>
+		<img src="Rodeo/IMG_4726.jpg"/> <img src="Rodeo/IMG_4727.jpg"/>
+		<img src="Rodeo/IMG_4728.jpg"/> 
+
+	</div>
+ 
+ 
+	<div style="text-align:center;padding:20px;z-index:20;">
+		<a onclick="imageSlider.insidevious()" class="group2-insidev"></a>
+		<a id='auto' onclick="switchAutoAdvance()"></a>
+		<a onclick="imageSlider.next()" class="group2-Next"></a>
+	</div>
+</div>
+
+<script type="text/javascript">
+        //The following script is for the group 2 navigation buttons.
+        function switchAutoAdvance() {
+            imageSlider.switchAuto();
+            switchPlayPauseClass();
+        }
+        function switchPlayPauseClass() {
+            var auto = document.getElementById('auto');
+            var isAutoPlay = imageSlider.getAuto();
+            auto.className = isAutoPlay ? "group2-Pause" : "group2-Play";
+            auto.title = isAutoPlay ? "Pause" : "Play";
+        }
+        switchPlayPauseClass();
+</script>
+</center>
+
+</body>
+</html>

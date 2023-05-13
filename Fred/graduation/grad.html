@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Graduation</title>
+<style type="text/css">
+.style1 {
+	font-size: 16pt;
+	color: #298A08;
+	margin-top: 3px;
+	font-family: "Arial Black";
+}
+</style>
+
+</head>
+
+<body style="background-color: #E6E5E5">
+<center>
+<p>
+<span class="style1">Graduation &nbsp;&nbsp;&nbsp; 12/14/2001 &nbsp;</span> </p>
+
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+//set image paths
+src = [	"images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg","images/5.jpg",
+	"images/6.jpg","images/7.jpg","images/8.jpg","images/9.jpg",
+	"images/10.jpg", "images/11.jpg", "images/12.jpg", "images/13.jpg", "images/14.jpg",
+	"images/15.jpg", "images/16.jpg", "images/17.jpg", "images/18.jpg", "images/19.jpg",
+	"images/20.jpg", "images/21.jpg", "images/22.jpg", "images/23.jpg", "images/24.jpg",
+	"images/25.jpg", "images/26.jpg", "images/27.jpg", "images/28.jpg", "images/29.jpg"
+	]
+
+//set duration for each image
+duration = 3;
+//Please do not edit below
+ads=[]; ct=0;
+function switchAd() {
+var n=(ct+1)%src.length;
+if (ads[n] && (ads[n].complete || ads[n].complete==null)) {
+document["Ad_Image"].src = ads[ct=n].src;
+}
+ads[n=(ct+1)%src.length] = new Image;
+ads[n].src = src[n];
+setTimeout("switchAd()",duration*1000);
+}
+function doLink(){
+location.href = url[ct];
+} onload = function(){
+if (document.images)
+switchAd();
+}
+//-->
+</SCRIPT>
+
+<a href="javascript:doLink();" onmouseout="status=''">
+	<img name="Ad_Image" src="images/1.jpg" border="0"> </img>  </a>
+ </p>
+</center>
+</body>
+</html>

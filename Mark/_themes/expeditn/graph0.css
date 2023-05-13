@@ -1,0 +1,59 @@
+.mstheme{
+nav-banner-image:url(expbannd.gif);
+separator-image:url(exphorsd.gif);
+list-image-1:url(expbul1d.gif);
+list-image-2:url(expbul2d.gif);
+list-image-3:url(expbul3d.gif);
+navbutton-horiz-pushed:url(exphbusd.gif);
+navbutton-horiz-normal:url(exphbudd.gif);
+navbutton-vert-pushed:url(expvbusd.gif);
+navbutton-vert-normal:url(expvbudd.gif);
+navbutton-home-normal:url(exphombd.gif);
+navbutton-up-normal:url(expupbd.gif);
+navbutton-prev-normal:url(expprebd.gif);
+navbutton-next-normal:url(expnexbd.gif);
+}
+UL{
+list-style-image:url(expbul1d.gif);
+}
+UL UL{
+list-style-image:url(expbul2d.gif);
+}
+UL UL UL{
+list-style-image:url(expbul3d.gif);
+}
+.mstheme-bannertxt{
+font-family:"Book Antiqua","Times New Roman",Times;
+font-size:5;
+color:#FFFFCC;
+}
+.mstheme-horiz-navtxt{
+font-family:"book antiqua","times new roman",times;
+font-size:2;
+color:#FFFFCC;
+}
+.mstheme-vert-navtxt{
+font-family:"book antiqua","times new roman",times;
+font-size:2;
+color:#FFFFCC;
+}
+.mstheme-navtxthome{
+font-family:"book antiqua","times new roman",times;
+font-size:1;
+color:#FFFFCC;
+}
+.mstheme-navtxtup{
+font-family:"book antiqua","times new roman",times;
+font-size:1;
+color:#FFFFCC;
+}
+.mstheme-navtxtprev{
+font-family:"book antiqua","times new roman",times;
+font-size:1;
+color:#FFFFCC;
+}
+.mstheme-navtxtnext{
+font-family:"book antiqua","times new roman",times;
+font-size:1;
+color:#FFFFCC;
+}

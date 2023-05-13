@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="../../themes/js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="../../themes/js-image-slider.js" type="text/javascript"></script>
+    <link href="../../themes/generic.css" rel="stylesheet" type="text/css" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> Gracie  2017  </title>
+
+<link href="../images/button.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.style13 {
+	font-size: 30pt;
+	margin-bottom: 10px;
+}
+.style1 {
+	font-size: 12pt;
+	color: #070EEE;
+	margin-top: 3px;
+	font-family: Arial;
+}
+</style>
+
+</head>
+
+<body style="background-color: #A9D0F5" >
+
+<center>
+<br>
+<h1>
+<a class="style13" style="color:red"  >
+	<strong> Misc 2017 </strong></a>
+</h1>
+<br/>
+
+<div id="menu">
+	<li>
+		<a href="index.html" accesskey="1" >
+		<b> Back </b>
+		</a>
+	</li>
+</div>
+<br/>
+
+<div id="sliderFrame">
+	<div id="slider" align="center">
+	
+		<img src="misc/a67.jpg"/> <img src="misc/a68.jpg"/>
+		<img src="misc/a69.jpg"/> <img src="misc/a70.jpg"/>
+		<img src="misc/a71.jpg"/> <img src="misc/a72.jpg"/>
+
+		<img src="misc/a73.jpg"/> <img src="misc/a74.jpg"/>
+		<img src="misc/a75.jpg"/>
+
+		<img src="misc/a76.jpg"/> <img src="misc/a77.jpg"/>
+		<img src="misc/a78.jpg"/> <img src="misc/a79.jpg"/>
+		<img src="misc/a80.jpg"/> <img src="misc/a81.jpg"/> 
+		<img src="misc/a82.jpg"/> <img src="misc/a83.jpg"/>
+		<img src="misc/a84.jpg"/> <img src="misc/a85.jpg"/>
+		<img src="misc/a86.jpg"/> <img src="misc/a87.jpg"/>
+		<img src="misc/a88.jpg"/> 
+
+		<img src="misc/IMG_0339.jpg"/> 
+		<img src="misc/IMG_0340.jpg"/> <img src="misc/IMG_0341.jpg"/> 
+		<img src="misc/IMG_0342.jpg"/> <img src="misc/IMG_0343.jpg"/>
+		<img src="misc/IMG_0344.jpg"/> <img src="misc/IMG_0345.jpg"/>
+		<img src="misc/IMG_0346.jpg"/> <img src="misc/IMG_0347.jpg"/>
+		<img src="misc/IMG_0348.jpg"/> <img src="misc/IMG_0349.jpg"/>
+
+		<img src="misc/IMG_0350.jpg"/> <img src="misc/IMG_0351.jpg"/> 
+		<img src="misc/IMG_0352.jpg"/> <img src="misc/IMG_0353.jpg"/>
+		<img src="misc/IMG_0354.jpg"/> <img src="misc/IMG_0355.jpg"/>
+		<img src="misc/IMG_0356.jpg"/> <img src="misc/IMG_0357.jpg"/>
+		<img src="misc/IMG_0358.jpg"/> <img src="misc/IMG_0359.jpg"/>
+		<img src="misc/IMG_0360.jpg"/> 
+		<img src="misc/IMG_0404.jpg"/>
+		<img src="misc/IMG_0405.jpg"/> <img src="misc/IMG_0406.jpg"/>
+		<img src="misc/IMG_0407.jpg"/> <img src="misc/IMG_0408.jpg"/>
+		<img src="misc/IMG_0409.jpg"/> <img src="misc/IMG_0410.jpg"/>
+	
+		<img src="misc/IMG_0452.jpg"/> <img src="misc/IMG_0453.jpg"/>
+		<img src="misc/IMG_0454.jpg"/> <img src="misc/IMG_0455.jpg"/>		
+		<img src="misc/IMG_0456.jpg"/> <img src="misc/IMG_0457.jpg"/>
+		<img src="misc/IMG_0458.jpg"/> <img src="misc/IMG_0459.jpg"/>
+		<img src="misc/IMG_0460.jpg"/> <img src="misc/IMG_0461.jpg"/>
+		<img src="misc/IMG_0462.jpg"/> <img src="misc/IMG_0463.jpg"/>
+		<img src="misc/IMG_0464.jpg"/> <img src="misc/IMG_0465.jpg"/>		
+
+		<img src="misc/IMG_0483.jpg"/> <img src="misc/IMG_0484.jpg"/>
+		<img src="misc/IMG_0485.jpg"/> <img src="misc/IMG_0486.jpg"/>
+		<img src="misc/IMG_0487.jpg"/> <img src="misc/IMG_0488.jpg"/>
+		<img src="misc/IMG_99281.jpg"/> 
+
+	</div>
+ 
+ 
+	<div style="text-align:center;padding:20px;z-index:20;">
+		<a onclick="imageSlider.insidevious()" class="group2-insidev"></a>
+		<a id='auto' onclick="switchAutoAdvance()"></a>
+		<a onclick="imageSlider.next()" class="group2-Next"></a>
+	</div>
+</div>
+
+
+
+<script type="text/javascript">
+        //The following script is for the group 2 navigation buttons.
+        function switchAutoAdvance() {
+            imageSlider.switchAuto();
+            switchPlayPauseClass();
+        }
+        function switchPlayPauseClass() {
+            var auto = document.getElementById('auto');
+            var isAutoPlay = imageSlider.getAuto();
+            auto.className = isAutoPlay ? "group2-Pause" : "group2-Play";
+            auto.title = isAutoPlay ? "Pause" : "Play";
+        }
+        switchPlayPauseClass();
+</script>
+</center>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Christmas 2011</title>
+<style type="text/css">
+.style1 {
+	font-size: 16pt;
+	color: #298A08;
+	margin-top: 3px;
+	font-family: "Arial Black";
+}
+</style>
+	
+<object data="jingle-bells.mp3" type="application/x-mplayer2" width="0" height="0">
+	<param name="filename" value="jingle-bells.mp3">
+  <param name="autostart" value="1">
+  <param name="playcount" value="true"> 
+</object>
+
+<script type="text/javascript">
+<!--
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+
+</head>
+<body style="background-color: #D1D2FC" onload="FP_preloadImgs(/*url*/'pictures/buttonC.jpg',/*url*/'pictures/buttonD.jpg')">
+<center>
+<p>
+<span class="style1">Christmas &nbsp; 2011&nbsp;</span> </p>
+
+<p>
+<a href="../Christmas.html">
+<img id="img1" alt="Christmas Page" height="30" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'pictures/buttonD.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'pictures/buttonB.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'pictures/buttonC.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'pictures/buttonC.jpg')" src="pictures/buttonB.jpg" style="border: 0" width="150" /><!-- MSComment="ibutton" fp-style="fp-btn: Brick Row 4; fp-font-style: Bold Italic; fp-font-size: 12" fp-title="Christmas Page" --></a></p>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+//set image paths
+src = [	"pictures/100_0405.jpg", "pictures/100_0406.jpg", "pictures/100_0407.jpg", "pictures/100_0408.jpg",
+	"pictures/100_0409.jpg", "pictures/100_0410.jpg", "pictures/100_0411.jpg", "pictures/100_0412.jpg",
+	"pictures/100_0413.JPG",
+	
+	"pictures/IMG_0555.JPG", "pictures/IMG_0556.JPG", "pictures/IMG_0557.JPG", "pictures/IMG_0558.JPG",
+	"pictures/IMG_0559.JPG",
+	"pictures/IMG_0560.JPG", "pictures/IMG_0561.JPG", "pictures/IMG_0562.JPG", "pictures/IMG_0563.JPG",
+	"pictures/IMG_0564.JPG", "pictures/IMG_0565.JPG", "pictures/IMG_0566.JPG", "pictures/IMG_0567.JPG",
+	"pictures/IMG_0568.JPG", "pictures/IMG_0569.JPG",
+	"pictures/IMG_0570.JPG", "pictures/IMG_0571.JPG", "pictures/IMG_0572.JPG", "pictures/IMG_0573.JPG",
+	"pictures/IMG_0574.JPG", "pictures/IMG_0575.JPG", "pictures/IMG_0576.JPG", "pictures/IMG_0577.JPG",
+	"pictures/IMG_0578.JPG", "pictures/IMG_0579.JPG",
+	"pictures/IMG_0580.JPG", "pictures/IMG_0581.JPG", "pictures/IMG_0582.JPG", "pictures/IMG_0583.JPG",
+	"pictures/IMG_0584.JPG", "pictures/IMG_0585.JPG", "pictures/IMG_0586.JPG", "pictures/IMG_0587.JPG",
+	"pictures/IMG_0588.JPG", "pictures/IMG_0589.JPG",
+	"pictures/IMG_0590.JPG", "pictures/IMG_0591.JPG", "pictures/IMG_0592.JPG", "pictures/IMG_0593.JPG",
+	"pictures/IMG_0594.JPG", "pictures/IMG_0595.JPG", "pictures/IMG_0596.JPG", "pictures/IMG_0597.JPG",
+	"pictures/IMG_0598.JPG", "pictures/IMG_0599.JPG",
+	"pictures/IMG_0600.JPG", "pictures/IMG_0601.JPG", "pictures/IMG_0602.JPG", "pictures/IMG_0603.JPG",
+	"pictures/IMG_0604.JPG", "pictures/IMG_0605.JPG"
+	]
+
+//set duration for each image
+duration = 3;
+//Please do not edit below
+ads=[]; ct=0;
+function switchAd() {
+var n=(ct+1)%src.length;
+if (ads[n] && (ads[n].complete || ads[n].complete==null)) {
+document["Ad_Image"].src = ads[ct=n].src;
+}
+ads[n=(ct+1)%src.length] = new Image;
+ads[n].src = src[n];
+setTimeout("switchAd()",duration*1000);
+}
+function doLink(){
+location.href = url[ct];
+} onload = function(){
+if (document.images)
+switchAd();
+}
+//-->
+</SCRIPT>
+
+<a href="javascript:doLink();" onmouseout="status=''">
+	<img name="Ad_Image" src="pictures/100_0405.jpg" border="0"> </img>  </a>
+ </p>
+</center>
+
+</body>
+</html>

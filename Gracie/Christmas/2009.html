@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="../../themes/js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="../../themes/js-image-slider.js" type="text/javascript"></script>
+    <link href="../../themes/generic.css" rel="stylesheet" type="text/css" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> Gracie  2009  </title>
+
+<link href="../images/button.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.style13 {
+	font-size: 30pt;
+	margin-bottom: 10px;
+}
+.style1 {
+	font-size: 12pt;
+	color: #070EEE;
+	margin-top: 3px;
+	font-family: Arial;
+}
+</style>
+
+</head>
+
+<body style="background-color: #A9D0F5" >
+
+<center>
+<br>
+<h1>
+<a class="style13" style="color:red"  >
+	<strong> Christmas 2009 </strong></a>
+</h1>
+<br/>
+
+<div id="menu">
+	<li>
+		<a href="index.html" accesskey="1" >
+		<b> Back </b>
+		</a>
+	</li>
+</div>
+<br/>
+
+<div id="sliderFrame">
+	<div id="slider" align="center">
+
+		<img src="2009/100_0308.jpg"/> <img src="2009/100_0309.jpg"/>
+
+		<img src="2009/100_0310.jpg"/> <img src="2009/100_0311.jpg"/> 
+		<img src="2009/100_0312.jpg"/>
+		<img src="2009/IMG_4029.jpg"/> 
+		<img src="2009/IMG_4030.jpg"/> <img src="2009/IMG_4031.jpg"/> 
+		<img src="2009/IMG_4032.jpg"/> <img src="2009/IMG_4033.jpg"/>
+		<img src="2009/IMG_4034.jpg"/> <img src="2009/IMG_4035.jpg"/> 
+		<img src="2009/IMG_4036.jpg"/> <img src="2009/IMG_4037.jpg"/>
+		<img src="2009/IMG_4038.jpg"/> <img src="2009/IMG_4039.jpg"/>
+
+		<img src="2009/IMG_4040.jpg"/> <img src="2009/IMG_4041.jpg"/> 
+		<img src="2009/IMG_4042.jpg"/> <img src="2009/IMG_4043.jpg"/>
+		<img src="2009/IMG_4044.jpg"/> <img src="2009/IMG_4045.jpg"/> 
+		<img src="2009/IMG_4046.jpg"/> <img src="2009/IMG_4047.jpg"/>
+		<img src="2009/IMG_4048.jpg"/> <img src="2009/IMG_4049.jpg"/>
+
+		<img src="2009/IMG_4050.jpg"/> <img src="2009/IMG_4051.jpg"/> 
+		<img src="2009/IMG_4052.jpg"/> <img src="2009/IMG_4053.jpg"/>
+		<img src="2009/IMG_4054.jpg"/> <img src="2009/IMG_4055.jpg"/> 
+		<img src="2009/IMG_4056.jpg"/> <img src="2009/IMG_4057.jpg"/>
+		<img src="2009/IMG_4058.jpg"/> <img src="2009/IMG_4059.jpg"/>
+
+
+	</div>
+ 
+ 
+	<div style="text-align:center;padding:20px;z-index:20;">
+		<a onclick="imageSlider.insidevious()" class="group2-insidev"></a>
+		<a id='auto' onclick="switchAutoAdvance()"></a>
+		<a onclick="imageSlider.next()" class="group2-Next"></a>
+	</div>
+</div>
+
+
+
+<script type="text/javascript">
+        //The following script is for the group 2 navigation buttons.
+        function switchAutoAdvance() {
+            imageSlider.switchAuto();
+            switchPlayPauseClass();
+        }
+        function switchPlayPauseClass() {
+            var auto = document.getElementById('auto');
+            var isAutoPlay = imageSlider.getAuto();
+            auto.className = isAutoPlay ? "group2-Pause" : "group2-Play";
+            auto.title = isAutoPlay ? "Pause" : "Play";
+        }
+        switchPlayPauseClass();
+</script>
+</center>
+
+</body>
+</html>
