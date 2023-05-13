@@ -1,0 +1,34 @@
+[info]
+codepage=65001
+readonly=true
+version=4.00
+format=2.00
+title=Pie Charts
+refcount=2
+
+[titles]
+1040=Porzioni
+1053=Cirkeldiagram
+1032=Γράφημα πίτας
+1031=Kreisdiagramme
+1036=Camemberts
+1044=Sektordiagram
+1042=원형 차트
+1028=圓形圖
+2052=饼图
+1038=Kördiagram
+1049=Диаграммы
+1046=Gráficos de pizza
+1041=円グラフ
+2070=Diagramas
+1054=แผนภูมิวงกลม
+1025=تخطيطات دائرية
+3082=Gráficos circulares
+1043=Cirkeldiagram
+1030=Cirkeldiagrammer
+1035=Ympyräkaaviot
+1029=Výsečový graf
+1045=Wykresy kołowe
+1037=תרשימי עוגה
+1055=Pasta Grafiği
+
