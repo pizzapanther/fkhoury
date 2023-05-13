@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Colts</title>
+<style type="text/css">
+.style13 {
+	font-size: 20pt;
+	color: #070EEE;
+	font-family: Algerian;
+	margin-bottom: 10px;
+}
+.style1 {
+	font-size: 12pt;
+	color: #070EEE;
+	margin-top: 3px;
+	font-family: Arial;
+}
+</style>
+
+<script type="text/javascript">
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+</script>
+
+</head>
+
+<body style="background-color: #F1F1F7" onload="FP_preloadImgs(/*url*/'Colts/button4.jpg',/*url*/'Colts/button5.jpg')">
+<center>
+<p class="style13"><img alt="" height="90" src="../Logo/Texans.jpg" width="144" /><strong>&nbsp;Texans &nbsp;vs.&nbsp; Colts &nbsp;<img alt="" height="90" src="../Logo/colts1.jpg" width="113" /></strong></p>
+<p class="style1">&nbsp;&nbsp;(9/12/10)</p>
+
+
+<a href="../index.htm">
+<img id="img1" alt="Home Page" height="20" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'Colts/button5.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'Colts/button3.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'Colts/button4.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'Colts/button4.jpg')" src="Colts/button3.jpg" style="border: 0" width="100" /><!-- MSComment="ibutton" fp-style="fp-btn: Brick Row 9" fp-title="Home Page" --></a>
+<br />
+<br />
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+//set image paths
+src = [	"Colts/100_0219.jpg", "Colts/100_0220.jpg", "Colts/100_0221.jpg", "Colts/100_0222.jpg",
+	"Colts/100_0223.jpg", "Colts/100_0224.jpg", "Colts/100_0225.jpg",
+	"Colts/100_0226.jpg", "Colts/100_0227.jpg", "Colts/100_0228.jpg",
+	"Colts/100_0229.jpg", "Colts/100_0230.jpg", "Colts/100_0231.jpg",
+	"Colts/100_0232.jpg", "Colts/100_0233.jpg", "Colts/100_0234.jpg",
+	"Colts/100_0235.jpg", "Colts/100_0236.jpg", "Colts/100_0237.jpg",
+	"Colts/100_0238.jpg", "Colts/100_0239.jpg", "Colts/100_0240.jpg",
+	"Colts/100_0241.jpg", "Colts/100_0242.jpg", "Colts/100_0243.jpg",
+	"Colts/100_0244.jpg", "Colts/100_0245.jpg", "Colts/100_0246.jpg",
+	"Colts/100_0247.jpg", "Colts/100_0248.jpg", "Colts/100_0249.jpg",
+	"Colts/100_0250.jpg", "Colts/100_0251.jpg", "Colts/100_0252.jpg",
+	"Colts/100_0253.jpg", "Colts/100_0254.jpg", "Colts/100_0255.jpg",
+	"Colts/100_0256.jpg", "Colts/100_0257.jpg", "Colts/100_0258.jpg",
+	"Colts/100_0259.jpg", "Colts/100_0260.jpg", "Colts/100_0261.jpg",
+	"Colts/100_0262.jpg", "Colts/100_0263.jpg", "Colts/100_0264.jpg",
+	"Colts/100_0265.jpg", "Colts/100_0266.jpg", "Colts/100_0268.jpg",
+	"Colts/100_0269.jpg", "Colts/100_0270.jpg", "Colts/100_0271.jpg",
+	"Colts/100_0272.jpg", "Colts/100_0273.jpg", "Colts/100_0274.jpg",
+	"Colts/100_0275.jpg", "Colts/100_0276.jpg", "Colts/100_0277.jpg"]
+
+//set duration for each image
+duration = 4;
+//Please do not edit below
+ads=[]; ct=0;
+function switchAd() {
+var n=(ct+1)%src.length;
+if (ads[n] && (ads[n].complete || ads[n].complete==null)) {
+document["Ad_Image"].src = ads[ct=n].src;
+}
+ads[n=(ct+1)%src.length] = new Image;
+ads[n].src = src[n];
+setTimeout("switchAd()",duration*1000);
+}
+function doLink(){
+location.href = url[ct];
+} onload = function(){
+if (document.images)
+switchAd();
+}
+//-->
+</SCRIPT>
+
+<A HREF="javascript:doLink();" onMouseOver="status=url[ct];return true;" onMouseOut="status=''">
+	<img name="Ad_Image" src="Colts/100_0219.jpg" border=0> </img>
+</A>
+
+</center>
+
+</body>
+</html>

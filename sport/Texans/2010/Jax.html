@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jaguars</title>
+<style type="text/css">
+.style13 {
+	font-size: 20pt;
+	color: #070EEE;
+	font-family: Algerian;
+	margin-bottom: 10px;
+}
+.style1 {
+	font-size: 12pt;
+	color: #070EEE;
+	margin-top: 3px;
+	font-family: Arial;
+}
+</style>
+
+<script type="text/javascript">
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+</script>
+
+</head>
+
+<body style="background-color: #F1F1F7" onload="FP_preloadImgs(/*url*/'Jax/button4.jpg',/*url*/'Jax/button5.jpg')">
+<center>
+<p class="style13"><img alt="" height="90" src="../Logo/Texans.jpg" width="144" />
+	<strong>&nbsp;Texans &nbsp;vs.&nbsp; Jaguars&nbsp;
+		<img alt="" height="90" src="../Logo/jax.jpg" width="144" /> </strong></p>
+<p class="style1">&nbsp;&nbsp;(1/2/11)</p>
+
+
+<a href="../index.htm">
+<img id="img1" alt="Home Page" height="20" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'Jax/button5.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'Jax/button3.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'Jax/button4.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'Jax/button4.jpg')" src="Jax/button3.jpg" style="border: 0" width="100" /><!-- MSComment="ibutton" fp-style="fp-btn: Brick Row 9" fp-title="Home Page" --></a>
+<br />
+<br />
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+//set image paths
+src = [	"Jax/100_00613.jpg", "Jax/100_0614.jpg", "Jax/100_0615.jpg",
+	"Jax/100_0616.jpg", "Jax/100_0617.jpg", "Jax/100_0618.jpg",
+	"Jax/100_0619.jpg", "Jax/100_0620.jpg", "Jax/100_0621.jpg",
+	"Jax/100_0622.jpg", "Jax/100_0623.jpg", "Jax/100_0624.jpg",
+	"Jax/100_0625.jpg", "Jax/100_0626.jpg", "Jax/100_0627.jpg",
+	"Jax/100_0628.jpg", "Jax/100_0629.jpg",	"Jax/100_0630.jpg",
+	"Jax/100_0631.jpg", "Jax/100_0632.jpg", "Jax/100_0633.jpg",
+	"Jax/100_0634.jpg", "Jax/100_0635.jpg", "Jax/100_0636.jpg",
+	"Jax/100_0637.jpg", "Jax/100_0638.jpg", "Jax/100_0639.jpg",
+	"Jax/100_0640.jpg", "Jax/100_0641.jpg", "Jax/100_0642.jpg",
+	"Jax/100_0643.jpg", "Jax/100_0644.jpg", "Jax/100_0645.jpg",
+	"Jax/100_0646.jpg", "Jax/100_0647.jpg", "Jax/100_0648.jpg",
+	"Jax/100_0649.jpg", "Jax/100_0650.jpg", "Jax/100_0651.jpg",
+	"Jax/100_0652.jpg", "Jax/100_0653.jpg", "Jax/100_0654.jpg",
+	"Jax/100_0655.jpg", "Jax/100_0656.jpg", "Jax/100_0658.jpg",
+	"Jax/100_0659.jpg" , "Jax/100_0660.jpg", "Jax/100_0661.jpg",
+	"Jax/100_0662.jpg", "Jax/100_0663.jpg", "Jax/100_0664.jpg"	]
+
+//set duration for each image
+duration = 4;
+//Please do not edit below
+ads=[]; ct=0;
+function switchAd() {
+var n=(ct+1)%src.length;
+if (ads[n] && (ads[n].complete || ads[n].complete==null)) {
+document["Ad_Image"].src = ads[ct=n].src;
+}
+ads[n=(ct+1)%src.length] = new Image;
+ads[n].src = src[n];
+setTimeout("switchAd()",duration*1000);
+}
+function doLink(){
+location.href = url[ct];
+} onload = function(){
+if (document.images)
+switchAd();
+}
+//-->
+</SCRIPT>
+
+<A HREF="javascript:doLink();" onMouseOver="status=url[ct];return true;" onMouseOut="status=''">
+	<img name="Ad_Image" src="Jax/100_0613.jpg" border=0> </img>
+</A>
+
+</center>
+
+</body>
+</html>

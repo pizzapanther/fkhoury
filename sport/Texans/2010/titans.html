@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Titans</title>
+<style type="text/css">
+.style13 {
+	font-size: 20pt;
+	color: #070EEE;
+	font-family: Algerian;
+	margin-bottom: 10px;
+}
+.style1 {
+	font-size: 12pt;
+	color: #070EEE;
+	margin-top: 3px;
+	font-family: Arial;
+}
+</style>
+
+<script type="text/javascript">
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+</script>
+
+</head>
+
+<body style="background-color: #F1F1F7" onload="FP_preloadImgs(/*url*/'titans/button4.jpg',/*url*/'titans/button5.jpg')">
+<center>
+<p class="style13"><img alt="" height="90" src="../Logo/Texans.jpg" width="144" />
+	<strong>&nbsp;Texans &nbsp;vs.&nbsp; Titans &nbsp;
+		<img alt="" height="90" src="../Logo/titans.jpg" width="144" /> </strong></p>
+<p class="style1">&nbsp;&nbsp;(9/12/10)</p>
+
+
+<a href="../index.htm">
+<img id="img1" alt="Home Page" height="20" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'titans/button5.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'titans/button3.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'titans/button4.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'titans/button4.jpg')" src="titans/button3.jpg" style="border: 0" width="100" /><!-- MSComment="ibutton" fp-style="fp-btn: Brick Row 9" fp-title="Home Page" --></a>
+<br />
+<br />
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+//set image paths
+src = [	"titans/100_0547.jpg", "titans/100_0548.jpg", "titans/100_0549.jpg",
+	"titans/100_0560.jpg", "titans/100_0551.jpg",
+	"titans/100_0552.jpg", "titans/100_0553.jpg", "titans/100_0554.jpg",
+	"titans/100_0555.jpg", "titans/100_0556.jpg", "titans/100_0557.jpg",
+	"titans/100_0558.jpg", "titans/100_0559.jpg", "titans/100_0560.jpg",
+	"titans/100_0561.jpg", "titans/100_0562.jpg", "titans/100_0563.jpg",
+	"titans/100_0564.jpg", "titans/100_0565.jpg", "titans/100_0566.jpg",
+	"titans/100_0567.jpg", "titans/100_0568.jpg",
+	"titans/100_0570.jpg", "titans/100_0571.jpg", "titans/100_0572.jpg",
+	"titans/100_0573.jpg", "titans/100_0574.jpg", "titans/100_0575.jpg",
+	"titans/100_0576.jpg", "titans/100_0577.jpg", "titans/100_0578.jpg",
+	"titans/100_0579.jpg", "titans/100_0580.jpg", "titans/100_0581.jpg",
+	"titans/100_0582.jpg", "titans/100_0583.jpg", "titans/100_0584.jpg",
+	"titans/100_0585.jpg", "titans/100_0586.jpg", "titans/100_0588.jpg",
+	"titans/100_0589.jpg" ]
+
+//set duration for each image
+duration = 4;
+//Please do not edit below
+ads=[]; ct=0;
+function switchAd() {
+var n=(ct+1)%src.length;
+if (ads[n] && (ads[n].complete || ads[n].complete==null)) {
+document["Ad_Image"].src = ads[ct=n].src;
+}
+ads[n=(ct+1)%src.length] = new Image;
+ads[n].src = src[n];
+setTimeout("switchAd()",duration*1000);
+}
+function doLink(){
+location.href = url[ct];
+} onload = function(){
+if (document.images)
+switchAd();
+}
+//-->
+</SCRIPT>
+
+<A HREF="javascript:doLink();" onMouseOver="status=url[ct];return true;" onMouseOut="status=''">
+	<img name="Ad_Image" src="titans/100_0547.jpg" border=0> </img>
+</A>
+
+</center>
+
+</body>
+</html>
