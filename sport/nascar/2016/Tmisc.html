@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="../../../themes/js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="../../../themes/js-image-slider.js" type="text/javascript"></script>
+    <link href="../../../themes/generic.css" rel="stylesheet" type="text/css" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> Texas Misc - 2016</title>
+<style type="text/css">
+.style13 {
+	font-size: 30pt;
+	font-family: Algerian;
+	margin-bottom: 10px;
+}
+.style1 {
+	font-size: 12pt;
+	color: #070EEE;
+	margin-top: 3px;
+	font-family: Arial;
+}
+</style>
+	<audio controls autoplay>
+	  <source src="../soundnascar2.mp3" type="audio/mpeg">
+	</audio> 
+
+</head>
+
+<body style="background-color: #F1F1F7" onload="FP_preloadImgs(/*url*/'../images/button8.jpg',/*url*/'../images/button11.jpg')">
+<center>
+<a class="style13" style="color:red"  >
+	<strong> MISC - Texas </strong></a>
+<p class="style1">&nbsp;&nbsp;(11/4/16)</p>
+
+<button type="button"> <a href="../index.html"> Nascar Main Page </a></button>
+<br/> <br/>
+
+<div id="sliderFrame">
+	<div id="slider" align="center">
+
+
+		<img src="Tmisc/IMG_2821.jpg"/> <img src="Tmisc/IMG_2822.jpg"/>
+		<img src="Tmisc/IMG_2823.jpg"/> <img src="Tmisc/IMG_2824.jpg"/> 
+
+		<img src="Tmisc/IMG_3062.jpg"/> <img src="Tmisc/IMG_3063.jpg"/> <img src="Tmisc/IMG_3064.jpg"/>
+		<img src="Tmisc/IMG_3065.jpg"/> <img src="Tmisc/IMG_3066.jpg"/> <img src="Tmisc/IMG_3067.jpg"/>
+		<img src="Tmisc/IMG_3068.jpg"/> <img src="Tmisc/IMG_3069.jpg"/> 
+		<img src="Tmisc/IMG_3070.jpg"/> <img src="Tmisc/IMG_3071.jpg"/> <img src="Tmisc/IMG_3072.jpg"/>
+		<img src="Tmisc/IMG_3073.jpg"/> <img src="Tmisc/IMG_3074.jpg"/> <img src="Tmisc/IMG_3075.jpg"/>
+		<img src="Tmisc/IMG_3076.jpg"/> <img src="Tmisc/IMG_3077.jpg"/> <img src="Tmisc/IMG_3078.jpg"/>
+		<img src="Tmisc/IMG_3079.jpg"/>  
+		<img src="Tmisc/IMG_3080.jpg"/> <img src="Tmisc/IMG_3081.jpg"/> <img src="Tmisc/IMG_3082.jpg"/>	
+		
+	</div>
+  
+	<div style="text-align:center;padding:20px;z-index:20;">
+		<a onclick="imageSlider.insidevious()" class="group2-insidev"></a>
+		<a id='auto' onclick="switchAutoAdvance()"></a>
+		<a onclick="imageSlider.next()" class="group2-Next"></a>
+	</div>
+</div>
+
+<script type="text/javascript">
+        //The following script is for the group 2 navigation buttons.
+        function switchAutoAdvance() {
+            imageSlider.switchAuto();
+            switchPlayPauseClass();
+        }
+        function switchPlayPauseClass() {
+            var auto = document.getElementById('auto');
+            var isAutoPlay = imageSlider.getAuto();
+            auto.className = isAutoPlay ? "group2-Pause" : "group2-Play";
+            auto.title = isAutoPlay ? "Pause" : "Play";
+        }
+        switchPlayPauseClass();
+</script>
+</center>
+
+</body>
+</html>
