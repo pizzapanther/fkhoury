@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Daytona Misc - 2012</title>
+<style type="text/css">
+.style13 {
+	font-size: 30pt;
+	font-family: Algerian;
+	margin-bottom: 10px;
+}
+.style1 {
+	font-size: 12pt;
+	color: #070EEE;
+	margin-top: 3px;
+	font-family: Arial;
+}
+</style>
+
+<bgsound loop="-1" src="Saucerful.mp3" />
+
+
+<script type="text/javascript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+
+</head>
+
+<body style="background-color: #F1F1F7" onload="FP_preloadImgs(/*url*/'../images/button8.jpg',/*url*/'../images/button11.jpg')">
+<center>
+<p class="style13" style="color:red"  >
+	<strong>Daytona Misc 2012</strong></p>
+
+<p align="center" style="margin-bottom: 2px"><a href="../index.htm">
+<img id="img1" alt="Nascar Main Page" height="40" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'../images/button11.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'../images/button7.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'../images/button8.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'../images/button8.jpg')" src="../images/button7.jpg" style="border: 0" width="121" /><!-- MSComment="ibutton" fp-style="fp-btn: Glass Tab 3" fp-title="Nascar Main Page" --></a></p>
+
+<br />
+<br />
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+//set image paths
+src = [	"misc/IMG_0654.jpg", "misc/IMG_0655.jpg", "misc/IMG_0656.jpg", "misc/IMG_0657.jpg", "misc/IMG_0658.jpg",	"misc/IMG_0659.jpg",
+	"misc/IMG_0660.jpg", "misc/IMG_0661.jpg", "misc/IMG_0662.jpg", "misc/IMG_0663.jpg", "misc/IMG_0664.jpg",
+	"misc/IMG_0665.jpg", "misc/IMG_0666.jpg", "misc/IMG_0667.jpg", "misc/IMG_0668.jpg", "misc/IMG_0669.jpg",
+	"misc/IMG_0670.jpg", "misc/IMG_0953.jpg", "misc/IMG_0954.jpg",
+	"misc/IMG_0955.jpg", "misc/IMG_0956.jpg", "misc/IMG_0957.jpg", "misc/IMG_0958.jpg", "misc/IMG_0959.jpg",
+	"misc/IMG_0960.jpg", "misc/IMG_0961.jpg"
+	]
+
+
+//set duration for each image
+duration = 3;
+//Please do not edit below
+ads=[]; ct=0;
+function switchAd() {
+var n=(ct+1)%src.length;
+if (ads[n] && (ads[n].complete || ads[n].complete==null)) {
+document["Ad_Image"].src = ads[ct=n].src;
+}
+ads[n=(ct+1)%src.length] = new Image;
+ads[n].src = src[n];
+setTimeout("switchAd()",duration*1000);
+}
+function doLink(){
+location.href = url[ct];
+} onload = function(){
+if (document.images)
+switchAd();
+}
+//-->
+</SCRIPT>
+
+<a href="javascript:doLink();" onMouseOver="status=url[ct];return true;" onMouseOut="status=''">
+	<img name="Ad_Image" src="misc/IMG_0654.jpg" border=0> </img>
+</a>
+
+</center>
+
+</body>
+</html>
