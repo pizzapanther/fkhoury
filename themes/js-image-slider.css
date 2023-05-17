@@ -73,6 +73,7 @@ a.group1-Prev, a.group1-Next
     top:0;
     user-select: none;
 }
+
 a.group1-Prev{background-position:0 0; left: -510px;}
 a.group1-Next {background-position:0 -150px;left:460px;}
 
