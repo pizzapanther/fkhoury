@@ -2,7 +2,10 @@
     box-sizing: content-box;
 }
 /*slider frame*/
-#sliderFrame {position:relative;background-color:White;}      
+#sliderFrame {position:relative;
+	background-color:White;
+	text-align: center;
+	}      
 
 #slider, #slider div.sliderInner {
     width:800px;height:600px;
