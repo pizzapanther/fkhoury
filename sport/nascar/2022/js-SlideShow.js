@@ -1,5 +1,6 @@
 let index = 0;
 displayImages();
+
 function displayImages() {
   let i;
   const images = document.getElementsByClassName("image");
